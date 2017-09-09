@@ -1,26 +1,22 @@
 {
- "docname":"nom du document",
- "description":"description du document",
- "sections":[
+ "content":[
     {
-	 "titresection":"section 1",
-	 "descriptionsection":"description de la section 1",
-	 "type":"sub",
+	 "lang":"fr",
+	 "text":"blah",
 	 "subsections":[
 	    {
 		 "titresubsection":"titre sous section 1",
-		 "type":"text",
 		 "text":"blahblahblah"
 		},
 		{
 		 "titresubsection":"titre 2 sous section 1",
-		 "type":"text",
 		 "text":"blahblahblah2"
 		}
 	  ]
 	},
+	
 	{
-	 "titresection":"section 2",
+	 "lang":"en",
 	 "descriptionsection":"description de la section 1",
 	 "type":"sub",
 	 "subsections":[
@@ -40,11 +36,13 @@
 		}
 	  ]
 	},
+	
 	{
 	 "titresection":"section 3",
 	 "descriptionsection":"description de la section 1",
 	 "type":"text",
 	 "text":"text"
 	}
+	
   ]
 }
