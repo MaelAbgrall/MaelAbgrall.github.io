@@ -1,0 +1,50 @@
+{
+ "docname":"nom du document",
+ "description":"description du document",
+ "sections":[
+    {
+	 "titresection":"section 1",
+	 "descriptionsection":"description de la section 1",
+	 "type":"sub",
+	 "subsections":[
+	    {
+		 "titresubsection":"titre sous section 1",
+		 "type":"text",
+		 "text":"blahblahblah"
+		},
+		{
+		 "titresubsection":"titre 2 sous section 1",
+		 "type":"text",
+		 "text":"blahblahblah2"
+		}
+	  ]
+	},
+	{
+	 "titresection":"section 2",
+	 "descriptionsection":"description de la section 1",
+	 "type":"sub",
+	 "subsections":[
+	    {
+		 "titresubsection":"titre sous section 1",
+		 "type":"tab",
+		 "tabs":[
+		    {
+			 "columntitle":"col1",
+			 "coldata":["row1", "row2", "row3"]
+			},
+			{
+			 "columntitle":"col2",
+			 "coldata":["row1", "row2", "row3"]
+			}
+		  ]
+		}
+	  ]
+	},
+	{
+	 "titresection":"section 3",
+	 "descriptionsection":"description de la section 1",
+	 "type":"text",
+	 "text":"text"
+	}
+  ]
+}
