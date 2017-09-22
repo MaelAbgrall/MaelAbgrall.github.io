@@ -22,6 +22,46 @@
     <script src="/content/map/world_countries.js" charset="utf-8"></script>
     <script src="/content/map/france_departments.js" charset="utf-8"></script>
 
+    <style type="text/css">
+        body {
+            color: #5d5d5d;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 30px;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* Specific mapael css class are below
+         * 'mapael' class is added by plugin
+        */
+
+        .mapael .map {
+            position: relative;
+        }
+
+        .mapael .mapTooltip {
+            position: absolute;
+            background-color: #fff;
+            moz-opacity: 0.70;
+            opacity: 0.70;
+            filter: alpha(opacity=70);
+            border-radius: 10px;
+            padding: 10px;
+            z-index: 1000;
+            max-width: 200px;
+            display: none;
+            color: #343434;
+        }
+    </style>
+    
     <script type="text/javascript">
         $(function () {
             $(".mapcontainer").mapael({
@@ -632,7 +672,10 @@
         <div class="map">
             <span>Alternative content for the map</span>
         </div>
-  </div>
+        <div class="areaLegend">
+            <span>Alternative content for the legend</span>
+        </div>
+    </div>
 	
   <p>Legende :</p>
 </div>
