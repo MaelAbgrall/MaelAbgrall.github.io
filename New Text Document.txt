@@ -1,2 +1,4 @@
-<script src="https://rawgit.com/MelAbgrall/MelAbgrall.github.io/master/content/map/jquery.mapael.js.download" charset="utf-8"></script>
-    <script src="https://rawgit.com/MelAbgrall/MelAbgrall.github.io/master/content/map/world_countries.js.download" charset="utf-8"></script>
+    <script src="https://rawgit.com/MelAbgrall/MelAbgrall.github.io/master/content/map/jquery.mapael.js" charset="utf-8"></script>
+    <script src="https://rawgit.com/MelAbgrall/MelAbgrall.github.io/master/content/map/world_countries.js" charset="utf-8"></script>
+
+ 
