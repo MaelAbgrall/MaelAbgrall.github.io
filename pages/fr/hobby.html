@@ -63,84 +63,110 @@
                 },
                 legend: {
                     area: {
-                        title: "Population of France by department",
+                        title: "Légende",
                         slices: [
                             {
-                                max: 300000,
+                                max: 1,
+                                min:0,
                                 attrs: {
                                     fill: "#97e766"
                                 },
-                                label: "Less than de 300 000 inhabitants"
+                                label: "Voyagé 1 fois"
                             },
                             {
-                                min: 300000,
-                                max: 500000,
+                                min: 2,
+                                max: 2,
                                 attrs: {
                                     fill: "#7fd34d"
                                 },
-                                label: "Between 100 000 and 500 000 inhabitants"
+                                label: "Voyagé 2 fois"
                             },
                             {
-                                min: 500000,
-                                max: 1000000,
+                                min: 3,
+                                max: 5,
                                 attrs: {
                                     fill: "#5faa32"
                                 },
-                                label: "Between 500 000 and 1 000 000 inhabitants"
+                                label: "voyagé 3 à 5 fois"
                             },
                             {
-                                min: 1000000,
+                                min: 5,
+                                max: 5,
                                 attrs: {
                                     fill: "#3f7d1a"
                                 },
-                                label: "More than 1 million inhabitants"
+                                label: "Plus de 10 voyages"
+                            },
+                            {
+                                min: 20,
+                                max: 20,
+                                attrs: {
+                                    fill: "#bd0000"
+                                },
+                                label: "Etudié/Travaillé dans le pays"
+                            },
+                            {
+                                min: 25,
+                                max: 25,
+                                attrs: {
+                                    fill: "#286fe7"
+                                },
+                                label: "Prochains voyages (non planifiés)"
+                            },
+                            {
+                                min: 30,
+                                max: 30,
+                                attrs: {
+                                    fill: "#6ea4ff"
+                                },
+                                label: "Prochains voyages (2018/2020) en fonction des disponibilités"
                             }
                         ]
                     }
                 },
                 areas: {
                     "department-59": {
-                        value: "2617939",
+                        value: "1",
                         href: "#",
                         tooltip: {content: "<span style=\"font-weight:bold;\">Nord (59)</span><br />Population : 2617939"}
                     },
                     "department-75": {
-                        value: "2268265",
+                        value: "0",
                         href: "#",
                         tooltip: {content: "<span style=\"font-weight:bold;\">Paris (75)</span><br />Population : 2268265"}
                     },
                     "department-13": {
-                        value: "2000550",
+                        value: "2",
                         href: "#",
                         tooltip: {content: "<span style=\"font-weight:bold;\">Bouches-du-Rhône (13)</span><br />Population : 2000550"}
                     },
                     "department-69": {
-                        value: "1756069",
+                        value: "3",
                         href: "#",
                         tooltip: {content: "<span style=\"font-weight:bold;\">Rhône (69)</span><br />Population : 1756069"}
                     },
                     "department-92": {
-                        value: "1590749",
+                        value: "4",
                         href: "#",
                         tooltip: {content: "<span style=\"font-weight:bold;\">Hauts-de-Seine (92)</span><br />Population : 1590749"}
                     },
                     "department-93": {
-                        value: "1534895",
+                        value: "5",
                         href: "#",
                         tooltip: {content: "<span style=\"font-weight:bold;\">Seine-Saint-Denis (93)</span><br />Population : 1534895"}
                     },
                     "department-62": {
-                        value: "1489209",
+                        value: "20",
                         href: "#",
                         tooltip: {content: "<span style=\"font-weight:bold;\">Pas-de-Calais (62)</span><br />Population : 1489209"}
                     },
                     "department-33": {
-                        value: "1479277",
+                        value: "25",
                         href: "#",
                         tooltip: {content: "<span style=\"font-weight:bold;\">Gironde (33)</span><br />Population : 1479277"}
                     },
                     "department-78": {
-                        value: "1435448",
+                        value: "30",
                         href: "#",
                         tooltip: {content: "<span style=\"font-weight:bold;\">Yvelines (78)</span><br />Population : 1435448"}
                     },
@@ -604,10 +630,6 @@
         });
     </script>
 
-    <!--
-    <script src="./content/map/france_departments.js.download" charset="utf-8"></script><style>@media print {#ghostery-purple-box {display:none !important}}</style>
-    <script src="./content/map/usa_states.js.download" charset="utf-8"></script>
-    -->
 </head>
 <body>
 
@@ -661,7 +683,7 @@
         </div>
     </div>
 	
-  <p>Legende :</p>
+  <p>bonjour !</p>
 </div>
     
 	
