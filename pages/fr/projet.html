@@ -93,11 +93,13 @@
 					<div id="collapse02" class="panel-collapse collapse">
 						<div class="panel-body">
 							<p>Accueil: Glacier du géant (Mont Blanc)</p>
+							<p>Accueil du CV: Drone à piloté à OSI, Crupies (Auvergne, France)</p>
 							<p>Education, ESME Paris: Lever de soleil à Ivry sur seine</p>
 							<p>Education, ESME Lyon: Cheval de la place Bellecour, Fête des lumières</p>
 							<p>Education, Valmiera: Vue de valmiera en hiver</p>
+							<p>Expérience, Photographie: Guide sur le glacier du géant</p>
 							<p>Hobby: plage en Sicile (Italie)</p>
-							<p>Toutes les photos sont libres de droit je demande juste de me citer comme source</p>
+							<p>Les photos sont sous copyright, vous pouvez les utiliser librement à partir du moment où vous me citez</p>
 						</div>
 					</div>
 				</div>
@@ -111,7 +113,7 @@
     <thead>
       <tr>
         <th class="col-md-2"><i>2017 Semestre 1</i></th>
-        <th class="col-md-10">Reconnaissance vocale en utilisant le deep learning</th>
+        <th class="col-md-10">Reconnaissance vocale en utilisant le deep learning (projet scolaire)</th>
       </tr>
     </thead>
   </table>
@@ -119,7 +121,7 @@
   
   <!-- Section body -->
   <div class="col-md-2">
-    <img src="cinqueterre.jpg" class="img-responsive img-thumbnail" alt="Cinque Terre" width="304" height="236">
+    <img src="/content/images/deepspeechproject.png" class="img-responsive img-thumbnail" alt="Interface du projet">
   </div>
   
   <div class="col-md-10">
@@ -150,9 +152,16 @@
         <div id="collapse12" class="panel-collapse collapse">
           <div class="panel-body">
             <p>Comme dit précédemment, nous n'avons utilisé absolument aucune API pour faire du deep learning, l'idée est qu'on ne voulait pas utiliser une technologie qu'on ne maitrisait pas. Nous avons donc pris beaucoup de temps pour nous former</p>
-			<p>Une fois les principes de bases assimilés, nous avons directement codé des algorithme de back propagation, les neurones, ainsi que les fonctions d'activations (sigmoïdes)</p>
+			<p>Une fois les principes de bases assimilés, nous avons directement codé des algorithme de back propagation, les neurones, ainsi que les fonctions d'activations (sigmoïdes). Nous avons continué sur les paramètres du réseau, ils étaient sauvegardés dans plusieurs fichier externes (un fichier par couche, qui contenais le poids des neurones, et un fichier principal avec le nombre de couches, et le nombre de neurones pour chaque couche.</p>
 			<p>le programme fonctionnait de la manière suivante: on envoyait un fichier .mp3 au programme, celui-ci utilisait un convertisseur pour générer une image du signal audio (DSP) (unique partie écrite en Pyhon) puis cette image était analysée colonne par colonne : chaque pixel de la colonne était converti en trois valeurs RGB et injecté dans un réseau de neurones. Celui-ci faisait une propagation qui devait donner une lettre. Le programme fonctionnait de deux manières : en mode apprentissage, où une fois que la lettre était récupérée en sortie, un autre algorithme de backpropagation allait modifier les neurones une par une pour réduire l’erreur, et le mode prédiction, où on ne faisait pas intervenir cette backpropagation.</p>
-			<p>J’ai été en charge de l’interface utilisateur (réalisée sur Qt)
+			<p>J’ai été en charge de l’interface utilisateur (réalisée sur Qt), ainsi que l’architecture du programme (MVC). J’ai aussi aidé à implanter la back propagation, et la structure des neurones.</p>
+			<p>Le projet n’a pas pu être finalisé, même s’il fonctionnait à cause de 4 facteurs :</p>
+			<ul>
+			    <li>Nous n’avions aucune expérience en IA, et nous n’avons utilisé aucune api.</li>
+				<li>Nous avons choisi le C++ au lieu d’un langage plus abstrait qui aurait été beaucoup plus simple.</li>
+				<li>Nous avons fait une interface utilisateur, qui s’est avérée inutile par la suite, et même encombrante (le programme n’étant pas multi-threadé, l’interface plantais lorsque la méthode de back propagation se lançait, et la majorité des informations étaient affichées dans la console)</li>
+				<li>Le temps : nous avions un autre projet à faire en parallèle (le jeu vidéo 2D), des cours, des tp, etc</li>
+			</ul>
           </div>
           <div class="panel-footer">
             <p>
@@ -171,7 +180,7 @@
     <thead>
       <tr>
         <th class="col-md-2"><i>2017 Semetre 1</i></th>
-        <th class="col-md-10">Carte Procédurale pour un jeu 2D</th>
+        <th class="col-md-10">Carte Procédurale pour un jeu 2D (projet scolaire)</th>
       </tr>
     </thead>
   </table>
@@ -179,7 +188,7 @@
   
   <!-- Section body 2 -->
   <div class="col-md-2">
-    <img src="cinqueterre.jpg" class="img-responsive img-thumbnail" alt="Cinque Terre" width="304" height="236">
+    <img src="/content/images/dokeykong.jpg" class="img-responsive img-thumbnail" alt="DK">
   </div>
   
   <div class="col-md-10">
@@ -193,10 +202,11 @@
         </div>
         <div id="collapse21" class="panel-collapse collapse">
           <div class="panel-body">
-            Panel Body
+            <p>Le projet a été mené en parallèle du projet en IA, il consistait à faire un jeu vidéo en utilisant uniquement le C++, et Qt.</p>
+			<p>J’ai réalisé le système de carte ainsi que les différents environnements associés : elle est générée de manière aléatoire, mais en gardant un minimum de contrôle.</p>
           </div>
           <div class="panel-footer">
-            Panel Footer
+            Une vidéo montre le jeu dans la partie technique.
           </div>
         </div>
       </div>
@@ -212,10 +222,14 @@
         </div>
         <div id="collapse22" class="panel-collapse collapse">
           <div class="panel-body">
-            Panel Body
-          </div>
-          <div class="panel-footer">
-            Panel Footer
+            <p>La carte est représentée par bloc : elle fait 120 bloc en largeur et en hauteur, et elle est découpée en 16 régions qui elle-même font 30 bloc de large. Ces régions, appelées biomes représente un des 4 environnements : désert, plaine, jungle ou ville.</p>
+			<p>Le programme procède de la sorte : région après région, il va choisir aléatoirement quel biome sera représenté, puis générer les 30 bloc qui le compose. Il existe deux types de bloc : un obstacle, et un bloc sur lequel le personnage peut se déplacer. Chaque bloc est choisi aléatoirement, néanmoins pour éviter que le joueur soit bloqué trop souvent, le choix est pondéré : il y a moins de chance d’obtenir un obstacle. Lorsque les blocs sont générés, ils sont stockés dans un tableau, qui représente la carte.</p>
+			<p>Lorsque le tableau est complet, il est envoyé au jeu qui va appliquer les textures et les propriétés du bloc en fonction de leur identifiant.</p>
+			<p>Les blocs sont identifiés par un numéro à deux chiffres : le premier indique le biome, le deuxième le type de bloc : de 0 à 6 il s’agit d’un bloc où le personnage peut passer (les textures changent avec le numéro), et pour 7, 8 et 9, il s’agit d’un obstacle (un arbre, un rocher, etc). Par exemple 02 indique un bloc d’herbe dans une jungle, et 09 un arbre dans une jungle.</p>
+			<p>La carte est générée à chaque nouvelle partie.</p>
+			<div class="embed-responsive embed-responsive-16by9">
+			   <iframe class="center-block embed-responsive-item" src="https://www.youtube.com/embed/KHj4XO35oxo?rel=0" frameborder="0" allowfullscreen></iframe>
+			</div>
           </div>
         </div>
       </div>
@@ -229,7 +243,7 @@
     <thead>
       <tr>
         <th class="col-md-2"><i>2016 Semetre 2</i></th>
-        <th class="col-md-10">Editeur d'image basique</th>
+        <th class="col-md-10">Editeur d'image basique (projet scolaire)</th>
       </tr>
     </thead>
   </table>
@@ -237,7 +251,7 @@
 
   <!-- Section body 3 -->
   <div class="col-md-2">
-    <img src="cinqueterre.jpg" class="img-responsive img-thumbnail" alt="Cinque Terre" width="304" height="236">
+    <img src="/content/images/deepspeechproject.png" class="img-responsive img-thumbnail" alt="Interface du projet">
   </div>
   
   <div class="col-md-10">
@@ -289,7 +303,7 @@
     <thead>
       <tr>
         <th class="col-md-2"><i>2016 Semestre 1</i></th>
-        <th class="col-md-10">Recherches sur les réseaux VLAN et MAN</th>
+        <th class="col-md-10">Recherches sur les réseaux VLAN et MAN (projet scolaire)</th>
       </tr>
     </thead>
     <body>
@@ -304,7 +318,7 @@
     <thead>
       <tr>
         <th class="col-md-2"><i>2015 Semestre 2</i></th>
-        <th class="col-md-10">Fabrication de Drone</th>
+        <th class="col-md-10">Fabrication de Drone (projet scolaire)</th>
       </tr>
     </thead>
     <body>
@@ -319,7 +333,7 @@
     <thead>
       <tr>
         <th class="col-md-2"><i>2015 Semestre 2</i></th>
-        <th class="col-md-10">Realisation d'un jeu 2D basique en Python</th>
+        <th class="col-md-10">Realisation d'un jeu 2D basique en Python (projet scolaire)</th>
       </tr>
     </thead>
     <body>
