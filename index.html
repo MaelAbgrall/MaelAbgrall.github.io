@@ -1,29 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+    <html lang="en">
     <title>Mael Abgrall - Home</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<style>
+    <style>
         body, html {
           height: 100%;
           margin: 0;
-          font: 400 15px/1.8 "Lato", sans-serif;
           color: #777;
+          font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+          line-height: 1.8;
+        }
+        
+        h1 {
+          text-shadow: 2px 1px #333333;
+          font-size: 80px;
+        }
+        
+        p {
+          text-shadow: 2px 1px #333333;
+          font-size: 24px;
         }
 
-        .bgimg-1, .bgimg-2, .bgimg-3 {
+        .bgimg{
           position: relative;
-          opacity: 0.65;
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
-
-        }
-        .bgimg-1 {
           background-image: url("/content/mabphotography/DSC_1968c.jpg");
           height: 100%;
         }
@@ -34,44 +42,85 @@
           top: 50%;
           width: 100%;
           text-align: center;
-          color: #000;
+          color: white;
+          
+        }
+        
+        .lang {
+          position : absolute;
+          right : 1%;
+          top : 0;
+          width : 100%;
+          text-align: right;
+          color: red;
+        }
+        
+        a:link, a:visited, a:hover, a:active {
+            color: black;
+            text-decoration: none;
         }
 
-        .caption span.border {
-          background-color: #111;
-          color: #fff;
-          padding: 18px;
-          font-size: 25px;
-          letter-spacing: 10px;
+        .hvr-outline-out {
+          display: inline-block;
+          vertical-align: middle;
+          -webkit-transform: perspective(1px) translateZ(0);
+          transform: perspective(1px) translateZ(0);
+          box-shadow: 0 0 1px transparent;
+          position: relative;
+        }
+        .hvr-outline-out:before {
+          content: '';
+          position: absolute;
+          border: white solid 4px;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+          -webkit-transition-property: top, right, bottom, left;
+          transition-property: top, right, bottom, left;
+        }
+        .hvr-outline-out:hover:before, .hvr-outline-out:focus:before, .hvr-outline-out:active:before {
+          top: -8px;
+          right: -8px;
+          bottom: -8px;
+          left: -8px;
         }
 
-        h3 {
-          letter-spacing: 5px;
-          text-transform: uppercase;
-          font: 20px "Lato", sans-serif;
-          color: #111;
+        p,
+        [class^="hvr-"] {
+            font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
         }
-	</style>
-</head>
-<body> 
-    <div class="bg-img-1"> 
-        <div class="caption">
-          <span class="border">Bonjour</span><br>
-        </div>
-    </div>
-</body>
-</html>
 
-<!--<!DOCTYPE html>
-<html>
-<head>
+        [class^="hvr-"] {
+          margin: .4em;
+          padding: 1em;
+          cursor: pointer;
+          background: white;
+          text-decoration: none;
+          color: #666;
+          /* Prevent highlight colour when element is tapped */
+          -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+          /* Smooth fonts */
+          -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+    </style>
 </head>
 <body>
 
-
+<div class="bgimg">
   <div class="caption">
-    <span class="border">FULL PAGE</span><br>
-    <span class="border">BACKGROUND IMAGE</span>
+    <h1><b>Welcome !</b></h1>
+    <p>I'm Mael Abgrall, I'm a student in artificial intelligence and a photographer</p>
+    <a href="/pages/en/home.html" class="hvr-outline-out">CV</a>
+    <a href="#" class="hvr-outline-out">Portfolio</a>
   </div>
+  
+  <a href="index_fr.html" class="lang"><img src="/content/images/franceicon.png" class="img-responsive" alt="Français"></a>
 </div>
--->
+</body>
+</html>
