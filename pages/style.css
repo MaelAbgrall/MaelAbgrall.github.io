@@ -1,0 +1,146 @@
+/* police for title */
+@font-face {
+    font-family: 'OCR';
+    font-style: normal;
+    font-weight: normal;
+    src: 
+        url('/content/font/OCRAStd.woff') format('woff'),
+        url('/content/font/OCRAEXT.ttf')  format('truetype');
+}
+
+/* police for regular text */
+@import https://fonts.googleapis.com/css?family=Roboto
+
+
+
+/* NavBar customisation */
+.navbar-default {
+  background-color: #a6a07e;
+  border-color: #ccc59c;
+}
+.navbar-default .navbar-brand {
+  color: #2b2a21;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #2b2a21;
+}
+.navbar-default .navbar-text {
+  color: #2b2a21;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #2b2a21;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #2b2a21;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #2b2a21;
+  background-color: #ccc59c;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #2b2a21;
+  background-color: #ccc59c;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ccc59c;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ccc59c;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #2b2a21;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #2b2a21;
+}
+.navbar-default .navbar-link {
+  color: #2b2a21;
+}
+.navbar-default .navbar-link:hover {
+  color: #2b2a21;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #2b2a21;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #2b2a21;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #2b2a21;
+    background-color: #ccc59c;
+  }
+}
+
+
+/* Page customisation */
+body {
+    background-color: #E6DEAF;
+}
+
+.title {
+    color: #8E0A00;
+    font-family: "OCR", OCR, sans-serif;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.3);
+}
+
+a {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+p {
+    color : #333127;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+    border-color : #66634e;
+}
+
+
+
+/* for images with overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: gray;
+}
+
+.img-rounded:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
