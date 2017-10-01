@@ -12,99 +12,6 @@
 @import https://fonts.googleapis.com/css?family=Roboto
 
 
-
-/* NavBar customisation */
-.navbar-custom {
-  background-color: #cc6666;
-  border-color: #de7d7d;
-}
-.navbar-custom .navbar-brand {
-  color: #ffffff;
-}
-.navbar-custom .navbar-brand:hover,
-.navbar-custom .navbar-brand:focus {
-  color: #ffffff;
-}
-.navbar-custom .navbar-text {
-  color: #ffffff;
-}
-.navbar-custom .navbar-nav > li > a {
-  color: #ffffff;
-}
-.navbar-custom .navbar-nav > li > a:hover,
-.navbar-custom .navbar-nav > li > a:focus {
-  color: #ffffff;
-}
-.navbar-custom .navbar-nav > li > .dropdown-menu {
-  background-color: #cc6666;
-}
-.navbar-custom .navbar-nav > li > .dropdown-menu > li > a {
-  color: #ffffff;
-}
-.navbar-custom .navbar-nav > li > .dropdown-menu > li > a:hover,
-.navbar-custom .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color: #ffffff;
-  background-color: #de7d7d;
-}
-.navbar-custom .navbar-nav > li > .dropdown-menu > li.divider {
-  background-color: #de7d7d;
-}
-.navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
-.navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
-.navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
-  color: #ffffff;
-  background-color: #de7d7d;
-}
-.navbar-custom .navbar-nav > .active > a,
-.navbar-custom .navbar-nav > .active > a:hover,
-.navbar-custom .navbar-nav > .active > a:focus {
-  color: #ffffff;
-  background-color: #de7d7d;
-}
-.navbar-custom .navbar-nav > .open > a,
-.navbar-custom .navbar-nav > .open > a:hover,
-.navbar-custom .navbar-nav > .open > a:focus {
-  color: #ffffff;
-  background-color: #de7d7d;
-}
-.navbar-custom .navbar-toggle {
-  border-color: #de7d7d;
-}
-.navbar-custom .navbar-toggle:hover,
-.navbar-custom .navbar-toggle:focus {
-  background-color: #de7d7d;
-}
-.navbar-custom .navbar-toggle .icon-bar {
-  background-color: #ffffff;
-}
-.navbar-custom .navbar-collapse,
-.navbar-custom .navbar-form {
-  border-color: #ffffff;
-}
-.navbar-custom .navbar-link {
-  color: #ffffff;
-}
-.navbar-custom .navbar-link:hover {
-  color: #ffffff;
-}
-
-@media (max-width: 767px) {
-  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
-    color: #ffffff;
-  }
-  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffffff;
-  }
-  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffffff;
-    background-color: #de7d7d;
-  }
-}
-
-
 /* Page customisation */
 body {
     /*background-color: #E6DEAF;*/
@@ -147,7 +54,22 @@ hr {
 }
 
 
-
+/* buttons */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
 
 
 /* for images with overlay */
