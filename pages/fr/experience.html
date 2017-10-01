@@ -10,78 +10,16 @@
   <script src="https://use.fontawesome.com/0f43101218.js"></script>
   
   <link type="text/css" rel="stylesheet" href="/pages/style.css" />
-  <!--somehow this is not working using the stylesheet-->
+  <script type="text/javascript" src="/scrolltotop.js"></script>
   <style>
-    /* NavBar customisation */
-    .navbar-custom {
-  background-color: #a6a07e;
-  border-color: #ccc59c;
-}
-.navbar-custom .navbar-brand {
-  color: #2b2a21;
-}
-.navbar-custom .navbar-brand:hover,
-.navbar-custom .navbar-brand:focus {
-  color: #2b2a21;
-}
-.navbar-custom .navbar-text {
-  color: #2b2a21;
-}
-.navbar-custom .navbar-nav > li > a {
-  color: #2b2a21;
-}
-.navbar-custom .navbar-nav > li > a:hover,
-.navbar-custom .navbar-nav > li > a:focus {
-  color: #2b2a21;
-}
-.navbar-custom .navbar-nav > .active > a,
-.navbar-custom .navbar-nav > .active > a:hover,
-.navbar-custom .navbar-nav > .active > a:focus {
-  color: #2b2a21;
-  background-color: #ccc59c;
-}
-.navbar-custom .navbar-nav > .open > a,
-.navbar-custom .navbar-nav > .open > a:hover,
-.navbar-custom .navbar-nav > .open > a:focus {
-  color: #2b2a21;
-  background-color: #ccc59c;
-}
-.navbar-custom .navbar-toggle {
-  border-color: #ccc59c;
-}
-.navbar-custom .navbar-toggle:hover,
-.navbar-custom .navbar-toggle:focus {
-  background-color: #ccc59c;
-}
-.navbar-custom .navbar-toggle .icon-bar {
-  background-color: #2b2a21;
-}
-.navbar-custom .navbar-collapse,
-.navbar-custom .navbar-form {
-  border-color: #2b2a21;
-}
-.navbar-custom .navbar-link {
-  color: #2b2a21;
-}
-.navbar-custom .navbar-link:hover {
-  color: #2b2a21;
-}
-
-@media (max-width: 767px) {
-  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
-    color: #2b2a21;
-  }
-  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #2b2a21;
-  }
-  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #2b2a21;
-    background-color: #ccc59c;
-  }
-}
+    .btn-custom{
+        
+    }
+    
+    .btn-custom { 
+      color: #ffffff; 
+      background-color: #CC6666;
+    } 
   </style>
 </head>
 <body>
@@ -118,6 +56,7 @@
 						<li><a href="/pages/en/experience.html">English</a></li>
 						<li class="active"><a href="/pages/fr/experience.html">French</a></li>
 					</ul>
+                </li>
 				<li><a href="/index_fr.html"><i class="fa fa-sign-out" aria-hidden="true"></i> Changer de site</a></li>
 			</ul>
 		</div>
@@ -148,6 +87,11 @@
 	<div class="col-md-10">
 	<!--panel 11 -->
 		<p>Location: Paris</p>
+        
+        <button type="button" class="btn btn-custom btn-block">Button 1</button>
+        
+        
+        
 		<div class="panel-group">
 			<div class="panel panel-success">
 				<div class="panel-heading">
@@ -454,7 +398,7 @@
   
   
   
-  
+    <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
 	<br> 
 	<hr><!-- separation bar -->
 	<footer class="col-md-12">

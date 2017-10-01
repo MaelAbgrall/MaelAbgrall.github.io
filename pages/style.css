@@ -14,92 +14,116 @@
 
 
 /* NavBar customisation */
-.navbar-default {
-  background-color: #a6a07e !important;
-  border-color: #ccc59c !important;
+.navbar-custom {
+  background-color: #cc6666;
+  border-color: #de7d7d;
 }
-.navbar-default .navbar-brand {
-  color: #2b2a21 !important;
+.navbar-custom .navbar-brand {
+  color: #ffffff;
 }
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #2b2a21 !important;
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #ffffff;
 }
-.navbar-default .navbar-text {
-  color: #2b2a21 !important;
+.navbar-custom .navbar-text {
+  color: #ffffff;
 }
-.navbar-default .navbar-nav > li > a {
-  color: #2b2a21 !important;
+.navbar-custom .navbar-nav > li > a {
+  color: #ffffff;
 }
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #2b2a21 !important;
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #ffffff;
 }
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #2b2a21 !important;
-  background-color: #ccc59c !important;
+.navbar-custom .navbar-nav > li > .dropdown-menu {
+  background-color: #cc6666;
 }
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #2b2a21 !important;
-  background-color: #ccc59c !important;
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ffffff;
 }
-.navbar-default .navbar-toggle {
-  border-color: #ccc59c !important;
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #ffffff;
+  background-color: #de7d7d;
 }
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #ccc59c !important;
+.navbar-custom .navbar-nav > li > .dropdown-menu > li.divider {
+  background-color: #de7d7d;
 }
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #2b2a21 !important;
+.navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  background-color: #de7d7d;
 }
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #2b2a21 !important;
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #de7d7d;
 }
-.navbar-default .navbar-link {
-  color: #2b2a21 !important;
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #de7d7d;
 }
-.navbar-default .navbar-link:hover {
-  color: #2b2a21 !important;
+.navbar-custom .navbar-toggle {
+  border-color: #de7d7d;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #de7d7d;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-custom .navbar-link {
+  color: #ffffff;
+}
+.navbar-custom .navbar-link:hover {
+  color: #ffffff;
 }
 
 @media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #2b2a21 !important;
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
   }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #2b2a21 !important;
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
   }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #2b2a21 !important;
-    background-color: #ccc59c !important;
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #de7d7d;
   }
 }
 
 
 /* Page customisation */
 body {
-    background-color: #E6DEAF;
+    /*background-color: #E6DEAF;*/
+    background-color: #f9f4ed;
 }
 
 .titre {
-    color: #8E0A00;
+    /*color: #8E0A00;*/
+    color : #cc6666;
     font-family: "OCR", OCR, sans-serif;
-    text-shadow: 2px 2px 0px rgba(0,0,0,0.3);
+    /*text-shadow: 2px 2px 0px rgba(0,0,0,0.3);*/
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .titre2 {
     color: #453524;
     font-family: "Arial", Arial, sans-serif;
-    text-shadow: 2px 2px 0px rgba(0,0,0,0.3);
+    /*text-shadow: 2px 2px 0px rgba(0,0,0,0.3);*/
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -121,6 +145,10 @@ hr {
     padding: 0; 
     border-color : #66634e;
 }
+
+
+
+
 
 /* for images with overlay */
 .overlay {
@@ -148,4 +176,40 @@ hr {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+}
+
+
+
+
+
+/* BackToTop button css */
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#3498db;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff
+}
+#scroll:hover {
+    background-color:#e74c3c;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
 }
