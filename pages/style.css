@@ -14,22 +14,18 @@
 
 /* Page customisation */
 body {
-    /*background-color: #E6DEAF;*/
-    background-color: #f9f4ed;
+    background-color: #FFCC99;
 }
 
 .titre {
-    /*color: #8E0A00;*/
-    color : #cc6666;
+    color : #FF3333;
     font-family: "OCR", OCR, sans-serif;
-    /*text-shadow: 2px 2px 0px rgba(0,0,0,0.3);*/
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .titre2 {
-    color: #453524;
+    color: #996633;
     font-family: "Arial", Arial, sans-serif;
-    /*text-shadow: 2px 2px 0px rgba(0,0,0,0.3);*/
     text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 
