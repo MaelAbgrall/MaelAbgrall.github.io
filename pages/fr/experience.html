@@ -11,24 +11,6 @@
   
   <link type="text/css" rel="stylesheet" href="/pages/style.css" />
   <script type="text/javascript" src="/scrolltotop.js"></script>
-  <style>    
-    .btn-custom { 
-      color: #ffffff; 
-      background-color: #CC6666;
-      text-align: left;
-    }
-    
-    .btn-custom:hover {
-      color: #ffffff;
-    }
-    
-    btn-custom:link, btn-custom:visited, btn-custom:hover, btn-custom:active, btn-custom:focus {
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #CC6666;
-    
-}
-    </style>
     
     
     <style>    
@@ -179,7 +161,6 @@
   
 <div class="container">
 	<h4 class="titre">Expérience en entreprise:</h4>
-	<!-- section header -->
 	<table class="table titre2">
 		<thead>
 			<tr>
@@ -190,60 +171,28 @@
 	</table>
   
   
-	<!-- Section body -->
 	<div class="col-md-2">
 		<img src="/content/images/logo_itce.png" class="img-responsive" alt="IT-CE">
 	</div>
   
 	<div class="col-md-10">
-	<!--panel 11 -->
 		<p>Location: Paris</p>
         
-        <button type="button" class="btn btn-custom btn-block">Button 1</button>
+        <button type="button" class="btn btn-custom btn-block hvr-grow" data-toggle="collapse" data-target="#it-ce1"><i class="fa fa-chevron-down" aria-hidden="true"></i> L'entreprise</button>
+        <div id="it-ce1" class="collapse">
+            <p>IT-CE est le service informatique du groupe BPCE, qui regroupe les deux banques Caisse d'Epargne et Banque Populaire. IT-CE est chargé de l'intégralité de l'informatique pour le groupe, de l'architecture au réseau en passant par l'innovation.</p>
+            <p>J'ai été dans le service architecture et innovation qui est chargé d'intégrer à l'architecture logicielle du groupe des logiciels aussi bien créés par l'entreprise que par des tiers</p>
+        </div>
         
-        
-        
-		<div class="panel-group">
-			<div class="panel panel-success">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" href="#collapse11">L'entreprise</a>
-					</h4>
-				</div>
-				<div id="collapse11" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>IT-CE est le service informatique du groupe BPCE, qui regroupe les deux banques Caisse d'Epargne et Banque Populaire. IT-CE est chargé de l'intégralité de l'informatique pour le groupe, de l'architecture au réseau en passant par l'innovation.</p>
-						<p>J'ai été dans le service architecture et innovation qui est chargé d'intégrer à l'architecture logicielle du groupe des logiciels aussi bien créés par l'entreprise que par des tiers</p>
-					</div>
-				</div>
-			</div>
-		</div>
-  
-	<!--panel 12 -->
-		<div class="panel-group">
-			<div class="panel panel-info">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" href="#collapse12">La mission</a>
-					</h4>
-				</div>
-				<div id="collapse12" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>La première demandait, à l’aide de PowerBi (Microsoft) et d’une base de donnée MSSQL, de développer des tableaux d’aide à la décision qui affichaient une vision globale, et quasiment en temps réel, les solutions créées, ou modifiées par IT-CE</p>
-						<img src="/content/images/tab_powerBi.png" class="img-responsive" alt="Tableau de bord développé">
-						<p>La seconde mission était de développer un système de documentation automatique qui soit simple à utiliser : un site web en ASP.NET (C#) récupére des documents Word et extrait son contenu vers une base de données et un fichier JSON. Ces informations récupérées étaient ensuite affichées de manière claire et rapide à lire (des sections déroulantes remplaçaient les chapitres, l’interface a été développée pour pouvoir aller droit au but).</p>
-						<p>J’ai eu l’occasion lors de ce stage de créer une api pour pouvoir extraire de manière dynamique le contenu de Word. Cette api est open source et disponible ici :<a href="https://github.com/MelAbgrall/EasyWordExtraction">EasyWordExtraction</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-    
-		<!-- end of section body 1 -->
+        <button type="button" class="btn btn-custom2 btn-block" data-toggle="collapse" data-target="#it-ce2"><i class="fa fa-chevron-down" aria-hidden="true"></i> La mission</button>
+        <div id="it-ce2" class="collapse">
+            <p>La première demandait, à l’aide de PowerBi (Microsoft) et d’une base de donnée MSSQL, de développer des tableaux d’aide à la décision qui affichaient une vision globale, et quasiment en temps réel, les solutions créées, ou modifiées par IT-CE</p>
+            <img src="/content/images/tab_powerBi.png" class="img-responsive" alt="Tableau de bord développé">
+            <p>La seconde mission était de développer un système de documentation automatique qui soit simple à utiliser : un site web en ASP.NET (C#) récupére des documents Word et extrait son contenu vers une base de données et un fichier JSON. Ces informations récupérées étaient ensuite affichées de manière claire et rapide à lire (des sections déroulantes remplaçaient les chapitres, l’interface a été développée pour pouvoir aller droit au but).</p>
+            <p>J’ai eu l’occasion lors de ce stage de créer une api pour pouvoir extraire de manière dynamique le contenu de Word. Cette api est open source et disponible ici: <a href="https://github.com/MelAbgrall/EasyWordExtraction">EasyWordExtraction</a></p>
+        </div>
 	</div>
-  
-  
-  
-	<!-- section header 2 -->
+    
 	<table class="table titre2">
 		<thead>
 			<tr>
@@ -254,52 +203,29 @@
 	</table>
   
   
-	<!-- Section body 2 -->
 	<div class="col-md-2">
 		<img src="/content/images/logo_hopital.png" class="img-responsive" alt="CHPG">
 	</div>
   
 	<div class="col-md-10">
-	<!--panel 21 -->
 		<p>Location: Monaco</p>
-		<div class="panel-group">
-			<div class="panel panel-success">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" href="#collapse21">L'entreprise</a>
-					</h4>
-				</div>
-				<div id="collapse21" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>L'hôpital princesse Grâce est le seul Hôpital public de Monaco. il dispose d'une capacité de 759 Lits répartis sur trois sites</p>
-						<p>J'ai été affecté au système d'information (DSIO) chargé de l'infrastructure, de la sécurité et de l'intégration de logiciels tiers ou développés par le service.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-  
-		<!--panel 22 -->
-		<div class="panel-group">
-			<div class="panel panel-info">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" href="#collapse22">la mission</a>
-					</h4>
-				</div>
-				<div id="collapse22" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>La mission a été de développer un programme simple sur NAO à partir de programmation-bloc et d'un peu de python : il devait être utilisé dans le département gériatrie pour les personnes atteintes de maladies liées à la mémoire. Ces personnes étant souvent très renfermées sur elles-mêmes, le robot devait pouvoir les reconnaitre, puis faire quelques animations : une danse, ainsi que deux jeux basés sur la mémoire.</p>
-						<img src="/content/images/nao.png" class="img-responsive center-block" alt="NAO" width="300px">
-						<p>Le robot étant utilisé par du personnel médical, le programme a été pensé pour être utilisé sans ordinateur tout en restant simple : il suffisait d’appuyer sur les pieds et les mains du robot avec des instruction type "ajouter/retirer patient"</p>
-					</div>
-				</div>
-			</div>
-		</div>
-    
-		<!-- end of section body2 -->
+        
+        <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#CHPG1"><i class="fa fa-chevron-down" aria-hidden="true"></i> L'entreprise</button>
+        <div id="CHPG1" class="collapse">
+            <p>L'hôpital princesse Grâce est le seul Hôpital public de Monaco. il dispose d'une capacité de 759 Lits répartis sur trois sites</p>
+			<p>J'ai été affecté au système d'information (DSIO) chargé de l'infrastructure, de la sécurité et de l'intégration de logiciels tiers ou développés par le service.</p>
+        </div>
+        
+        <button type="button" class="btn btn-custom2 btn-block" data-toggle="collapse" data-target="#CHPG2"><i class="fa fa-chevron-down" aria-hidden="true"></i> La mission</button>
+        <div id="CHPG2" class="collapse">
+            <p>La première demandait, à l’aide de PowerBi (Microsoft) et d’une base de donnée MSSQL, de développer des tableaux d’aide à la décision qui affichaient une vision globale, et quasiment en temps réel, les solutions créées, ou modifiées par IT-CE</p>
+            <img src="/content/images/tab_powerBi.png" class="img-responsive" alt="Tableau de bord développé">
+            <p>La seconde mission était de développer un système de documentation automatique qui soit simple à utiliser : un site web en ASP.NET (C#) récupére des documents Word et extrait son contenu vers une base de données et un fichier JSON. Ces informations récupérées étaient ensuite affichées de manière claire et rapide à lire (des sections déroulantes remplaçaient les chapitres, l’interface a été développée pour pouvoir aller droit au but).</p>
+            <p>J’ai eu l’occasion lors de ce stage de créer une api pour pouvoir extraire de manière dynamique le contenu de Word. Cette api est open source et disponible ici :<a href="https://github.com/MelAbgrall/EasyWordExtraction">EasyWordExtraction</a></p>
+        </div>
+        
 	</div>
 
-	<!-- section header 3 -->
 	<table class="table titre2">
 		<thead>
 			<tr>
@@ -310,50 +236,29 @@
 	</table>
   
 
-	<!-- Section body 3 -->
 	<div class="col-md-2">
 		<img src="/content/images/logo_osi.png" class="img-responsive" alt="OSI">
 	</div>
   
 	<div class="col-md-10">
-	<!--panel 31 -->
 		<p>location multiples en France et en Suisse</p>
-		<div class="panel-group">
-			<div class="panel panel-success">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" href="#collapse31">L'entreprise</a>
-					</h4>
-				</div>
-				<div id="collapse31" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>Objectif Science international est une ONG dont le but est de promouvoir la recherche scientifique et la protection de la nature au travers de séjours de vacances. Elle possède un statut consultatif spécial auprès de l'ONU</p>
-					</div>
-				</div>
-			</div>
-		</div>
-  
-	<!--panel 32 -->
-	<div class="panel-group">
-		<div class="panel panel-info">
-			<div class="panel-heading">
-				<h4 class="panel-title">
-					<a data-toggle="collapse" href="#collapse32">Les missions</a>
-				</h4>
-			</div>
-			<div id="collapse32" class="panel-collapse collapse">
-				<div class="panel-body">
-					<p>J’ai pu réaliser plusieurs missions avec OSI dont la durée a été variable (entre deux semaines et un mois). Hors des missions, j’ai gardé beaucoup de contact avec OSI, en allant régulièrement aux rencontres de préparation des camps d’été et aux réunions du conseil général.</p>
-					<p>j'ai été éducateur scientifique dans le séjour "Drone connection" où l'objectif est de sensibiliser au fonctionnement de l'informatique, et de trouver des solutions pour aider les autres camps de vacances de l'ONG au travers des drones. J’ai été en charge de créer des activités ludiques pour des enfants âgés de 7 à 17 ans, en adaptant les activités avec les tranches d’âges.</p>
-				</div>
-			</div>
-		</div>
-    </div>
-    
-	<!-- end of section body3 -->
+        
+        <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#osi1"><i class="fa fa-chevron-down" aria-hidden="true"></i> L'entreprise</button>
+        <div id="osi1" class="collapse">
+            <p>Objectif Science international est une ONG dont le but est de promouvoir la recherche scientifique et la protection de la nature au travers de séjours de vacances. Elle possède un statut consultatif spécial auprès de l'ONU</p>
+        </div>
+        
+        <button type="button" class="btn btn-custom2 btn-block" data-toggle="collapse" data-target="#osi2"><i class="fa fa-chevron-down" aria-hidden="true"></i> La mission</button>
+        <div id="osi2" class="collapse">
+            <p>J’ai pu réaliser plusieurs missions avec OSI dont la durée a été variable (entre deux semaines et un mois). Hors des missions, j’ai gardé beaucoup de contact avec OSI, en allant régulièrement aux rencontres de préparation des camps d’été et aux réunions du conseil général.</p>
+			<p>j'ai été éducateur scientifique dans le séjour "Drone connection" où l'objectif est de sensibiliser au fonctionnement de l'informatique, et de trouver des solutions pour aider les autres camps de vacances de l'ONG au travers des drones. J’ai été en charge de créer des activités ludiques pour des enfants âgés de 7 à 17 ans, en adaptant les activités avec les tranches d’âges.</p>
+        </div>
+        
 	</div>
-	<br> 
-	<h4 class="titre">Expérience volontaire / Organisation</h4>
+    
+	<br>
+	    
+    <h4 class="titre col-md-12">Expérience volontaire / Organisation</h4>
 	<table class="table titre2">
 		<thead>
 			<tr>
@@ -364,39 +269,26 @@
 	</table>
   
   
-	<!-- Section body -->
 	<div class="col-md-2">
 		<img src="/content/images/logo_bdaparis.png" class="img-responsive" alt="BDA Paris">
 	</div>
   
 	<div class="col-md-10">
-	<!--panel b1 -->
 		<p>Location: Paris</p>
-		<div class="panel-group">
-			<div class="panel panel-success">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" href="#collapseb1">Description</a>
-					</h4>
-				</div>
-				<div id="collapseb1" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>A mon arrivée, le BDA de paris était mort depuis plusieurs années. J’ai donc ressuscité l’association et monté une nouvelle équipe d’une dizaine de personnes. Un des premiers objectifs a été de mettre en place des partenariats avec l’école et les autres associations, entre autres avec une présence photo sur tous les évènements.</p>
-						<p>Le bda est ensuite devenu partenaire avec la fédération française des bda qui venait d’être créé, et j’ai apporté toute l’aide possible à la fédération, en contactant d’autres BDA en France, en participant activement aux évènements de la fédération et en les relayant.</p>
-						<img src="/content/images/logo_ffbda.png" class="img-responsive center-block" alt="FFBDA">
-						<p>En milieu d’année, le bda a aussi repris en main l’ancien club jeux-vidéo qui était mourant depuis plusieurs années. L’objectif étant de dynamiser le bda en proposant un panel plus large d’activités.</p>
-						<img src="/content/mabphotography/DSC_2650c.jpg" class="img-responsive center-block" alt="BDA en jpo">
-					</div>
-				</div>
-			</div>
-		</div>
-    
-	<!-- end of section body b1 -->
+        
+        <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#bdaparis"><i class="fa fa-chevron-down" aria-hidden="true"></i> Description</button>
+        <div id="bdaparis" class="collapse">
+            <p>A mon arrivée, le BDA de paris était mort depuis plusieurs années. J’ai donc ressuscité l’association et monté une nouvelle équipe d’une dizaine de personnes. Un des premiers objectifs a été de mettre en place des partenariats avec l’école et les autres associations, entre autres avec une présence photo sur tous les évènements.</p>
+            <p>Le bda est ensuite devenu partenaire avec la fédération française des bda qui venait d’être créé, et j’ai apporté toute l’aide possible à la fédération, en contactant d’autres BDA en France, en participant activement aux évènements de la fédération et en les relayant.</p>
+            <img src="/content/images/logo_ffbda.png" class="img-responsive center-block" alt="FFBDA">
+            <p>En milieu d’année, le bda a aussi repris en main l’ancien club jeux-vidéo qui était mourant depuis plusieurs années. L’objectif étant de dynamiser le bda en proposant un panel plus large d’activités.</p>
+            <img src="/content/mabphotography/DSC_2650c.jpg" class="img-responsive center-block" alt="BDA en jpo">
+        </div>
+        
 	</div>
   
   
   
-	<!-- section header b2 -->
 	<table class="table titre2">
 		<thead>
 			<tr>
@@ -407,33 +299,20 @@
 	</table>
   
   
-	<!-- Section body 2 -->
 	<div class="col-md-2">
 		<img src="/content/images/via_logo.png" class="img-responsive" alt="VIA">
 	</div>
   
 	<div class="col-md-10">
-	<!--panel 21 -->
 		<p>Location: Valmiera</p>
-		<div class="panel-group">
-			<div class="panel panel-success">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" href="#collapseb21">Description</a>
-					</h4>
-				</div>
-				<div id="collapseb21" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>J’ai été le contact entre les étudiants et l’université partenaire, et organisé le départ du groupe. Le plus grand défi a été le choc entre les étudiants qui n’acceptaient pas de s’adapter à une culture différente, et l’université ne comprenais pas leurs réactions.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-    
-	<!-- end of section body2 -->
+        
+        <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#via"><i class="fa fa-chevron-down" aria-hidden="true"></i> Description</button>
+        <div id="via" class="collapse">
+            <p>J’ai été le contact entre les étudiants et l’université partenaire, et organisé le départ du groupe. Le plus grand défi a été le choc entre les étudiants qui n’acceptaient pas de s’adapter à une culture différente, et l’université ne comprenais pas leurs réactions.</p>
+        </div>
+        
 	</div>
 
-	<!-- section header 3 -->
 	<table class="table titre2">
 		<thead>
 			<tr>
@@ -444,35 +323,22 @@
 	</table>
   
 
-  <!-- Section body 3 -->
   <div class="col-md-2">
     <img src="/content/images/logo_bdalyon.png" class="img-responsive" alt="BdaLyon">
   </div>
   
   <div class="col-md-10">
-	<!--panel 31 -->
 		<p>Location: Lyon</p>
-		<div class="panel-group">
-			<div class="panel panel-success">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" href="#collapseb31">Description</a>
-					</h4>
-				</div>
-				<div id="collapseb31" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>En arrivant à l'ESME Lyon, j'ai pu rencontrer des gens passionnés par la musique. Néanmoins, le campus venant d'ouvrir, il n'y avait aucune association. J'ai donc fondé le BDA de Lyon avec une équipe d'une dizaine de personne, chacun ayant un role administratif ou orienté dans un domaine artistique. Je n'ai pas eu énormément de temps car je partais pour l'étranger en fin d'année, mais nous avions réussi a organiser des sessions de musique régulière, des sorties photos, des couvertures d'event en photo, organiser des avant-premières de film et diverses autres activités qui ont continuée après mon départ.</p>
-						<img src="/content/mabphotography/bdalyon.jpg" class="img-responsive" alt="Membres du BDA lors d'une JPO">
-					</div>
-				</div>
-			</div>
-		</div>
+        
+        <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#bdalyon"><i class="fa fa-chevron-down" aria-hidden="true"></i> Description</button>
+        <div id="bdalyon" class="collapse">
+            <p>En arrivant à l'ESME Lyon, j'ai pu rencontrer des gens passionnés par la musique. Néanmoins, le campus venant d'ouvrir, il n'y avait aucune association. J'ai donc fondé le BDA de Lyon avec une équipe d'une dizaine de personne, chacun ayant un role administratif ou orienté dans un domaine artistique. Je n'ai pas eu énormément de temps car je partais pour l'étranger en fin d'année, mais nous avions réussi a organiser des sessions de musique régulière, des sorties photos, des couvertures d'event en photo, organiser des avant-premières de film et diverses autres activités qui ont continuée après mon départ.</p>
+            <img src="/content/mabphotography/bdalyon.jpg" class="img-responsive" alt="Membres du BDA lors d'une JPO">
+        </div>
+        
 	</div>
   
-  <hr>
   
-  
-  <!-- section header 4 -->
   <table class="table titre2">
     <thead>
       <tr>
@@ -483,29 +349,19 @@
   </table>
   
 
-  <!-- Section body 4 -->
   <div class="col-md-2">
     <img src="/content/mabphotography/DSC_1799c.jpg" class="img-responsive" alt="Mabphotography">
   </div>
   
   <div class="col-md-10">
-	<!--panel 31 -->
-		<div class="panel-group">
-			<div class="panel panel-success">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a data-toggle="collapse" href="#collapseb41">Description</a>
-					</h4>
-				</div>
-				<div id="collapseb41" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>Passionné de photographie, j’ai lancé mon propre "blog" où je poste régulièrement mes meilleures photos. Pour y accéder, cliquez sur "changer de site" dans le menu.</p>
-						<p>J’ai réalisé quelques missions bénévoles en photographie, notamment des photos pour OSI, des formations, ainsi que des photos pour profil/cv.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+  
+    <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#mabphoto"><i class="fa fa-chevron-down" aria-hidden="true"></i> Description</button>
+    <div id="mabphoto" class="collapse">
+        <p>Passionné de photographie, j’ai lancé mon propre "blog" où je poste régulièrement mes meilleures photos. Pour y accéder, cliquez sur <a href="index_fr.html">"changer de site"</a> dans le menu.</p>
+        <p>J’ai réalisé quelques missions bénévoles en photographie, notamment des photos pour OSI, des formations, ainsi que des photos pour profil/cv.</p>
+    </div>
+        
+  </div>
   
   
   
