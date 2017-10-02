@@ -1,13 +1,3 @@
-/* police for title */
-@font-face {
-    font-family: 'OCR';
-    font-style: normal;
-    font-weight: normal;
-    src: 
-        url('/content/font/OCRAStd.woff') format('woff'),
-        url('/content/font/OCRAEXT.ttf')  format('truetype');
-}
-
 /* police for regular text */
 @import https://fonts.googleapis.com/css?family=Roboto
 
@@ -19,7 +9,7 @@ body {
 
 .titre {
     color : #FF3333;
-    font-family: "OCR", OCR, sans-serif;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
