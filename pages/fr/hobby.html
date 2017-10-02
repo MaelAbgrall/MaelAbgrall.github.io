@@ -10,7 +10,6 @@
     <script src="https://use.fontawesome.com/0f43101218.js"></script>
   
     <link type="text/css" rel="stylesheet" href="/pages/style.css" />
-    <script type="text/javascript" src="/scrolltotop.js"></script>
     <style>
     .navbar-default {
       background-color: #ff3333;
@@ -111,6 +110,43 @@
     p {
         color : #333127;
         font-family: 'Roboto', sans-serif;
+    }
+    
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      border: none;
+      outline: none;
+      background-color:  #ff3333;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px transparent;
+    }
+
+    #myBtn:before {
+              content: '';
+              position: fixed;
+              border:  #ff3333 solid 4px;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              -webkit-transition-duration: 0.3s;
+              transition-duration: 0.3s;
+              -webkit-transition-property: top, right, bottom, left;
+              transition-property: top, right, bottom, left;
+            }
+    #myBtn:hover:before, #myBtn:focus:before, #myBtn:active:before {
+        top: -8px;
+        right: -8px;
+        bottom: -8px;
+        left: -8px;
     }
   </style>
     
@@ -1458,6 +1494,8 @@
 </head>
 <body>
 
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     
@@ -1483,6 +1521,7 @@
         <li><a href="/pages/fr/projet.html"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Projets</a></li>
         <li><a href="/pages/fr/skill.html"><i class="fa fa-wrench" aria-hidden="true"></i> Skills</a></li>
         <li class="active"><a href="/pages/fr/hobby.html"><i class="fa fa-globe" aria-hidden="true"></i> Hobbies</a></li>
+        <li><a href="/pages/fr/contact.html"><i class="fa fa-address-card" aria-hidden="true"></i> Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
          <li class="dropdown">
@@ -1499,9 +1538,7 @@
 </nav>
   
 <div class="container">
-	
-    <img src="/content/mabphotography/DSC_0987c.jpg" class="img-responsive" alt="Sicile">
-    
+  
     
     <div class="mapcontainer">
         <div class="map">
@@ -1539,5 +1576,26 @@
 		<!--/.footer-bottom--> 
 	</footer>
 </div>
+
+
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+
 </body>
 </html>

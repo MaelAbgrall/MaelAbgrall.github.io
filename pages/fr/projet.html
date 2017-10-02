@@ -10,7 +10,6 @@
   <script src="https://use.fontawesome.com/0f43101218.js"></script>
   
   <link type="text/css" rel="stylesheet" href="/pages/style.css" />
-  <script type="text/javascript" src="/scrolltotop.js"></script>
   <style>
     .navbar-default {
       background-color: #ff3333;
@@ -111,9 +110,59 @@
         color : #333127;
         font-family: 'Roboto', sans-serif;
     }
+    
+    /* buttons */
+    .btn-custom {
+        background-color: #CC9966 !important;
+        text-align: left !important;
+    }
+        
+    .btn-custom2 {
+        background-color: #B28659 !important;
+        text-align: left !important;
+    }
+    
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      border: none;
+      outline: none;
+      background-color:  #ff3333;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px transparent;
+    }
+
+    #myBtn:before {
+              content: '';
+              position: fixed;
+              border:  #ff3333 solid 4px;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              -webkit-transition-duration: 0.3s;
+              transition-duration: 0.3s;
+              -webkit-transition-property: top, right, bottom, left;
+              transition-property: top, right, bottom, left;
+            }
+    #myBtn:hover:before, #myBtn:focus:before, #myBtn:active:before {
+        top: -8px;
+        right: -8px;
+        bottom: -8px;
+        left: -8px;
+    }
   </style>
 </head>
 <body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -140,15 +189,16 @@
         <li class="active"><a href="/pages/fr/projet.html"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Projets</a></li>
         <li><a href="/pages/fr/skill.html"><i class="fa fa-wrench" aria-hidden="true"></i> Skills</a></li>
         <li><a href="/pages/fr/hobby.html"><i class="fa fa-globe" aria-hidden="true"></i> Hobbies</a></li>
+        <li><a href="/pages/fr/contact.html"><i class="fa fa-address-card" aria-hidden="true"></i> Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
          <li class="dropdown">
-         <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-flag" aria-hidden="true"></i> Langage <span class="glyphicon glyphicon-menu-down"></span></a>
-         <ul class="dropdown-menu">
-           <li><a href="/pages/en/projet.html">English</a></li>
-           <li class="active"><a href="/pages/fr/projet.html">French</a></li>
-         </ul>
-        
+             <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-flag" aria-hidden="true"></i> Langage <span class="glyphicon glyphicon-menu-down"></span></a>
+             <ul class="dropdown-menu">
+               <li><a href="/pages/en/projet.html">English</a></li>
+               <li class="active"><a href="/pages/fr/projet.html">French</a></li>
+             </ul>
+        </li>
         <li><a href="/index_fr.html"><i class="fa fa-sign-out" aria-hidden="true"></i> Changer de site</a></li>
       </ul>
     </div>
@@ -161,7 +211,7 @@
     <thead>
       <tr>
         <th class="col-md-2"><i>Septembre 2017</i></th>
-        <th class="col-md-10 titre">Ce site web</th>
+        <th class="col-md-10 titre2">Ce site web</th>
       </tr>
     </thead>
     <body>
@@ -169,237 +219,125 @@
         <td></td>
         <td>
 			<p>J'ai réalisé ce site web sans utiliser de générateur ou de Wysiwyg, en utilisant du html, un peu de css (dont le framework Bootstrap) et mes photographies. Concernant le javascript, je n'ai que fait adapter le code à ce site</p>
-		    <div class="panel-group">
-              <div class="panel panel-success">
-                <div class="panel-heading">
-                  <h4 class="panel-title titre">
-                    <a data-toggle="collapse" href="#collapse01">Sources</a>
-                  </h4>
-                </div>
-				<div id="collapse01" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p>carte sur la page hobby: Mapael (https://github.com/neveldo/jQuery-Mapael)</p>
-						<p>Css: Bootstrap (http://getbootstrap.com/)</p>
-						<p>Css (icones): Font awesome (http://fontawesome.io/)</p>
-                        <p>CSS: boutons animés de l'accueil: Hover.css (https://ianlunn.github.io/Hover/)</p>
-					</div>
-				</div>
-			</div>
-			</div>
-  
-			<!--panel 02 -->
-			<div class="panel-group">
-				<div class="panel panel-info">
-					<div class="panel-heading">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" href="#collapse02">Photographies sur le site</a>
-						</h4>
-					</div>
-					<div id="collapse02" class="panel-collapse collapse">
-						<div class="panel-body">
-							<p>Accueil: Glacier du géant (Mont Blanc)</p>
-							<p>Accueil du CV: Drone à piloté à OSI, Crupies (Auvergne, France)</p>
-							<p>Education, ESME Paris: Lever de soleil à Ivry sur seine</p>
-							<p>Education, ESME Lyon: Cheval de la place Bellecour, Fête des lumières</p>
-							<p>Education, Valmiera: Vue de valmiera en hiver</p>
-							<p>Expérience, Photographie: Guide sur le glacier du géant</p>
-							<p>Hobby: plage en Sicile (Italie)</p>
-							<p>Les photos sont sous copyright, vous pouvez les utiliser librement à partir du moment où vous me citez</p>
-						</div>
-					</div>
-				</div>
-			</div>
+		    
+            <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#website1"><i class="fa fa-chevron-down" aria-hidden="true"></i> Sources</button>
+            <div id="website1" class="collapse">
+                <p>carte sur la page hobby: Mapael (<a href="https://github.com/neveldo/jQuery-Mapael">https://github.com/neveldo/jQuery-Mapael</a>)</p>
+				<p>Css: Bootstrap (<a href="http://getbootstrap.com/">http://getbootstrap.com/</a>)</p>
+				<p>Css (icones): Font awesome (<a href="http://fontawesome.io/">http://fontawesome.io/</a>)</p>
+                <p>CSS: boutons animés de l'accueil: Hover.css (<a href="https://ianlunn.github.io/Hover/">https://ianlunn.github.io/Hover/</a>)</p>
+            </div>
+        
+            <button type="button" class="btn btn-custom2 btn-block" data-toggle="collapse" data-target="#website2"><i class="fa fa-chevron-down" aria-hidden="true"></i> Photographies sur le site</button>
+            <div id="website2" class="collapse">
+                <p>Accueil: Glacier du géant (Mont Blanc)</p>
+                <p>Accueil du CV: Drone à piloté à OSI, Crupies (Auvergne, France)</p>
+				<p>Education, ESME Paris: Lever de soleil à Ivry sur seine</p>
+				<p>Education, ESME Lyon: Cheval de la place Bellecour, Fête des lumières</p>
+				<p>Education, Valmiera: Vue de valmiera en hiver</p>
+				<p>Expérience, Photographie: Guide sur le glacier du géant</p>
+				<p>Hobby: plage en Sicile (Italie)</p>
+				<p>Les photos sont sous copyright, vous pouvez les utiliser librement à partir du moment où vous me citez</p>
+            </div>
+            
 		</td>
        </tr>
     </body>
   </table>
 
-  <!-- section header -->
+
   <table class="table">
     <thead>
       <tr>
         <th class="col-md-2"><i>2017 Semestre 1</i></th>
-        <th class="col-md-10 titre">Reconnaissance vocale en utilisant le deep learning (projet scolaire)</th>
+        <th class="col-md-10 titre2">Reconnaissance vocale en utilisant le deep learning (projet scolaire)</th>
       </tr>
     </thead>
+    <body>
+      <tr>
+        <td></td>
+        <td>
+            <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#deepspeech1"><i class="fa fa-chevron-down" aria-hidden="true"></i> Le projet</button>
+            <div id="deepspeech1" class="collapse">
+                <p>Le projet a été fait dans un groupe de Trois. L'idée était de découvrir l'IA et d'en faire une application : La reconnaissance vocale. Nous avions deux choix : prendre des morceaux de code déjà existants type plug-n-play (simple à utiliser, même sans comprendre), ou le choix beaucoup plus difficile qui est de tout faire en partant de 0, le souci étant que nous n'avions absolument aucune connaissance en IA. Nous avons choisi la méthode compliquée, Ce qui a eu des avantages comme des inconvénients : On a pu comprendre comment marchait l’IA fondamentalement, en contrepartie nous avons manqué de temps. Néanmoins, le logiciel réalisé était tout de même capable de faire la différence entre une absence de lettre, et un "A"</p>
+            </div>
+               
+            <button type="button" class="btn btn-custom2 btn-block" data-toggle="collapse" data-target="#deepspeech2"><i class="fa fa-chevron-down" aria-hidden="true"></i> Présentation technique</button>
+            <div id="deepspeech2" class="collapse">
+                <p>Comme dit précédemment, nous n'avons utilisé absolument aucune API pour faire du deep learning, l'idée est qu'on ne voulait pas utiliser une technologie qu'on ne maitrisait pas. Nous avons donc pris beaucoup de temps pour nous former</p>
+                <p>Une fois les principes de bases assimilés, nous avons directement codé des algorithme de back propagation, les neurones, ainsi que les fonctions d'activations (sigmoïdes). Nous avons continué sur les paramètres du réseau, ils étaient sauvegardés dans plusieurs fichier externes (un fichier par couche, qui contenais le poids des neurones, et un fichier principal avec le nombre de couches, et le nombre de neurones pour chaque couche.</p>
+                <p>le programme fonctionnait de la manière suivante: on envoyait un fichier .mp3 au programme, celui-ci utilisait un convertisseur pour générer une image du signal audio (DSP) (unique partie écrite en Pyhon) puis cette image était analysée colonne par colonne : chaque pixel de la colonne était converti en trois valeurs RGB et injecté dans un réseau de neurones. Celui-ci faisait une propagation qui devait donner une lettre. Le programme fonctionnait de deux manières : en mode apprentissage, où une fois que la lettre était récupérée en sortie, un autre algorithme de backpropagation allait modifier les neurones une par une pour réduire l’erreur, et le mode prédiction, où on ne faisait pas intervenir cette backpropagation.</p>
+                <p>J’ai été en charge de l’interface utilisateur (réalisée sur Qt), ainsi que l’architecture du programme (MVC). J’ai aussi aidé à implanter la back propagation, et la structure des neurones.</p>
+                <p>Le projet n’a pas pu être finalisé, même s’il fonctionnait à cause de 4 facteurs :</p>
+                <ul>
+                    <li>Nous n’avions aucune expérience en IA, et nous n’avons utilisé aucune api.</li>
+                    <li>Nous avons choisi le C++ au lieu d’un langage plus abstrait qui aurait été beaucoup plus simple.</li>
+                    <li>Nous avons fait une interface utilisateur, qui s’est avérée inutile par la suite, et même encombrante (le programme n’étant pas multi-threadé, l’interface plantais lorsque la méthode de back propagation se lançait, et la majorité des informations étaient affichées dans la console)</li>
+                    <li>Le temps : nous avions un autre projet à faire en parallèle (le jeu vidéo 2D), des cours, des tp, etc</li>
+                </ul>
+            </div>
+        </td>
+      </tr>
+    </body>
   </table>
   
-  
-  <!-- Section body -->
-  <div class="col-md-2">
-    <img src="/content/images/deepspeechproject.png" class="img-responsive" alt="Interface du projet">
-  </div>
-  
   <div class="col-md-10">
-  <!--panel 11 -->
-    <div class="panel-group">
-      <div class="panel panel-success">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" href="#collapse11">Le projet</a>
-          </h4>
-        </div>
-        <div id="collapse11" class="panel-collapse collapse">
-          <div class="panel-body">
-            Le projet a été fait dans un groupe de Trois. L'idée était de découvrir l'IA et d'en faire une application : La reconnaissance vocale. Nous avions deux choix : prendre des morceaux de code déjà existants type plug-n-play (simple à utiliser, même sans comprendre), ou le choix beaucoup plus difficile qui est de tout faire en partant de 0, le souci étant que nous n'avions absolument aucune connaissance en IA. Nous avons choisi la méthode compliquée, Ce qui a eu des avantages comme des inconvénients : On a pu comprendre comment marchait l’IA fondamentalement, en contrepartie nous avons manqué de temps. Néanmoins, le logiciel réalisé était tout de même capable de faire la différence entre une absence de lettre, et un "A"
-          </div>
-        </div>
-      </div>
-    </div>
-  
-  <!--panel 12 -->
-    <div class="panel-group">
-      <div class="panel panel-info">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" href="#collapse12">Présentation technique</a>
-          </h4>
-        </div>
-        <div id="collapse12" class="panel-collapse collapse">
-          <div class="panel-body">
-            <p>Comme dit précédemment, nous n'avons utilisé absolument aucune API pour faire du deep learning, l'idée est qu'on ne voulait pas utiliser une technologie qu'on ne maitrisait pas. Nous avons donc pris beaucoup de temps pour nous former</p>
-			<p>Une fois les principes de bases assimilés, nous avons directement codé des algorithme de back propagation, les neurones, ainsi que les fonctions d'activations (sigmoïdes). Nous avons continué sur les paramètres du réseau, ils étaient sauvegardés dans plusieurs fichier externes (un fichier par couche, qui contenais le poids des neurones, et un fichier principal avec le nombre de couches, et le nombre de neurones pour chaque couche.</p>
-			<p>le programme fonctionnait de la manière suivante: on envoyait un fichier .mp3 au programme, celui-ci utilisait un convertisseur pour générer une image du signal audio (DSP) (unique partie écrite en Pyhon) puis cette image était analysée colonne par colonne : chaque pixel de la colonne était converti en trois valeurs RGB et injecté dans un réseau de neurones. Celui-ci faisait une propagation qui devait donner une lettre. Le programme fonctionnait de deux manières : en mode apprentissage, où une fois que la lettre était récupérée en sortie, un autre algorithme de backpropagation allait modifier les neurones une par une pour réduire l’erreur, et le mode prédiction, où on ne faisait pas intervenir cette backpropagation.</p>
-			<p>J’ai été en charge de l’interface utilisateur (réalisée sur Qt), ainsi que l’architecture du programme (MVC). J’ai aussi aidé à implanter la back propagation, et la structure des neurones.</p>
-			<p>Le projet n’a pas pu être finalisé, même s’il fonctionnait à cause de 4 facteurs :</p>
-			<ul>
-			    <li>Nous n’avions aucune expérience en IA, et nous n’avons utilisé aucune api.</li>
-				<li>Nous avons choisi le C++ au lieu d’un langage plus abstrait qui aurait été beaucoup plus simple.</li>
-				<li>Nous avons fait une interface utilisateur, qui s’est avérée inutile par la suite, et même encombrante (le programme n’étant pas multi-threadé, l’interface plantais lorsque la méthode de back propagation se lançait, et la majorité des informations étaient affichées dans la console)</li>
-				<li>Le temps : nous avions un autre projet à faire en parallèle (le jeu vidéo 2D), des cours, des tp, etc</li>
-			</ul>
-          </div>
-          <div class="panel-footer">
-            <p>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-  <!-- end of section body 1 -->
+        
   </div>
   
-  
-  
-<!-- section header 2 -->
   <table class="table">
     <thead>
       <tr>
         <th class="col-md-2"><i>2017 Semetre 1</i></th>
-        <th class="col-md-10 titre">Carte Procédurale pour un jeu 2D (projet scolaire)</th>
+        <th class="col-md-10 titre2">Carte Procédurale pour un jeu 2D (projet scolaire)</th>
       </tr>
     </thead>
   </table>
   
-  
-  <!-- Section body 2 -->
   <div class="col-md-2">
     <img src="/content/images/dokeykong.jpg" class="img-responsive" alt="DK">
   </div>
   
   <div class="col-md-10">
-  <!--panel 21 -->
-    <div class="panel-group">
-      <div class="panel panel-success">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" href="#collapse21">Le projet</a>
-          </h4>
-        </div>
-        <div id="collapse21" class="panel-collapse collapse">
-          <div class="panel-body">
-            <p>Le projet a été mené en parallèle du projet en IA, il consistait à faire un jeu vidéo en utilisant uniquement le C++, et Qt.</p>
-			<p>J’ai réalisé le système de carte ainsi que les différents environnements associés : elle est générée de manière aléatoire, mais en gardant un minimum de contrôle.</p>
-          </div>
-          <div class="panel-footer">
-            Une vidéo montre le jeu dans la partie technique.
-          </div>
-        </div>
-      </div>
+    <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#dk1"><i class="fa fa-chevron-down" aria-hidden="true"></i> Le projet</button>
+     <div id="dk1" class="collapse">
+        <p>Le projet a été mené en parallèle du projet en IA, il consistait à faire un jeu vidéo en utilisant uniquement le C++, et Qt.</p>
+		<p>J’ai réalisé le système de carte ainsi que les différents environnements associés : elle est générée de manière aléatoire, mais en gardant un minimum de contrôle.</p>
+        <p><u>Une vidéo montre le jeu dans la partie technique.</u></p>
+     </div>
+       
+    <button type="button" class="btn btn-custom2 btn-block" data-toggle="collapse" data-target="#dk2"><i class="fa fa-chevron-down" aria-hidden="true"></i> Présentation technique</button>
+    <div id="dk2" class="collapse">
+        <p>La carte est représentée par bloc : elle fait 120 bloc en largeur et en hauteur, et elle est découpée en 16 régions qui elle-même font 30 bloc de large. Ces régions, appelées biomes représente un des 4 environnements : désert, plaine, jungle ou ville.</p>
+		<p>Le programme procède de la sorte : région après région, il va choisir aléatoirement quel biome sera représenté, puis générer les 30 bloc qui le compose. Il existe deux types de bloc : un obstacle, et un bloc sur lequel le personnage peut se déplacer. Chaque bloc est choisi aléatoirement, néanmoins pour éviter que le joueur soit bloqué trop souvent, le choix est pondéré : il y a moins de chance d’obtenir un obstacle. Lorsque les blocs sont générés, ils sont stockés dans un tableau, qui représente la carte.</p>
+		<p>Lorsque le tableau est complet, il est envoyé au jeu qui va appliquer les textures et les propriétés du bloc en fonction de leur identifiant.</p>
+		<p>Les blocs sont identifiés par un numéro à deux chiffres : le premier indique le biome, le deuxième le type de bloc : de 0 à 6 il s’agit d’un bloc où le personnage peut passer (les textures changent avec le numéro), et pour 7, 8 et 9, il s’agit d’un obstacle (un arbre, un rocher, etc). Par exemple 02 indique un bloc d’herbe dans une jungle, et 09 un arbre dans une jungle.</p>
+		<p>La carte est générée à chaque nouvelle partie.</p>
+        <div class="embed-responsive embed-responsive-16by9">
+		   <iframe class="center-block embed-responsive-item" src="https://www.youtube.com/embed/KHj4XO35oxo?rel=0" frameborder="0" allowfullscreen></iframe>
+		</div>
     </div>
-  
-  <!--panel 22 -->
-    <div class="panel-group">
-      <div class="panel panel-info">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" href="#collapse22">Présentation technique</a>
-          </h4>
-        </div>
-        <div id="collapse22" class="panel-collapse collapse">
-          <div class="panel-body">
-            <p>La carte est représentée par bloc : elle fait 120 bloc en largeur et en hauteur, et elle est découpée en 16 régions qui elle-même font 30 bloc de large. Ces régions, appelées biomes représente un des 4 environnements : désert, plaine, jungle ou ville.</p>
-			<p>Le programme procède de la sorte : région après région, il va choisir aléatoirement quel biome sera représenté, puis générer les 30 bloc qui le compose. Il existe deux types de bloc : un obstacle, et un bloc sur lequel le personnage peut se déplacer. Chaque bloc est choisi aléatoirement, néanmoins pour éviter que le joueur soit bloqué trop souvent, le choix est pondéré : il y a moins de chance d’obtenir un obstacle. Lorsque les blocs sont générés, ils sont stockés dans un tableau, qui représente la carte.</p>
-			<p>Lorsque le tableau est complet, il est envoyé au jeu qui va appliquer les textures et les propriétés du bloc en fonction de leur identifiant.</p>
-			<p>Les blocs sont identifiés par un numéro à deux chiffres : le premier indique le biome, le deuxième le type de bloc : de 0 à 6 il s’agit d’un bloc où le personnage peut passer (les textures changent avec le numéro), et pour 7, 8 et 9, il s’agit d’un obstacle (un arbre, un rocher, etc). Par exemple 02 indique un bloc d’herbe dans une jungle, et 09 un arbre dans une jungle.</p>
-			<p>La carte est générée à chaque nouvelle partie.</p>
-			<div class="embed-responsive embed-responsive-16by9">
-			   <iframe class="center-block embed-responsive-item" src="https://www.youtube.com/embed/KHj4XO35oxo?rel=0" frameborder="0" allowfullscreen></iframe>
-			</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-  <!-- end of section body2 -->
   </div>
 
-<!-- section header 3 -->
+    
   <table class="table titre">
     <thead>
       <tr>
         <th class="col-md-2"><i>2016 Semetre 2</i></th>
-        <th class="col-md-10">Editeur d'image basique (projet scolaire)</th>
+        <th class="col-md-10 titre2">Editeur d'image basique (projet scolaire)</th>
       </tr>
     </thead>
   </table>
   
-
-  <!-- Section body 3 -->
   <div class="col-md-2">
     <img src="/content/images/deepspeechproject.png" class="img-responsive" alt="Interface du projet">
   </div>
   
   <div class="col-md-10">
-  <!--panel 31 -->
-    <div class="panel-group">
-      <div class="panel panel-success">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" href="#collapse31">Le projet</a>
-          </h4>
-        </div>
-        <div id="collapse31" class="panel-collapse collapse">
-          <div class="panel-body">
-            Panel Body
-          </div>
-          <div class="panel-footer">
-            Panel Footer
-          </div>
-        </div>
-      </div>
-    </div>
-  
-  <!--panel 32 -->
-    <div class="panel-group">
-      <div class="panel panel-info">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" href="#collapse32">Présentation technique</a>
-          </h4>
-        </div>
-        <div id="collapse32" class="panel-collapse collapse">
-          <div class="panel-body">
-            Panel Body
-          </div>
-          <div class="panel-footer">
-            Panel Footer
-          </div>
-        </div>
-      </div>
-    </div>
-    
-  <!-- end of section body3 -->
+    <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#img1"><i class="fa fa-chevron-down" aria-hidden="true"></i> Le projet</button>
+     <div id="img1" class="collapse">
+        <p>blahblah</p>
+     </div>
   </div>
   
   
@@ -409,7 +347,7 @@
     <thead>
       <tr>
         <th class="col-md-2"><i>2016 Semestre 1</i></th>
-        <th class="col-md-10">Recherches sur les réseaux VLAN et MAN (projet scolaire)</th>
+        <th class="col-md-10 titre2">Recherches sur les réseaux VLAN et MAN (projet scolaire)</th>
       </tr>
     </thead>
     <body>
@@ -424,7 +362,7 @@
     <thead class="titre">
       <tr>
         <th class="col-md-2"><i>2015 Semestre 2</i></th>
-        <th class="col-md-10">Fabrication de Drone (projet scolaire)</th>
+        <th class="col-md-10 titre2">Fabrication de Drone (projet scolaire)</th>
       </tr>
     </thead>
     <body>
@@ -439,7 +377,7 @@
     <thead class="titre">
       <tr>
         <th class="col-md-2"><i>2015 Semestre 2</i></th>
-        <th class="col-md-10">Realisation d'un jeu 2D basique en Python (projet scolaire)</th>
+        <th class="col-md-10 titre2">Realisation d'un jeu 2D basique en Python (projet scolaire)</th>
       </tr>
     </thead>
     <body>
@@ -454,7 +392,7 @@
     <thead class="titre">
       <tr>
         <th class="col-md-2"><i>2015 Semestre 1</i></th>
-        <th class="col-md-10">Premère place au concours "Iseg Innovation Week" avec un bracellet connecté</th>
+        <th class="col-md-10 titre2">Premère place au concours "Iseg Innovation Week" avec un bracellet connecté</th>
       </tr>
     </thead>
     <body>
@@ -469,7 +407,7 @@
     <thead class="titre">
       <tr>
         <th class="col-md-2"><i>2014 Semestre 2</i></th>
-        <th class="col-md-10">Participation au concours Cisco's IoT challenge</th>
+        <th class="col-md-10 titre2">Participation au concours Cisco's IoT challenge</th>
       </tr>
     </thead>
     <body>
@@ -490,6 +428,25 @@
 		<!--/.footer-bottom--> 
 	</footer>
 <!-- end of container -->
+
+
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
 </div>
 </body>
 </html>
