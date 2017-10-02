@@ -3,9 +3,6 @@
 
 
 /* Page customisation */
-body {
-        background-color: #E5B88A !important;
-    }
 
 .titre {
     color : #FF3333;
@@ -23,11 +20,6 @@ body {
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-}
-
-p {
-    color : #333127;
-    font-family: 'Roboto', sans-serif;
 }
 
 hr {
