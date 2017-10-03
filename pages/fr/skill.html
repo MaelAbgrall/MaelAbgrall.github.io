@@ -213,7 +213,17 @@
 <div class="container">
     <p>Legende:</p>
     <div class="progress">                
-        <div class="progress-bar progress-bar-info" role="progressbar" style="width:65%">65 %</div>
+      <div class="progress-bar progress-bar-success" role="progressbar" style="width:25%">
+        En cours d'utilisation</div>
+      <div class="progress-bar progress-bar-info" role="progressbar" style="width:25%">
+        Utilisé récemment
+      </div>
+      <div class="progress-bar progress-bar-warning" role="progressbar" style="width:25%">
+        Peu utilisé / utilisé il y a plus d'un an
+      </div>
+      <div class="progress-bar progress-bar-danger" role="progressbar" style="width:25%">
+        Très peu utilisé / utilisé il y a longtemps
+      </div>
     </div>
     
     <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#langues"><i class="fa fa-flag-o" aria-hidden="true"></i> Langues</button>
