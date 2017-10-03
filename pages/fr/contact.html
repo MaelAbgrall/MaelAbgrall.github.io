@@ -107,21 +107,87 @@
         background-color: #E5B88A;
     }
     
+    h1 {
+          box-shadow: 3px 3px 0px rgba(0,0,0,0.3);
+          font-size: 80px;
+    }
     
     p {
-        color : #333127;
-        font-family: 'Roboto', sans-serif;
+          text-shadow: 3px 3px 0px rgba(0,0,0,0.3);
+          font-size: 24px;
+          font-weight: 600;
+        }
+
+    .bgimg{
+          position: relative;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url("/content/mabphotography/DSC_0651c.JPG");
+          height: 100%;
     }
-    
-    /* buttons */
-    .btn-custom {
-        background-color: #CC9966 !important;
-        text-align: left !important;
+
+    .caption {
+          position: absolute;
+          left: 0;
+          top: 50%;
+          width: 100%;
+          text-align: center;
+          color: white;
     }
         
-    .btn-custom2 {
-        background-color: #B28659 !important;
-        text-align: left !important;
+    a:link, a:visited, a:hover, a:active {
+            color: black;
+            text-decoration: none;
+    }
+
+    .hvr-outline-out {
+          display: inline-block;
+          vertical-align: middle;
+          -webkit-transform: perspective(1px) translateZ(0);
+          transform: perspective(1px) translateZ(0);
+          box-shadow: 0 0 1px transparent;
+          position: relative;
+    }
+    
+    .hvr-outline-out:before {
+          content: '';
+          position: absolute;
+          border: white solid 4px;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+          -webkit-transition-property: top, right, bottom, left;
+          transition-property: top, right, bottom, left;
+    }
+
+    .hvr-outline-out:hover:before, .hvr-outline-out:focus:before, .hvr-outline-out:active:before {
+          top: -8px;
+          right: -8px;
+          bottom: -8px;
+          left: -8px;
+    }
+
+    p,
+    [class^="hvr-"] {
+            font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    }
+
+    [class^="hvr-"] {
+        margin: .4em;
+        padding: 1em;
+        cursor: pointer;
+        background: white;
+        text-decoration: none;
+        color: #666;
+        /* Prevent highlight colour when element is tapped */
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        /* Smooth fonts */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
     }
   </style>
 </head>
@@ -167,27 +233,12 @@
 	</div>
 </nav>  
   
-<img src="/content/mabphotography/DSC_0651c.JPG" class="img-responsive" alt="Zermatt">
-<div class="container">
-    <div class="col-md-2">
-        <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAi1AAAAJDM5NWYxOWQ2LTVmZTItNGM2My04YjNiLTliZTI2NmVlZGYyYg.jpg" class="img-responsive img-rounded">
+<div class="bgimg">
+    <div class="caption">
+      <h1><img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAi1AAAAJDM5NWYxOWQ2LTVmZTItNGM2My04YjNiLTliZTI2NmVlZGYyYg.jpg" class="img-responsive img-rounded"></h1>
+      <p>Mon profil <a href="https://www.linkedin.com/in/mael-abgrall-4010b3b5/" data-toggle="tooltip" title="Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></p>
+      <p>Mon profil <a href="https://github.com/MelAbgrall" data-toggle="tooltip" title="GitHub"><i class="fa fa-github-alt" aria-hidden="true"></i> GitHub</a></p>
     </div>
-    
-    <div class="col-md-10">
-        <p>Mon profil <a href="https://www.linkedin.com/in/mael-abgrall-4010b3b5/" data-toggle="tooltip" title="Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></p>
-        <p>Mon profil <a href="https://github.com/MelAbgrall" data-toggle="tooltip" title="GitHub"><i class="fa fa-github-alt" aria-hidden="true"></i> GitHub</a></p>
-    </div>
-    
-
-    <br> 
-	<hr><!-- separation bar -->
-	<footer class="col-md-12">
-		<div class="footer-bottom">
-				<p class="pull-left">Mael Abgrall <i class="fa fa-copyright" aria-hidden="true"></i> 2010-2017</p>
-				<p class="pull-right">Connect with me <a href="https://www.linkedin.com/in/mael-abgrall-4010b3b5/" data-toggle="tooltip" title="Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>  <a href="https://github.com/MelAbgrall" data-toggle="tooltip" title="GitHub"><i class="fa fa-github-alt" aria-hidden="true"></i></a></p>
-		</div>
-		<!--/.footer-bottom--> 
-	</footer>
-<!-- end of container -->
 </div>
-    
+</body>
+</html>
