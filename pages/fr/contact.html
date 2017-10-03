@@ -100,21 +100,15 @@
         background-color: #ff6666;
       }
     }
-    
-    body {
+
+    body, html {
+        height: 100%;
+        margin: 0;
+        color: #777;
+        font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+        line-height: 1.8;
         background-color: #E5B88A;
     }
-    
-    h1 {
-          box-shadow: 3px 3px 0px rgba(0,0,0,0.3);
-          font-size: 80px;
-    }
-    
-    p {
-          text-shadow: 3px 3px 0px rgba(0,0,0,0.3);
-          font-size: 24px;
-          font-weight: 600;
-        }
 
     .bgimg{
           position: relative;
@@ -126,12 +120,12 @@
     }
 
     .caption {
-          position: absolute;
-          left: 0;
-          top: 50%;
-          width: 100%;
-          text-align: center;
-          color: white;
+          position: absolute !important;
+          left: 0 !important;
+          top: 30% !important;
+          width: 100% !important;
+          text-align: center !important;
+          color: white !important;
     }
         
     a:link, a:visited, a:hover, a:active {
@@ -169,11 +163,6 @@
           left: -8px;
     }
 
-    p,
-    [class^="hvr-"] {
-            font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    }
-
     [class^="hvr-"] {
         margin: .4em;
         padding: 1em;
@@ -191,7 +180,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default">
 	<div class="container-fluid">
 		<div class="navbar-header">
     
@@ -233,9 +222,9 @@
   
 <div class="bgimg">
     <div class="caption">
-      <h1><img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAi1AAAAJDM5NWYxOWQ2LTVmZTItNGM2My04YjNiLTliZTI2NmVlZGYyYg.jpg" class="img-responsive img-rounded"></h1>
-      <p>Mon profil <a href="https://www.linkedin.com/in/mael-abgrall-4010b3b5/" data-toggle="tooltip" title="Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></p>
-      <p>Mon profil <a href="https://github.com/MelAbgrall" data-toggle="tooltip" title="GitHub"><i class="fa fa-github-alt" aria-hidden="true"></i> GitHub</a></p>
+      <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAi1AAAAJDM5NWYxOWQ2LTVmZTItNGM2My04YjNiLTliZTI2NmVlZGYyYg.jpg" class="img-responsive img-rounded center-block" style="height:200px;">
+      <a class="hvr-outline-out" href="https://www.linkedin.com/in/mael-abgrall-4010b3b5/" data-toggle="tooltip" title="Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Mon profil Linkedin</a>
+      <a class="hvr-outline-out" href="https://github.com/MelAbgrall" data-toggle="tooltip" title="GitHub"><i class="fa fa-github-alt" aria-hidden="true"></i> Mon profil GitHub</a>
     </div>
 </div>
 </body>
