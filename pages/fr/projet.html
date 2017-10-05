@@ -187,7 +187,7 @@
             <li><a href="/pages/fr/education.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</a></li>
             <li><a href="/pages/fr/experience.html"><i class="fa fa-suitcase" aria-hidden="true"></i> Expérience</a></li>
             <li class="active"><a href="/pages/fr/projet.html"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Projets</a></li>
-            <li><a href="/pages/fr/skill.html"><i class="fa fa-wrench" aria-hidden="true"></i> Skills</a></li>
+            <li><a href="/pages/fr/skill.html"><i class="fa fa-wrench" aria-hidden="true"></i> Compétences</a></li>
             <li><a href="/pages/fr/hobby.html"><i class="fa fa-globe" aria-hidden="true"></i> Hobbies</a></li>
             <li><a href="/pages/fr/contact.html"><i class="fa fa-address-card" aria-hidden="true"></i> Contact</a></li>
         </ul>
@@ -216,14 +216,14 @@
     </thead>
     </table>
     
-	<p>J'ai réalisé ce site web sans utiliser de générateur ou de Wysiwyg, en utilisant du html, un peu de css (dont le framework Bootstrap) et mes photographies. Concernant le javascript, je n'ai que fait adapter le code à ce site</p>
+	<p>J'ai réalisé ce site web sans utiliser de générateur ou de Wysiwyg, en utilisant du html, un peu de css (dont le framework Bootstrap) et mes photographies. Concernant le javascript, je n'ai fait qu'adapter des codes de W3School et d'autres sources à ce site</p>
 	  
     <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#website1"><i class="fa fa-chevron-down" aria-hidden="true"></i> Sources</button>
     <div id="website1" class="collapse">
         <p>carte sur la page hobby: Mapael (<a href="https://github.com/neveldo/jQuery-Mapael">https://github.com/neveldo/jQuery-Mapael</a>)</p>
         <p>Css: Bootstrap (<a href="http://getbootstrap.com/">http://getbootstrap.com/</a>)</p>
         <p>Css (icones): Font awesome (<a href="http://fontawesome.io/">http://fontawesome.io/</a>)</p>
-        <p>CSS: boutons animés de l'accueil: Hover.css (<a href="https://ianlunn.github.io/Hover/">https://ianlunn.github.io/Hover/</a>)</p>
+        <p>Css: boutons animés de l'accueil: Hover.css (<a href="https://ianlunn.github.io/Hover/">https://ianlunn.github.io/Hover/</a>)</p>
     </div>
         
     <button type="button" class="btn btn-custom2 btn-block" data-toggle="collapse" data-target="#website2"><i class="fa fa-chevron-down" aria-hidden="true"></i> Photographies sur le site</button>
@@ -257,14 +257,14 @@
     <button type="button" class="btn btn-custom2 btn-block" data-toggle="collapse" data-target="#deepspeech2"><i class="fa fa-chevron-down" aria-hidden="true"></i> Présentation technique</button>
     <div id="deepspeech2" class="collapse">
         <p>Comme dit précédemment, nous n'avons utilisé absolument aucune API pour faire du deep learning, l'idée est qu'on ne voulait pas utiliser une technologie qu'on ne maitrisait pas. Nous avons donc pris beaucoup de temps pour nous former</p>
-        <p>Une fois les principes de bases assimilés, nous avons directement codé des algorithme de back propagation, les neurones, ainsi que les fonctions d'activations (sigmoïdes). Nous avons continué sur les paramètres du réseau, ils étaient sauvegardés dans plusieurs fichier externes (un fichier par couche, qui contenais le poids des neurones, et un fichier principal avec le nombre de couches, et le nombre de neurones pour chaque couche.</p>
+        <p>Une fois les principes de base assimilés, nous avons directement codé des algorithme de back propagation, les neurones, ainsi que les fonctions d'activations (sigmoïdes). Nous avons continué sur les paramètres du réseau, ils étaient sauvegardés dans plusieurs fichiers externes (un fichier par couches, qui contenaient les poids des neurones, et un fichier principal avec le nombre de couches, et le nombre de neurones pour chaque couche.</p>
         <p>le programme fonctionnait de la manière suivante: on envoyait un fichier .mp3 au programme, celui-ci utilisait un convertisseur pour générer une image du signal audio (DSP) (unique partie écrite en Pyhon) puis cette image était analysée colonne par colonne : chaque pixel de la colonne était converti en trois valeurs RGB et injecté dans un réseau de neurones. Celui-ci faisait une propagation qui devait donner une lettre. Le programme fonctionnait de deux manières : en mode apprentissage, où une fois que la lettre était récupérée en sortie, un autre algorithme de backpropagation allait modifier les neurones une par une pour réduire l’erreur, et le mode prédiction, où on ne faisait pas intervenir cette backpropagation.</p>
         <p>J’ai été en charge de l’interface utilisateur (réalisée sur Qt), ainsi que l’architecture du programme (MVC). J’ai aussi aidé à implanter la back propagation, et la structure des neurones.</p>
         <p>Le projet n’a pas pu être finalisé, même s’il fonctionnait à cause de 4 facteurs :</p>
         <ul>
             <li>Nous n’avions aucune expérience en IA, et nous n’avons utilisé aucune api.</li>
             <li>Nous avons choisi le C++ au lieu d’un langage plus abstrait qui aurait été beaucoup plus simple.</li>
-            <li>Nous avons fait une interface utilisateur, qui s’est avérée inutile par la suite, et même encombrante (le programme n’étant pas multi-threadé, l’interface plantais lorsque la méthode de back propagation se lançait, et la majorité des informations étaient affichées dans la console)</li>
+            <li>Nous avons fait une interface utilisateur, qui s’est avérée inutile par la suite, et même encombrante (le programme n’étant pas multi-threadé, l’interface plantait lorsque la méthode de back propagation se lançait, et la majorité des informations étaient affichées dans la console)</li>
             <li>Le temps : nous avions un autre projet à faire en parallèle (le jeu vidéo 2D), des cours, des tp, etc</li>
         </ul>
     </div>
@@ -290,10 +290,11 @@
        
     <button type="button" class="btn btn-custom2 btn-block" data-toggle="collapse" data-target="#dk2"><i class="fa fa-chevron-down" aria-hidden="true"></i> Présentation technique</button>
     <div id="dk2" class="collapse">
-        <p>La carte est représentée par bloc : elle fait 120 bloc en largeur et en hauteur, et elle est découpée en 16 régions qui elle-même font 30 bloc de large. Ces régions, appelées biomes représente un des 4 environnements : désert, plaine, jungle ou ville.</p>
-		<p>Le programme procède de la sorte : région après région, il va choisir aléatoirement quel biome sera représenté, puis générer les 30 bloc qui le compose. Il existe deux types de bloc : un obstacle, et un bloc sur lequel le personnage peut se déplacer. Chaque bloc est choisi aléatoirement, néanmoins pour éviter que le joueur soit bloqué trop souvent, le choix est pondéré : il y a moins de chance d’obtenir un obstacle. Lorsque les blocs sont générés, ils sont stockés dans un tableau, qui représente la carte.</p>
-		<p>Lorsque le tableau est complet, il est envoyé au jeu qui va appliquer les textures et les propriétés du bloc en fonction de leur identifiant.</p>
-		<p>Les blocs sont identifiés par un numéro à deux chiffres : le premier indique le biome, le deuxième le type de bloc : de 0 à 6 il s’agit d’un bloc où le personnage peut passer (les textures changent avec le numéro), et pour 7, 8 et 9, il s’agit d’un obstacle (un arbre, un rocher, etc). Par exemple 02 indique un bloc d’herbe dans une jungle, et 09 un arbre dans une jungle.</p>
+        <p>La carte est représentée par blocs : un bloc est un espace vide ou plein sur la carte. La carte fait 120 bloc en largeur et en hauteur, et elle est découpée en 16 régions qui elle-même font 30 bloc de large. Ces régions, appelées biomes représentent un des 4 environnements : désert, plaine, jungle ou ville.</p>
+		<p>Le programme procède de la sorte : région après région, il va choisir aléatoirement quel biome sera représenté, puis générer les 90 bloc qui le composent. Il existe deux types de bloc : un obstacle (ou un bloc plein), et un bloc vide sur lequel le personnage peut se déplacer. Chaque bloc est choisi aléatoirement, néanmoins pour éviter que le joueur soit bloqué trop souvent, le choix est pondéré : il y a moins de chances d’obtenir un obstacle. Lorsque les blocs sont générés, ils sont stockés dans un tableau, qui représente la carte.</p>
+		<img src="/content/images/map.png" class="img-responsive" alt="map">
+        <p>Lorsque le tableau est complet, il est envoyé au jeu qui va appliquer les textures et les propriétés du bloc en fonction de leur identifiant.</p>
+		<p>Les blocs sont identifiés par un numéro à deux chiffres : le premier (ou les dizaine) indique le biome, le deuxième (ou les unités) le type de bloc : de 0 à 6 il s’agit d’un bloc où le personnage peut passer (les textures changent avec le numéro), et pour 7, 8 et 9, il s’agit d’un obstacle (un arbre, un rocher, etc). Par exemple 02 indique un bloc d’herbe dans une jungle, 09 un arbre dans une jungle, 12 un bloc de fleurs dans une plaine et 18 un rocher dans une plaine</p>
 		<p>La carte est générée à chaque nouvelle partie.</p>
         <div class="embed-responsive embed-responsive-16by9">
 		   <iframe class="center-block embed-responsive-item" src="https://www.youtube.com/embed/KHj4XO35oxo?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -355,7 +356,7 @@
             <br>
             <li>2015 Semestre 2 - Realisation d'un jeu 2D basique en Python (projet scolaire)</li>
             <br>
-            <li>2015 Semestre 1 - Premère place au concours "Iseg Innovation Week" avec un bracellet connecté</li>
+            <li>2015 Semestre 1 - Premère place au concours "Iseg Innovation Week" avec un bracelet connecté</li>
             <br>
             <li>2015 Semestre 1 - Recherches et réalisation de plans pour une maison à énergie neutre et de moyens d'isolation (comment orienter la maison et les rebords pour utiliser un maximum de chaleur naturelle, aérogel de silice, toitures végétales, barrière radiante)</li>
             <br>
