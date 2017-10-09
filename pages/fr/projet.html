@@ -286,7 +286,7 @@
     <div id="dk2" class="collapse">
         <p>La carte est représentée par blocs : un bloc est un espace vide ou plein sur la carte. La carte fait 120 blocs en largeur et en hauteur, et elle est découpée en 16 régions qui elles-mêmes font 30 blocs de large. Ces régions, appelées biomes représentent un des 4 environnements : désert, plaine, jungle ou ville.</p>
 		<p>Région après région, le programme va choisir aléatoirement quel biome sera représenté, puis il génère les 90 blocs qui le composent. Il existe deux types de bloc : un obstacle (ou bloc plein), et un bloc vide sur lequel le personnage peut se déplacer. Chaque bloc est choisi aléatoirement, néanmoins pour éviter que le joueur ne soit bloqué trop souvent, le choix est pondéré : il y a moins de chances d’obtenir un obstacle. Lorsque les blocs sont générés, ils sont stockés dans un tableau, qui représente la carte.</p>
-		<img src="/content/images/map.png" class="img-responsive" alt="map">
+		<img src="/content/images/map.png" class="img-responsive center-block" alt="map">
         <p>Lorsque le tableau est complet, il est envoyé au jeu qui va appliquer les textures et les propriétés du bloc en fonction de leur identifiant.</p>
 		<p>Les blocs sont identifiés par un numéro à deux chiffres : le premier (ou les dizaines) indique le biome, le deuxième (ou les unités) le type de bloc : de 0 à 6 il s’agit d’un bloc où le personnage peut passer (les textures changent avec le numéro), et pour 7, 8 et 9, il s’agit d’un obstacle (un arbre, un rocher, etc). Par exemple 02 indique un bloc d’herbe dans une jungle, 09 un arbre dans une jungle, 12 un bloc de fleurs dans une plaine et 18 un rocher dans une plaine.</p>
 		<p>La carte est générée à chaque nouvelle partie.</p>
