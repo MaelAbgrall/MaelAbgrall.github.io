@@ -230,7 +230,7 @@
     </thead>
     </table>
     
-	<p>I've made this website without generator or WYSIWYG, I used HTML a bit of CSS and my pictures. I didn't write Javascript, I only adapted code from W3School and other sources</p>
+	<p>I have made this website without generator or WYSIWYG, I used HTML a bit of CSS and my pictures. I didn't write Javascript, I only adapted code from W3School and other sources</p>
 	  
     <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#website1"><i class="fa fa-chevron-down" aria-hidden="true"></i> Sources</button>
     <div id="website1" class="collapse">
@@ -267,22 +267,22 @@
 
     <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#deepspeech1"><i class="fa fa-chevron-down" aria-hidden="true"></i>The project</button>
     <div id="deepspeech1" class="collapse">
-        <p>The idea in this project was to discover AI and an application: Vocal recognition. We had two choices:</p>
+        <p>This project was managed by a group of three people. The goal was to discover AI and to make an application: voice recognition. We had two choices:</p>
         <ul>
-            <li>Take some existing code, plug’n’play like (easy to use, even if you don’t understand it)</li>
+            <li>Take some existing code, plug’n’play like (easy to use, even if you do not understand it)</li>
             <li>Do everything by ourselves from scratch (harder)</li>
         </ul>
-        <p>The big issue was that we didn’t know anything about AI. But we choose the second option, because it had also advantages, for example we had to learn some fundamentals about AI.</p>
-        <p>The project wasn’t finished due to lack of time, but the software complied with the first part of the specifications.</p>
+        <p>The big issue was that we did not know anything about AI. But we choose the second option, because it had also advantages, for example hading to learn some fundamentals about AI.</p>
+        <p>The project was not completed due to lack of time, but the software complied with the first part of the specifications.</p>
     </div>
      
     <button type="button" class="btn btn-custom2 btn-block" data-toggle="collapse" data-target="#deepspeech2"><i class="fa fa-chevron-down" aria-hidden="true"></i> Technical presentation</button>
     <div id="deepspeech2" class="collapse">
         <p>Since we didn’t use any API for deep learning, the first part of our work was to self-learn basics of AI needed to realise this project.</p>
-        <p>Right after this self-learning, we started to build the software: neurons, then activation function (Sigmoid), back-propagation, and settings for the neural network: each setting is saved in a specific text file (one file per layer with all neuron’s weight, and one master file with number of layers, and number of neurons for each layer)</p>
-        <p>The program operates as follows: an .mp3 file is sent to the software. It’s converted from audio to an image (DSP) (only this part of the software is written in Python) and then, each pixel of the image is converted to 3 RGB values, and then injected in a neural network column after column. When a column is injected in the neural network, a forward propagation is triggered, and a letter is guessed by the software. Two possible case are available then: the software can learn what was the correct letter using a backpropagation algorithm, or just print the guessed letter on screen.</p>
+        <p>Right after this self-learning, we started to build the software: neurons, then activation function (Sigmoid), back-propagation, and settings for the neural network. Each setting is saved in a specific text file (one file per layer with all neuron’s weight, and one master file with number of layers, and number of neurons for each layer)</p>
+        <p>The program operates as follows: an .mp3 file is sent to the software. Then converted from audio to an image (DSP) (only this part of the software is written in Python). Each pixel of the image is converted to 3 RGB values, and then injected in a neural network column after column. When a column is injected in the neural network, a forward propagation is triggered, and a letter is guessed by the software. Two possible cases are available then: the software can learn what was the correct letter using a backpropagation algorithm, or just print the guessed letter on screen.</p>
         <p>I was in charge of the user interface (with Qt) and also general architecture of the software (based on MVC). I also helped implementation of backpropagation, and neuron’s structure.</p>
-        <p>This project was partially operational, but we didn't finish due to lack of time. However, it brought us knowledge and a constructive approach to AI.</p>
+        <p>This project has proved partially operational, but was not led to term due to the lack of time. However, it brought us knowledge and a constructive approach to AI.</p>
     </div>
   
   <br><br>
@@ -299,20 +299,20 @@
 
     <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#dk1"><i class="fa fa-chevron-down" aria-hidden="true"></i> The project</button>
      <div id="dk1" class="collapse">
-        <p>This project was done alongside the AI project. We had to create a 2D game using only C++ and Qt.</p>
-		<p>I developed the map system and the environments associated: the map was created randomly, but with a minimum of control to keep the game playable.</p>
+        <p>This project was done alongside the AI project. It consisted in creating a 2D game using only C++ and Qt.</p>
+		<p>I developed the map system and the associated environments: the map is ramdomly generated, but with a minimum of control to keep the game playable.</p>
         <p><u>A video is showing the game in the technical part</u></p>
      </div>
        
     <button type="button" class="btn btn-custom2 btn-block" data-toggle="collapse" data-target="#dk2"><i class="fa fa-chevron-down" aria-hidden="true"></i> Technical presentation</button>
     <div id="dk2" class="collapse">
-        <p>The map is built from blocks: a bloc is a free or locked space. The map is square 120 blocks wide, and is cut in 16 areas. Each of those area is also a square 30 blocks wide. An area represents an environment: desert, flower plain, jungle or city.</p>
-		<p>Area after area, the software will choose randomly one of the environment, and generate the 90 blocks inside. There are two types of block: the locked space (or obstacle), and the free space where the player can move. Each of those blocks is randomly choose, however to make the game playable, the selection of blocks is weighted:  there is more chance to have a free block.</p>
-        <p>When the area is filled, it’s saved in a table that represent the entire map. And when this table is full, the map is sent to the game.</p>
+        <p>The map is built from blocks: a bloc is a free or locked space. The map is square 120 blocks wide, and is cut in 16 areas. Each of those areas is also a square 30 blocks wide. An area represents an environment: desert, flower plain, jungle or city.</p>
+		<p>Area after area, the software will randomly choose one of the environment, and generate the 90 blocks inside. There are two types of blocks: the locked space (or obstacle), and the free space where the player can move. Each of those blocks is randomly chosen, however in order to make the game playable, the selection of blocks is weighted:  there is more chance to have a free block.</p>
+        <p>When the area is filled, it is saved in a table that represent the entire map. And when this table is full, the map is sent to the game.</p>
 		<img src="/content/images/map.png" class="img-responsive center-block" alt="map">
-        <p>To understand which type of blocks the game should print on screen and its physic properties, each block is identified with a number:</p>
-		<p>The first number (decade) indicate the environment, and the second number (unit) which kind of block: from 0 to 6, it’s a “free block” with different textures, 7, 8 and 9 are obstacles (rock, tree, pond, etc).</p>
-		<p>For example, 02 is a block of grass in a jungle, 09 a tree in a jungle. 12 are flowers in a plain, and 18 a rock a plain.</p>
+        <p>To understand which type of blocks the game should print on screen and its physic properties, each block is identified with a two-digit number:</p>
+		<p>The first number (or tens) indicates the environment, and the second number (or units) the type of block: from 0 to 6, it is a “free block” with different textures, 7, 8 and 9 are obstacles (rock, tree, pond, etc).</p>
+		<p>For example, 02 indicate a block of grass in a jungle, 09 a tree in a jungle. 12 a block of flowers in a plain, and 18 a rock a plain.</p>
         <p>The map is generated before each party</p>
         <div class="embed-responsive embed-responsive-16by9">
 		   <iframe class="center-block embed-responsive-item" src="https://www.youtube.com/embed/KHj4XO35oxo?rel=0" frameborder="0" allowfullscreen></iframe>
