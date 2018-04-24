@@ -1,723 +1,800 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Mael Abgrall - Skills</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://use.fontawesome.com/0f43101218.js"></script>
-  
-  <link type="text/css" rel="stylesheet" href="/pages/style.css" />
-  <style>
-    .navbar-default {
-      background-color: #ff3333;
-      border-color: #ff6666;
-    }
-    .navbar-default .navbar-brand {
-      color: #ffffff;
-    }
-    .navbar-default .navbar-brand:hover,
-    .navbar-default .navbar-brand:focus {
-      color: #ffffff;
-    }
-    .navbar-default .navbar-text {
-      color: #ffffff;
-    }
-    .navbar-default .navbar-nav > li > a {
-      color: #ffffff;
-    }
-    .navbar-default .navbar-nav > li > a:hover,
-    .navbar-default .navbar-nav > li > a:focus {
-      color: #ffffff;
-    }
-    .navbar-default .navbar-nav > li > .dropdown-menu {
-      background-color: #ff3333;
-    }
-    .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-      color: #ffffff;
-    }
-    .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
-    .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-      color: #ffffff;
-      background-color: #ff6666;
-    }
-    .navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
-      background-color: #ff6666;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-      color: #ffffff;
-      background-color: #ff6666;
-    }
-    .navbar-default .navbar-nav > .active > a,
-    .navbar-default .navbar-nav > .active > a:hover,
-    .navbar-default .navbar-nav > .active > a:focus {
-      color: #ffffff;
-      background-color: #ff6666;
-    }
-    .navbar-default .navbar-nav > .open > a,
-    .navbar-default .navbar-nav > .open > a:hover,
-    .navbar-default .navbar-nav > .open > a:focus {
-      color: #ffffff;
-      background-color: #ff6666;
-    }
-    .navbar-default .navbar-toggle {
-      border-color: #ff6666;
-    }
-    .navbar-default .navbar-toggle:hover,
-    .navbar-default .navbar-toggle:focus {
-      background-color: #ff6666;
-    }
-    .navbar-default .navbar-toggle .icon-bar {
-      background-color: #ffffff;
-    }
-    .navbar-default .navbar-collapse,
-    .navbar-default .navbar-form {
-      border-color: #ffffff;
-    }
-    .navbar-default .navbar-link {
-      color: #ffffff;
-    }
-    .navbar-default .navbar-link:hover {
-      color: #ffffff;
-    }
+    <title>Mael Abgrall - Skills</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/0f43101218.js"></script>
 
-    @media (max-width: 767px) {
-      .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #ffffff;
-      }
-      .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-      .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #ffffff;
-      }
-      .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-      .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-      .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-        color: #ffffff;
-        background-color: #ff6666;
-      }
-    }
-    
-    body {
-        background-color: #E5B88A;
-    }
-    
-    
-    p {
-        color : #333127;
-        font-family: 'Roboto', sans-serif;
-    }
-    
-    .progress-bar {
-        color: #000000;
-    }
+    <link type="text/css" rel="stylesheet" href="/pages/style.css" />
+    <style>
+        .navbar-default {
+            background-color: #ff3333;
+            border-color: #ff6666;
+        }
 
-    /* buttons */
-    .btn-custom {
-        background-color: #CC9966 !important;
-        text-align: left !important;
-    }
-        
-    .btn-custom2 {
-        background-color: #B28659 !important;
-        text-align: left !important;
-    }
-    
-    .list-group{
-        background-color: #E5B88A;
-        border-color: #E5B88A;
-    }
-    
-    #myBtn {
-      display: none;
-      position: fixed;
-      bottom: 20px;
-      right: 30px;
-      z-index: 99;
-      border: none;
-      outline: none;
-      background-color:  #ff3333;
-      color: white;
-      cursor: pointer;
-      padding: 15px;
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      box-shadow: 0 0 1px transparent;
-    }
+        .navbar-default .navbar-brand {
+            color: #ffffff;
+        }
 
-    #myBtn:before {
-              content: '';
-              position: fixed;
-              border:  #ff3333 solid 4px;
-              top: 0;
-              right: 0;
-              bottom: 0;
-              left: 0;
-              -webkit-transition-duration: 0.3s;
-              transition-duration: 0.3s;
-              -webkit-transition-property: top, right, bottom, left;
-              transition-property: top, right, bottom, left;
+        .navbar-default .navbar-brand:hover,
+        .navbar-default .navbar-brand:focus {
+            color: #ffffff;
+        }
+
+        .navbar-default .navbar-text {
+            color: #ffffff;
+        }
+
+        .navbar-default .navbar-nav>li>a {
+            color: #ffffff;
+        }
+
+        .navbar-default .navbar-nav>li>a:hover,
+        .navbar-default .navbar-nav>li>a:focus {
+            color: #ffffff;
+        }
+
+        .navbar-default .navbar-nav>li>.dropdown-menu {
+            background-color: #ff3333;
+        }
+
+        .navbar-default .navbar-nav>li>.dropdown-menu>li>a {
+            color: #ffffff;
+        }
+
+        .navbar-default .navbar-nav>li>.dropdown-menu>li>a:hover,
+        .navbar-default .navbar-nav>li>.dropdown-menu>li>a:focus {
+            color: #ffffff;
+            background-color: #ff6666;
+        }
+
+        .navbar-default .navbar-nav>li>.dropdown-menu>li.divider {
+            background-color: #ff6666;
+        }
+
+        .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+        .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
+        .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+            color: #ffffff;
+            background-color: #ff6666;
+        }
+
+        .navbar-default .navbar-nav>.active>a,
+        .navbar-default .navbar-nav>.active>a:hover,
+        .navbar-default .navbar-nav>.active>a:focus {
+            color: #ffffff;
+            background-color: #ff6666;
+        }
+
+        .navbar-default .navbar-nav>.open>a,
+        .navbar-default .navbar-nav>.open>a:hover,
+        .navbar-default .navbar-nav>.open>a:focus {
+            color: #ffffff;
+            background-color: #ff6666;
+        }
+
+        .navbar-default .navbar-toggle {
+            border-color: #ff6666;
+        }
+
+        .navbar-default .navbar-toggle:hover,
+        .navbar-default .navbar-toggle:focus {
+            background-color: #ff6666;
+        }
+
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: #ffffff;
+        }
+
+        .navbar-default .navbar-collapse,
+        .navbar-default .navbar-form {
+            border-color: #ffffff;
+        }
+
+        .navbar-default .navbar-link {
+            color: #ffffff;
+        }
+
+        .navbar-default .navbar-link:hover {
+            color: #ffffff;
+        }
+
+        @media (max-width: 767px) {
+            .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+                color: #ffffff;
             }
-    #myBtn:hover:before, #myBtn:focus:before, #myBtn:active:before {
-        top: -8px;
-        right: -8px;
-        bottom: -8px;
-        left: -8px;
-    }
-  </style>
+            .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+            .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+                color: #ffffff;
+            }
+            .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+            .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
+            .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+                color: #ffffff;
+                background-color: #ff6666;
+            }
+        }
+
+        body {
+            background-color: #E5B88A;
+        }
+
+
+        p {
+            color: #333127;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .progress-bar {
+            color: #000000;
+        }
+
+        /* buttons */
+
+        .btn-custom {
+            background-color: #CC9966 !important;
+            text-align: left !important;
+        }
+
+        .btn-custom2 {
+            background-color: #B28659 !important;
+            text-align: left !important;
+        }
+
+        .list-group {
+            background-color: #E5B88A;
+            border-color: #E5B88A;
+        }
+
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            border: none;
+            outline: none;
+            background-color: #ff3333;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px transparent;
+        }
+
+        #myBtn:before {
+            content: '';
+            position: fixed;
+            border: #ff3333 solid 4px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            -webkit-transition-property: top, right, bottom, left;
+            transition-property: top, right, bottom, left;
+        }
+
+        #myBtn:hover:before,
+        #myBtn:focus:before,
+        #myBtn:active:before {
+            top: -8px;
+            right: -8px;
+            bottom: -8px;
+            left: -8px;
+        }
+    </style>
 </head>
+
 <body>
 
-<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </button>
 
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    
-    <div class="navbar-header">
-    
-      <!-- when collapsed -->
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bari"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      
-      <a class="navbar-brand" href="/pages/en/home.html">Mael Abgrall</a>
-      
-    </div>
-    
-    <!-- links -->
-    <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-				<li><a href="/pages/en/home.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-				<li><a href="/pages/en/education.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</a></li>
-				<li><a href="/pages/en/experience.html"><i class="fa fa-suitcase" aria-hidden="true"></i> Experience</a></li>
-				<li><a href="/pages/en/projet.html"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Projects</a></li>
-				<li class="active"><a href="/pages/en/skill.html"><i class="fa fa-wrench" aria-hidden="true"></i> Skills</a></li>
-				<li><a href="/pages/en/hobby.html"><i class="fa fa-globe" aria-hidden="true"></i> Hobbies</a></li>
-                <li><a href="/pages/en/contact.html"><i class="fa fa-address-card" aria-hidden="true"></i> Contact</a></li>
-			</ul>
-        <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-flag" aria-hidden="true"></i> Language <span class="glyphicon glyphicon-menu-down"></span></a>
-                <ul class="dropdown-menu">
-                    <li class="active"><a href="/pages/en/skill.html">English</a></li>
-                    <li><a href="/pages/fr/skill.html">French</a></li>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+
+                <!-- when collapsed -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bari"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="/pages/en/home.html">Mael Abgrall</a>
+
+            </div>
+
+            <!-- links -->
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/pages/en/home.html">
+                            <i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                    </li>
+                    <li>
+                        <a href="/pages/en/education.html">
+                            <i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</a>
+                    </li>
+                    <li>
+                        <a href="/pages/en/experience.html">
+                            <i class="fa fa-suitcase" aria-hidden="true"></i> Experience</a>
+                    </li>
+                    <li>
+                        <a href="/pages/en/projet.html">
+                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i> Projects</a>
+                    </li>
+                    <li class="active">
+                        <a href="/pages/en/skill.html">
+                            <i class="fa fa-wrench" aria-hidden="true"></i> Skills</a>
+                    </li>
+                    <li>
+                        <a href="/pages/en/hobby.html">
+                            <i class="fa fa-globe" aria-hidden="true"></i> Hobbies</a>
+                    </li>
+                    <li>
+                        <a href="/pages/en/contact.html">
+                            <i class="fa fa-address-card" aria-hidden="true"></i> Contact</a>
+                    </li>
                 </ul>
-            </li>
-        <li><a href="/index.html"><i class="fa fa-sign-out" aria-hidden="true"></i> Change website</a></li>
-        </ul>
-    </div>
-  </div>
-</nav>
-  
-<div class="container">
-    <p>Caption:</p>
-    <div class="progress">                
-      <div class="progress-bar progress-bar-success" role="progressbar" style="width:25%">currently using it</div>
-      <div class="progress-bar progress-bar-info" role="progressbar" style="width:25%">used recently</div>
-      <div class="progress-bar progress-bar-warning" role="progressbar" style="width:25%">slightly used / last use in more than a year</div>
-      <div class="progress-bar progress-bar-danger" role="progressbar" style="width:25%">used only a few times / not used since a long time </div>
-    </div>
-    
-    <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#langues"><i class="fa fa-flag-o" aria-hidden="true"></i> Languages</button>
-    <div id="langues" class="collapse">
-        <!--FR-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/franceflag.png" alt="Francais" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <p>French: Native</p>
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-success" role="progressbar" style="width:90%"></div>
-              </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-flag" aria-hidden="true"></i> Language
+                            <span class="glyphicon glyphicon-menu-down"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="active">
+                                <a href="/pages/en/skill.html">English</a>
+                            </li>
+                            <li>
+                                <a href="/pages/fr/skill.html">French</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/index.html">
+                            <i class="fa fa-sign-out" aria-hidden="true"></i> Change website</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        
-        
-        <!--EN-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/usflag.png" alt="English" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <p>English: TOEIC 915</p>
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-success" role="progressbar" style="width:75%"></div>
-              </div>
-            </div>
-        </div>
-        
-        <!--SP-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="http://static.donquijote.org/images/culture/spanish_flag2.jpg" alt="Espagnol" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <p>Spanish</p>
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-danger" role="progressbar" style="width:10%"></div>
-              </div>
-            </div>
-        </div>
-        
-    </div>
+    </nav>
 
-    <br>
-    <p>for technical skills, progress bars represent my ease / how much I like this subject. It can change depending time, experience, etc</p>
-    <p>Since it is not quantifiable, it does not represent my experience/ability in this field</p>
-
-    <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#BL"><i class="fa fa-cube" aria-hidden="true"></i> Low level language / functionnal language</button>
-    <div id="BL" class="collapse">
-        <!--c++-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/cpp_logo.png" alt="C++" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-info" role="progressbar" style="width:85%">c++</div>
-              </div>
-            </div>
-        </div>
-        
-        <!--C-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive"  src="/content/images/c_logo.png" alt="C" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-warning" role="progressbar" style="width:40%">C</div>
-              </div>
-            </div>
-        </div>
-        
-        <!--VHDL-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/vhdl_logo.jpg" alt="VHDL" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-warning" role="progressbar" style="width:20%">VHDL</div>
-              </div>
-            </div>
-        </div>
-        
-    </div>
-    <br>
-    
-    <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#HL"><i class="fa fa-cubes" aria-hidden="true"></i> High level language / abstract language</button>
-    <div id="HL" class="collapse">
-        
-        <!--Python-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/python_logo.png" alt="Python" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-info" role="progressbar" style="width:85%">Python</div>
-              </div>
-            </div>
-        </div>
-        
-        <!--JAVA-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/java_logo.png" alt="java" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-warning" role="progressbar" style="width:55%">Java</div>
-              </div>
-            </div>
-        </div>
-        
-        <!--C#-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/csharp_logo.png" alt="c#" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-success" role="progressbar" style="width:55%">C#</div>
-              </div>
-            </div>
-        </div>
-        
-        <!--VBA-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/excel_logo.png" alt="VBA & Excel" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-info" role="progressbar" style="width:10%">VBA</div>
-              </div>
-            </div>
-        </div>
-        
-    </div>
-    
-    <br>
-    
-    <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#VHL"><i class="fa fa-database" aria-hidden="true"></i> Web / descriptive language</button>
-    <div id="VHL" class="collapse">
-        
-        <!--HTML-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/html_logo.png" alt="html" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-success" role="progressbar" style="width:35%">HTML</div>
-              </div>
-            </div>
-        </div>
-        
-        <!--XML-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/xml_logo.png" alt="xml" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-success" role="progressbar" style="width:35%">XML</div>
-              </div>
-            </div>
-        </div>
-        
-        <!--OOXML-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/msword_logo.png" alt="OOXML" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-success" role="progressbar" style="width:20%">OOXML (Office Open XML)</div>
-              </div>
-            </div>
-        </div>
-        
-        <!--JSON-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/json_logo.png" alt="json" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-success" role="progressbar" style="width:100%">JSON</div>
-              </div>
-            </div>
-        </div>
-        
-        <!--JS-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/javascript_logo.png" alt="javascript" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-success" role="progressbar" style="width:20%">Javascript</div>
-              </div>
-            </div>
-        </div>
-        
-        
-        <!--CSS-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/css_logo.png" alt="CSS" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-success" role="progressbar" style="width:15%">CSS</div>
-              </div>
-            </div>
-        </div>
-        
-        <!--DB-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="https://axisintegrated.ca/images/ico-db.svg" alt="DB & Queries" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-success" role="progressbar" style="width:35%">DB & Queries (SQL & NoSQL)</div>
-              </div>
-            </div>
-        </div>
-        
-    </div>
-    
-    <br>
-    
-    <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#api"><i class="fa fa-folder-open" aria-hidden="true"></i> Framework</button>
-    <div id="api" class="collapse">
-        
-        <!--Qt-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/qt_logo.png" alt="Qt" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-info" role="progressbar" style="width:35%">Qt</div>
-              </div>
-            </div>
-        </div>
-        
-        <!--ASP.NET-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/asp_logo.png" alt="ASP.NET" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-success" role="progressbar" style="width:35%">ASP.NET</div>
-              </div>
-            </div>
-        </div>
-        
-        <!--NodeJS-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/nodejs_logo.png" alt="NodeJS" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-info" role="progressbar" style="width:45%">NodeJS</div>
-              </div>
-            </div>
-        </div>
-        
-    </div>
-    
-    <br>
-    
-    <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#os"><i class="fa fa-terminal" aria-hidden="true"></i> OS</button>
-    <div id="os" class="collapse">
-        <p>I use daily Windows & Linux. I strongly prefer linux for development</p>
-        <!--Windows-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/windows_logo.png" alt="Windows" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-success" role="progressbar" style="width:85%">Windows</div>
-              </div>
-            </div>
-        </div>
-        
-        <!--Linux-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/linux_logo.png" alt="Linux" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-info" role="progressbar" style="width:65%">Linux (Fedora, Arch & Ubuntu under cinnamon)</div>
-              </div>
-            </div>
+    <div class="container">
+        <p>Caption:</p>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" style="width:25%">currently using it</div>
+            <div class="progress-bar progress-bar-info" role="progressbar" style="width:25%">used recently</div>
+            <div class="progress-bar progress-bar-warning" role="progressbar" style="width:25%">slightly used / last use in more than a year</div>
+            <div class="progress-bar progress-bar-danger" role="progressbar" style="width:25%">used only a few times / not used since a long time </div>
         </div>
 
-        <!--Docker-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="https://www.docker.com/sites/default/files/Whale%20Logo332_5.png" alt="Linux" style="height:65px;">
+        <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#langues">
+            <i class="fa fa-flag-o" aria-hidden="true"></i> Languages</button>
+        <div id="langues" class="collapse">
+            <!--FR-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/franceflag.png" alt="Francais" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <p>French: Native</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:90%"></div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-10">
-              <div class="progress">                
-                  <div class="progress-bar progress-bar-danger" role="progressbar" style="width:100%">Docker (currently learning)</div>
-              </div>
-            </div>
-        </div>
-        
-    </div>
-    
-    <br>
-    
-    <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#futur"><i class="fa fa-puzzle-piece" aria-hidden="true"></i> In the future...</button>
-    <div id="futur" class="collapse">
-        <p>Those are languages I am interested in. I will learn them during my free time or depending my next assignment. For each language, I already know the philosophy of the language and in which case it is useful.</p>
 
-        <!--CUDA-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/cuda_logo.png" alt="CUDA" style="height:65px;">
+
+            <!--EN-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/usflag.png" alt="English" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <p>English: TOEIC 915</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:75%"></div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-10">
-              <p>CUDA</p>
+
+            <!--SP-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="http://static.donquijote.org/images/culture/spanish_flag2.jpg" alt="Espagnol" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <p>Spanish</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" style="width:10%"></div>
+                    </div>
+                </div>
             </div>
-        </div>
-        
-        <!--ASM-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/asm_logo.jpg" alt="ASM" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <p>ASM / Assembly</p>
-            </div>
-        </div>
-        
-        <!--Erlang-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/erlang_logo.png" alt="Erlang" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <p>Erlang</p>
-            </div>
-        </div>
-        
-        <!--Elixir-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/elixir_logo.png" alt="Elixir" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <p>Elixir</p>
-            </div>
-        </div>
-            
-        <!--tensorflow-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="https://avatars2.githubusercontent.com/u/15658638?s=400&v=4" alt="Ruby" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <p>Tensorflow (Currently learning for school project)</p>
-            </div>
+
         </div>
 
-        <!--keras-->
-        <div class="col-md-12">
+        <br>
+        <p>for technical skills, progress bars represent my ease / how much I like this subject. It can change depending time,
+            experience, etc</p>
+        <p>Since it is not quantifiable, it does not represent my experience/ability in this field</p>
+
+        <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#BL">
+            <i class="fa fa-cube" aria-hidden="true"></i> Low level language / functionnal language</button>
+        <div id="BL" class="collapse">
+            <!--c++-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/cpp_logo.png" alt="C++" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" style="width:85%">c++</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--C-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/c_logo.png" alt="C" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" style="width:40%">C</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--VHDL-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/vhdl_logo.jpg" alt="VHDL" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" style="width:20%">VHDL</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br>
+
+        <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#HL">
+            <i class="fa fa-cubes" aria-hidden="true"></i> High level language / abstract language</button>
+        <div id="HL" class="collapse">
+
+            <!--Python-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/python_logo.png" alt="Python" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" style="width:85%">Python</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--JAVA-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/java_logo.png" alt="java" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" style="width:55%">Java</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--C#-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/csharp_logo.png" alt="c#" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:55%">C#</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--VBA-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/excel_logo.png" alt="VBA & Excel" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" style="width:10%">VBA</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+
+        <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#VHL">
+            <i class="fa fa-database" aria-hidden="true"></i> Web / descriptive language</button>
+        <div id="VHL" class="collapse">
+
+            <!--HTML-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/html_logo.png" alt="html" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:35%">HTML</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--XML-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/xml_logo.png" alt="xml" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:35%">XML</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--OOXML-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/msword_logo.png" alt="OOXML" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:20%">OOXML (Office Open XML)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--JSON-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/json_logo.png" alt="json" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:100%">JSON</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--JS-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/javascript_logo.png" alt="javascript" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:20%">Javascript</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--CSS-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/css_logo.png" alt="CSS" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:15%">CSS</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--DB-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="https://axisintegrated.ca/images/ico-db.svg" alt="DB & Queries" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:35%">DB & Queries (SQL & NoSQL)</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+
+        <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#api">
+            <i class="fa fa-folder-open" aria-hidden="true"></i> Framework</button>
+        <div id="api" class="collapse">
+
+            <!--Qt-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/qt_logo.png" alt="Qt" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" style="width:35%">Qt</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--ASP.NET-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/asp_logo.png" alt="ASP.NET" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:35%">ASP.NET</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--NodeJS-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/nodejs_logo.png" alt="NodeJS" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" style="width:45%">NodeJS</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+
+        <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#os">
+            <i class="fa fa-terminal" aria-hidden="true"></i> OS</button>
+        <div id="os" class="collapse">
+            <p>I use daily Windows & Linux. I strongly prefer linux for development</p>
+            <!--Windows-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/windows_logo.png" alt="Windows" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:85%">Windows</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Linux-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/linux_logo.png" alt="Linux" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" style="width:65%">Linux (Fedora, Arch & Ubuntu under cinnamon)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Docker-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="https://www.docker.com/sites/default/files/Whale%20Logo332_5.png" alt="Linux" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" style="width:100%">Docker (currently learning)</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+
+        <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#futur">
+            <i class="fa fa-puzzle-piece" aria-hidden="true"></i> In the future...</button>
+        <div id="futur" class="collapse">
+            <p>Those are languages I am interested in. I will learn them during my free time or depending my next assignment.
+                For each language, I already know the philosophy of the language and in which case it is useful.</p>
+
+            <!--CUDA-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/cuda_logo.png" alt="CUDA" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <p>CUDA</p>
+                </div>
+            </div>
+
+            <!--ASM-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/asm_logo.jpg" alt="ASM" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <p>ASM / Assembly</p>
+                </div>
+            </div>
+
+            <!--Erlang-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/erlang_logo.png" alt="Erlang" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <p>Erlang</p>
+                </div>
+            </div>
+
+            <!--Elixir-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/elixir_logo.png" alt="Elixir" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <p>Elixir</p>
+                </div>
+            </div>
+
+            <!--tensorflow-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="https://avatars2.githubusercontent.com/u/15658638?s=400&v=4" alt="Ruby" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <p>Tensorflow (Currently learning for school project)</p>
+                </div>
+            </div>
+
+            <!--keras-->
+            <div class="col-md-12">
                 <div class="col-md-2">
                     <img class="img-responsive" src="/content/images/go_logo.png" alt="Ruby" style="height:65px;">
                 </div>
                 <div class="col-md-10">
-                  <p>Keras (Currently learning for school project)</p>
+                    <p>Keras (Currently learning for school project)</p>
                 </div>
             </div>
-        
-        <!--Go-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/go_logo.png" alt="Gopher" style="height:65px;">
+
+            <!--Go-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/go_logo.png" alt="Gopher" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <p>Go</p>
+                </div>
             </div>
-            <div class="col-md-10">
-              <p>Go</p>
+
+            <p>Currently learning in school's courses:</p>
+
+            <!--UML-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/logo_uml.png" alt="UML" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <p>UML</p>
+                </div>
             </div>
-        </div>
-        
-        <p>Currently learning in school's courses:</p>
-            
-        <!--UML-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/logo_uml.png" alt="UML" style="height:65px;">
+
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/react_logo.png" alt="react" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <p>React</p>
+                </div>
             </div>
-            <div class="col-md-10">
-              <p>UML</p>
+
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/angular_logo.png" alt="angular" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <p>Angular</p>
+                </div>
             </div>
+
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/javaee_logo.png" alt="JEE" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <p>Java EE</p>
+                </div>
+            </div>
+
         </div>
 
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/react_logo.png" alt="react" style="height:65px;">
+
+        <br>
+
+        <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#mathsci">
+            <i class="fa fa-flask" aria-hidden="true"></i> Maths / Science</button>
+        <div id="mathsci" class="collapse">
+
+            <!--Maths-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/pi_logo.png" alt="Pi" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <p>Maths:</p>
+                    <p>last courses: Statistic, matrix, operational research</p>
+                </div>
             </div>
-            <div class="col-md-10">
-                <p>React</p>
+
+            <!--Linux-->
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img class="img-responsive" src="/content/images/cpu_logo.png" alt="microchip" style="height:65px;">
+                </div>
+                <div class="col-md-10">
+                    <p>Electronic: </p>
+                    <p>last courses: Microcontrolers, CPU & microprocessor architecture, memory component</p>
+                </div>
             </div>
+
         </div>
 
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/angular_logo.png" alt="angular" style="height:65px;">
+        <footer class="col-md-12">
+            <br>
+            <hr>
+            <div class="footer-bottom">
+                <p class="pull-left">Mael Abgrall
+                    <i class="fa fa-copyright" aria-hidden="true"></i> 2010-2017</p>
+                <p class="pull-right">Connect with me
+                    <a href="https://www.linkedin.com/in/mael-abgrall-4010b3b5/" data-toggle="tooltip" title="Linkedin">
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://github.com/MelAbgrall" data-toggle="tooltip" title="GitHub">
+                        <i class="fa fa-github-alt" aria-hidden="true"></i>
+                    </a>
+                </p>
             </div>
-            <div class="col-md-10">
-                <p>Angular</p>
-            </div>
-        </div>
-
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/javaee_logo.png" alt="JEE" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-                <p>Java EE</p>
-            </div>
-        </div>
-        
+            <!--/.footer-bottom-->
+        </footer>
     </div>
 
 
-  <br>
-  
-  <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#mathsci"><i class="fa fa-flask" aria-hidden="true"></i> Maths / Science</button>
-    <div id="mathsci" class="collapse">
-        
-        <!--Maths-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/pi_logo.png" alt="Pi" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <p>Maths:</p>
-              <p>last courses: Statistic, matrix, operational research</p>
-            </div>
-        </div>
-        
-        <!--Linux-->
-        <div class="col-md-12">
-            <div class="col-md-2">
-                <img class="img-responsive" src="/content/images/cpu_logo.png" alt="microchip" style="height:65px;">
-            </div>
-            <div class="col-md-10">
-              <p>Electronic: </p>
-              <p>last courses: Microcontrolers, CPU & microprocessor architecture, memory component</p>
-            </div>
-        </div>
-        
-    </div>
- 
-	<footer class="col-md-12">
-        <br><hr>
-		<div class="footer-bottom">
-				<p class="pull-left">Mael Abgrall <i class="fa fa-copyright" aria-hidden="true"></i> 2010-2017</p>
-				<p class="pull-right">Connect with me <a href="https://www.linkedin.com/in/mael-abgrall-4010b3b5/" data-toggle="tooltip" title="Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>  <a href="https://github.com/MelAbgrall" data-toggle="tooltip" title="GitHub"><i class="fa fa-github-alt" aria-hidden="true"></i></a></p>
-		</div>
-		<!--/.footer-bottom--> 
-	</footer>
-</div>
 
-  
-  
-<script>
-window.onscroll = function() {scrollFunction()};
+    <script>
+        window.onscroll = function () { scrollFunction() };
 
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
-    }
-}
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-</script>
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Mael Abgrall</title>
   <meta charset="utf-8">
@@ -8,7 +9,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/0f43101218.js"></script>
-  
+
   <link type="text/css" rel="stylesheet" href="/pages/style.css" />
   <style>
     /*Change rollover cell color here
@@ -17,177 +18,244 @@
         text-decoration: none;
         background-color: #ff6666;
     }*/
-    
+
     .navbar-default {
       background-color: #ff3333;
       border-color: #ff6666;
     }
+
     .navbar-default .navbar-brand {
       color: #ffffff;
     }
+
     .navbar-default .navbar-brand:hover,
     .navbar-default .navbar-brand:focus {
       color: #ffffff;
     }
+
     .navbar-default .navbar-text {
       color: #ffffff;
     }
-    .navbar-default .navbar-nav > li > a {
+
+    .navbar-default .navbar-nav>li>a {
       color: #ffffff;
     }
-    .navbar-default .navbar-nav > li > a:hover,
-    .navbar-default .navbar-nav > li > a:focus {
+
+    .navbar-default .navbar-nav>li>a:hover,
+    .navbar-default .navbar-nav>li>a:focus {
       color: #ffffff;
     }
-    .navbar-default .navbar-nav > li > .dropdown-menu {
+
+    .navbar-default .navbar-nav>li>.dropdown-menu {
       background-color: #ff3333;
     }
-    .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+
+    .navbar-default .navbar-nav>li>.dropdown-menu>li>a {
       color: #ffffff;
     }
-    .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
-    .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-      color: #ffffff;
-      background-color: #ff6666;
-    }
-    .navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
-      background-color: #ff6666;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+
+    .navbar-default .navbar-nav>li>.dropdown-menu>li>a:hover,
+    .navbar-default .navbar-nav>li>.dropdown-menu>li>a:focus {
       color: #ffffff;
       background-color: #ff6666;
     }
-    .navbar-default .navbar-nav > .active > a,
-    .navbar-default .navbar-nav > .active > a:hover,
-    .navbar-default .navbar-nav > .active > a:focus {
+
+    .navbar-default .navbar-nav>li>.dropdown-menu>li.divider {
+      background-color: #ff6666;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
       color: #ffffff;
       background-color: #ff6666;
     }
-    .navbar-default .navbar-nav > .open > a,
-    .navbar-default .navbar-nav > .open > a:hover,
-    .navbar-default .navbar-nav > .open > a:focus {
+
+    .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:hover,
+    .navbar-default .navbar-nav>.active>a:focus {
       color: #ffffff;
       background-color: #ff6666;
     }
+
+    .navbar-default .navbar-nav>.open>a,
+    .navbar-default .navbar-nav>.open>a:hover,
+    .navbar-default .navbar-nav>.open>a:focus {
+      color: #ffffff;
+      background-color: #ff6666;
+    }
+
     .navbar-default .navbar-toggle {
       border-color: #ff6666;
     }
+
     .navbar-default .navbar-toggle:hover,
     .navbar-default .navbar-toggle:focus {
       background-color: #ff6666;
     }
+
     .navbar-default .navbar-toggle .icon-bar {
       background-color: #ffffff;
     }
+
     .navbar-default .navbar-collapse,
     .navbar-default .navbar-form {
       border-color: #ffffff;
     }
+
     .navbar-default .navbar-link {
       color: #ffffff;
     }
+
     .navbar-default .navbar-link:hover {
       color: #ffffff;
     }
 
     @media (max-width: 767px) {
-      .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+      .navbar-default .navbar-nav .open .dropdown-menu>li>a {
         color: #ffffff;
       }
-      .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-      .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+      .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+      .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
         color: #ffffff;
       }
-      .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-      .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-      .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+      .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+      .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
+      .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
         color: #ffffff;
         background-color: #ff6666;
       }
     }
-    
+
     body {
-        background-color: #E5B88A;
+      background-color: #E5B88A;
     }
-    
-    
+
+
     p {
-        color : #333127;
-        font-family: 'Roboto', sans-serif;
+      color: #333127;
+      font-family: 'Roboto', sans-serif;
     }
   </style>
 </head>
+
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    
-    <div class="navbar-header">
-    
-      <!-- when collapsed -->
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      
-      <a class="navbar-brand" href="/pages/en/home.html">Mael Abgrall</a>
-      
-    </div>
-    
-    <!-- links -->
-    <div class="collapse navbar-collapse" id="myNavbar">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+
+        <!-- when collapsed -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="/pages/en/home.html">Mael Abgrall</a>
+
+      </div>
+
+      <!-- links -->
+      <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-				<li class="active"><a href="/pages/en/home.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-				<li><a href="/pages/en/education.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</a></li>
-				<li><a href="/pages/en/experience.html"><i class="fa fa-suitcase" aria-hidden="true"></i> Experience</a></li>
-				<li><a href="/pages/en/projet.html"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Projects</a></li>
-				<li><a href="/pages/en/skill.html"><i class="fa fa-wrench" aria-hidden="true"></i> Skills</a></li>
-				<li><a href="/pages/en/hobby.html"><i class="fa fa-globe" aria-hidden="true"></i> Hobbies</a></li>
-                <li><a href="/pages/en/contact.html"><i class="fa fa-address-card" aria-hidden="true"></i> Contact</a></li>
-			</ul>
-        <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-flag" aria-hidden="true"></i> Language <span class="glyphicon glyphicon-menu-down"></span></a>
-                <ul class="dropdown-menu">
-                    <li class="active"><a href="/pages/en/home.html">English</a></li>
-                    <li><a href="/pages/fr/home.html">French</a></li>
-                </ul>
-            </li>
-            <li><a href="/index.html"><i class="fa fa-sign-out" aria-hidden="true"></i> Change website</a></li>
+          <li class="active">
+            <a href="/pages/en/home.html">
+              <i class="fa fa-home" aria-hidden="true"></i> Home</a>
+          </li>
+          <li>
+            <a href="/pages/en/education.html">
+              <i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</a>
+          </li>
+          <li>
+            <a href="/pages/en/experience.html">
+              <i class="fa fa-suitcase" aria-hidden="true"></i> Experience</a>
+          </li>
+          <li>
+            <a href="/pages/en/projet.html">
+              <i class="fa fa-lightbulb-o" aria-hidden="true"></i> Projects</a>
+          </li>
+          <li>
+            <a href="/pages/en/skill.html">
+              <i class="fa fa-wrench" aria-hidden="true"></i> Skills</a>
+          </li>
+          <li>
+            <a href="/pages/en/hobby.html">
+              <i class="fa fa-globe" aria-hidden="true"></i> Hobbies</a>
+          </li>
+          <li>
+            <a href="/pages/en/contact.html">
+              <i class="fa fa-address-card" aria-hidden="true"></i> Contact</a>
+          </li>
         </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+              <i class="fa fa-flag" aria-hidden="true"></i> Language
+              <span class="glyphicon glyphicon-menu-down"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="active">
+                <a href="/pages/en/home.html">English</a>
+              </li>
+              <li>
+                <a href="/pages/fr/home.html">French</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/index.html">
+              <i class="fa fa-sign-out" aria-hidden="true"></i> Change website</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<img src="https://i.imgur.com/MN9tce8.jpg" class="img-responsive" alt="Drone">
-<div class="container">
-	<!--text-->
-	<h3 class="titre">Welcome</h3>
-	<p>This website was entirely realised with a text editor (more information in "project")</p>
-    <p>This website is not intended to be quickly read, it comes in addition <a href="/file/cv_2017semestre2.pdf">to my CV</a></p>
+  <img src="https://i.imgur.com/MN9tce8.jpg" class="img-responsive" alt="Drone">
+  <div class="container">
+    <!--text-->
+    <h3 class="titre">Welcome</h3>
+    <p>This website was entirely realised with a text editor (more information in "project")</p>
+    <p>This website is not intended to be quickly read, it comes in addition
+      <a href="/file/cv_2017semestre2.pdf">to my CV</a>
+    </p>
     <br>
-    <p><u>Beware :</u> this website was designed and optimised for desktop viewing (1920x1080), it is not yet available for another display (some part may not display correctly).</p>
-	<br>
-	<h4 class="titre2">Quick presentation :</h4>
-	<p>I am an engineering student in computer science, and I'm specializing in new technologies.</p>
-	<p>From my point of view, Deep Learning (or Artificial Intelligence) is fascinating, so I am currently learning various technologies by my own (such as Keras).</p>
-	<br>
-	<p>I am also very curious, and depending on my involvement, I enjoy relaying or teaching in a simple way what I have learned. The two best examples were: first having taught basics of C++ to children from 7 to 9 while I was a science educator, second, having shared a guide and a C# program on GitHub to easily extract text, images and tables from a word document.</p>
+    <p>
+      <u>Beware :</u> this website was designed and optimised for desktop viewing (1920x1080), it is not yet available for another
+      display (some part may not display correctly).</p>
+    <br>
+    <h4 class="titre2">Quick presentation :</h4>
+    <p>I am an engineering student in computer science, and I'm specializing in new technologies.</p>
+    <p>From my point of view, Deep Learning (or Artificial Intelligence) is fascinating, so I am currently learning various
+      technologies by my own (such as Keras).</p>
+    <br>
+    <p>I am also very curious, and depending on my involvement, I enjoy relaying or teaching in a simple way what I have learned.
+      The two best examples were: first having taught basics of C++ to children from 7 to 9 while I was a science educator,
+      second, having shared a guide and a C# program on GitHub to easily extract text, images and tables from a word document.</p>
 
-    
+
     <footer class="col-md-12">
-        <br><hr>
-		<div class="footer-bottom">
-				<p class="pull-left">Mael Abgrall <i class="fa fa-copyright" aria-hidden="true"></i> 2010-2017</p>
-				<p class="pull-right">Connect with me <a href="https://www.linkedin.com/in/mael-abgrall-4010b3b5/" data-toggle="tooltip" title="Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>  <a href="https://github.com/MelAbgrall" data-toggle="tooltip" title="GitHub"><i class="fa fa-github-alt" aria-hidden="true"></i></a></p>
-		</div>
-		<!--/.footer-bottom--> 
-	</footer>
-  
-</div>
+      <br>
+      <hr>
+      <div class="footer-bottom">
+        <p class="pull-left">Mael Abgrall
+          <i class="fa fa-copyright" aria-hidden="true"></i> 2010-2017</p>
+        <p class="pull-right">Connect with me
+          <a href="https://www.linkedin.com/in/mael-abgrall-4010b3b5/" data-toggle="tooltip" title="Linkedin">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/MelAbgrall" data-toggle="tooltip" title="GitHub">
+            <i class="fa fa-github-alt" aria-hidden="true"></i>
+          </a>
+        </p>
+      </div>
+      <!--/.footer-bottom-->
+    </footer>
+
+  </div>
 
 </body>
+
 </html>
