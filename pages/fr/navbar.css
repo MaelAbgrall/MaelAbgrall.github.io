@@ -1,9 +1,35 @@
-.nav-item {
-  color: white;
+.navbar {
+  background-color: #424242;
 }
 
-.nav-item:hover {
+.navbar-brand {
   color: #dc3545;
+}
+
+.navbar-brand:hover {
+  color: #dc3545;
+}
+
+.nav-link {
+  color: white;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-link:hover {
+  color: #dc3545;
+  background-color: #353535;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-link:active {
+  color: #dc3545;
+  background-color: #353535;
+}
+
+.dropdown-item.active {
+  background-color: #dc3545;
+  color: white;
 }
 
 h3{

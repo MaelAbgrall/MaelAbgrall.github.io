@@ -16,6 +16,8 @@ function loadhtml(callback) {
 
 function init() {
   var navstring = '';
+  var urlpath;
+  
 
   navstring += '<nav class="navbar navbar-expand-lg py-1">';
   navstring += '<a class="navbar-brand" href="#">Mael Abgrall</a>';
