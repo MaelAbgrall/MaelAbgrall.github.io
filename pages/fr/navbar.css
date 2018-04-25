@@ -1,0 +1,11 @@
+.nav-item {
+  color: white;
+}
+
+.nav-item:hover {
+  color: #dc3545;
+}
+
+h3{
+  color: #dc3545;
+}
