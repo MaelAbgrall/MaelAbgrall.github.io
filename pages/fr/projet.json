@@ -1,0 +1,95 @@
+{
+  "project1": {
+    "name": "Segmentation d'images médicales",
+    "description": "Octobre 2017 - Février 2018 <br> <em>(Projet de fin d'études, 3 personnes)</em>",
+    "logo": "/content/images/python_logo.png",
+    "content": [
+      {
+        "type": "text",
+        "data": "Le projet consistait à isoler (segmentation) l'arche aortique d'une séquence d'images scanner, et de visualiser le résultat en 3D."
+      },
+      {
+        "type": "text",
+        "data": "Les résultats du projet ont été au delà des attentes, car nous avons réussi non seulement à segmenter la zone de l'aorte, mais aussi les artères et les gros vaisseaux sanguins jusqu'à la base du cerveau (machoire)."
+      },
+      {
+        "type": "text",
+        "data": "ci-dessous le résultat"
+      },
+      {
+        "type": "img",
+        "data": ""
+      }
+    ]
+  },
+  "project2": {
+    "name": "Creation d'un site web full stack",
+    "description": "2017 Semestre 2 (3 jours) <br><em>(projet scolaire, 2 personnes)</em>",
+    "logo": "/content/images/java_logo.png",
+    "content": [
+      {
+        "type": "text",
+        "data": "Nous avions comme objectif de réaliser en 3 jours un intranet d'école en utilisant Spring, un framework JEE."
+      },
+      {
+        "type": "text",
+        "data": "Le site est connecté à une database mysql et gère plusieurs type d'utilisateur: Admin, Etudiant ou Enseignant"
+      },
+      {
+        "type": "img",
+        "data": ""
+      },
+      {
+        "type": "link",
+        "data": "https://github.com/MelAbgrall/jeeIntranet",
+        "linktext": "le code source du projet est disponible ici"
+      }
+    ]
+  },
+  "project3": {
+    "name": "Ce site web (v1)",
+    "description": "Septembre - Octobre 2017",
+    "logo": "/content/images/html_logo.png",
+    "content": [
+      {
+        "type": "text",
+        "data": "La première version de ce site web, entièrement réalisé à la main en HTML, et utilisant le framework css Bootstrap"
+      },
+      {
+        "type": "title",
+        "data": "SOURCES:"
+      },
+      {
+        "type": "html",
+        "data": "<ul><li>Mapael</li><li>Bootstrap</li><li>FontAwesome</li><li>Hover.css</li></ul>"
+      },
+      {
+        "type": "title",
+        "data": "Photographies"
+      },
+      {
+        "type": "text",
+        "data": "toutes les photographies présentes sur ce site sont aussi visionables en meilleure qualité sur mon portfolio."
+      },
+      {
+        "type": "html",
+        "data": "<p>Locations:</p><p>Accueil : Glacier du géant (Mont Blanc)</p><p>Accueil du CV : Drone piloté à OSI, Crupies (Auvergne, France)</p><p>Education, ESME Paris : Lever de soleil à Ivry sur Seine</p><p>Education, ESME Lyon : Cheval de la place Bellecour, Fête des lumières</p><p>Education, Valmiera : Vue de Valmiera en hiver</p><p>Expérience, Photographie : Guide sur le glacier du géant</p><p>Contact : Montagne en face du Cervin (Zermatt, Suisse)</p><p>Portfolio : Plage en Sicile</p><p>Les photos sont sous copyright, vous pouvez les utiliser librement à partir du moment où vous me citez</p>"
+      }
+    ]
+  },
+  "project4": {
+    "name": "Reconnaissance vocale (I.A.)",
+    "description": "2017 Semestre 1 <em>(projet scolaire, 3 personnes)</em>",
+    "logo": "http://ethereum-classic-guide.readthedocs.io/en/latest/_images/cpp_35k9.png",
+    "content": [
+      {
+        "type": "link",
+        "data": "mylink3"
+      },
+      {
+        "type": "img",
+        "data": "https://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg"
+      }
+    ]
+  }
+}
