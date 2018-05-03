@@ -16,6 +16,9 @@ function loadhtml(callback) {
 
 function init() {
   var navstring = '';
+  var footString = '';
+  var currentTime = new Date();
+  var year = currentTime.getFullYear();
   var urlpath;
   urlpath = window.location.pathname;
   urlparsed = urlpath.split("/");
@@ -125,6 +128,25 @@ function init() {
 
 
   document.getElementById("navstring").innerHTML = navstring;
+
+  footString += '<hr>';
+  footString += '<div class="footer d-flex justify-content-between mb-3">';
+  footString += '  <div class="p-2">';
+  footString += '    Mael Abgrall <i class="far fa-copyright"></i> 2010-' + year;
+  footString += '  </div>';
+  footString += '  <div class="p-2"></div>';
+  footString += '  <div class="p-2">';
+  footString += '    Connect with me';
+  footString += '    <a href="https://www.linkedin.com/in/mael-abgrall-4010b3b5/" data-toggle="tooltip" title="Linkedin">';
+  footString += '      <i class="fab fa-linkedin"></i>';
+  footString += '    </a>';
+  footString += '    <a href="https://github.com/MelAbgrall" data-toggle="tooltip" title="GitHub">';
+  footString += '      <i class="fab fa-github"></i>';
+  footString += '    </a>';
+  footString += '  </div>';
+  footString += '</div>';
+
+  document.getElementById("footer").innerHTML = footString;
 }
 
 init();

@@ -5,14 +5,14 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+  <link async rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link async rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="navbar.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link async rel="stylesheet" href="navbar.css">
+  <link async href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
   <style>
     .center-spinner {
       width: 100%;
@@ -101,33 +101,11 @@
       }
     }
   </style>
-  <style>
-    .modal-header {
-      background-color: #424242;
-    }
-
-    .close {
-      color: white;
-    }
-
-    .custombtn-red {
-      background-color: #dc3545;
-      color: white;
-    }
-
-    .img-card {
-      width: 100%;
-      height: 100%;
-    }
-
-    body {
-      background-color: #fafafa;
-    }
-  </style>
 </head>
 
 <body>
   <div id='navstring'></div>
+
 
   <!--
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
@@ -214,12 +192,74 @@
       </div>
     </div>
 
+
+
+
+
+
+    <!--
+    <div class="card" data-toggle="modal" data-target="#item">
+      <div class="card-body">
+        <h3 class="card-title">
+          <img class="card-img" src="..">doin
+        </h3>
+        <p class="card-text"> ' + myObj[item].description + '</p>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="item">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header py-2">
+            <h4 class="modal-title">' + myObj[item].name + '</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body d-flex flex-column h-100">
+
+            <button data-toggle="collapse" data-target="#demo">Collapsible</button>
+
+            <div id="demo" class="collapse">
+              Lorem ipsum dolor text....
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn custombtn-red" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
+
+
+
+    <div id="footer"></div>
+
+    <!--
+      <hr>
+      <div class="footer d-flex justify-content-between mb-3">
+        <div class="p-2">
+          Mael Abgrall
+          <i class="far fa-copyright"></i> 2010-2017
+        </div>
+        <div class="p-2"></div>
+        <div class="p-2">Connect with me
+          <a href="https://www.linkedin.com/in/mael-abgrall-4010b3b5/" data-toggle="tooltip" title="Linkedin">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/MelAbgrall" data-toggle="tooltip" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>-->
+
   </div>
 
-  <div id="footer"></div>
+
 
   <script src='navbar.js'></script>
-  <script src="footer.js"></script>
 
   <script src="json2html.js"></script>
 
