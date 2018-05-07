@@ -1,9 +1,13 @@
 {
-  "project1": {
+  "projectz": {
     "name": "Segmentation d'images médicales",
     "description": "Octobre 2017 - Février 2018 <br> <em>(Projet de fin d'études, 3 personnes)</em>",
     "logo": "/content/images/python_logo.png",
     "content": [
+      {
+        "type": "libs",
+        "data": ""
+      },
       {
         "type": "text",
         "data": "Le projet consistait à isoler (segmentation) l'arche aortique d'une séquence d'images scanner, et de visualiser le résultat en 3D."
@@ -22,7 +26,7 @@
       }
     ]
   },
-  "project2": {
+  "projecty": {
     "name": "Creation d'un site web full stack",
     "description": "2017 Semestre 2 (3 jours) <br><em>(projet scolaire, 2 personnes)</em>",
     "logo": "/content/images/java_logo.png",
@@ -46,9 +50,9 @@
       }
     ]
   },
-  "project3": {
+  "projectx": {
     "name": "Ce site web (v1)",
-    "description": "Septembre - Octobre 2017",
+    "description": "<br><br>Septembre - Octobre 2017",
     "logo": "/content/images/html_logo.png",
     "content": [
       {
@@ -77,18 +81,152 @@
       }
     ]
   },
-  "project4": {
+  "projectw": {
     "name": "Reconnaissance vocale (I.A.)",
-    "description": "2017 Semestre 1 <em>(projet scolaire, 3 personnes)</em>",
-    "logo": "http://ethereum-classic-guide.readthedocs.io/en/latest/_images/cpp_35k9.png",
+    "description": "2017 Semestre 1 <br><em>(projet scolaire, 3 personnes)</em>",
+    "logo": "/content/images/cpp_logo.png",
     "content": [
       {
-        "type": "link",
-        "data": "mylink3"
+        "type": "title",
+        "data": "Le projet:"
+      },
+      {
+        "type": "text",
+        "data": "L'idée était de découvrir l'IA et d'en faire une application : la reconnaissance vocale. Nous avions deux choix : prendre des morceaux de code déjà existants type plug-n-play (simple à utiliser, même sans comprendre), ou le choix plus difficile de tout faire en partant de 0, le souci étant que nous n'avions absolument aucune connaissance en IA. Nous avons choisi la seconde méthode, car elle présentait aussi des avantages, en particulier de devoir apprendre quelques fondamentaux de l’IA. Le projet n'a pas été mené a son terme par manque de temps, néanmoins le logiciel réalisé répondait à la première partie du cahier des charges."
+      },
+      {
+        "type": "title",
+        "data": "La technique"
+      },
+      {
+        "type": "text",
+        "data": "<p>Comme nous n'avons utilisé aucune API pour faire du deep learning, la première partie de notre travail a consisté à nous autoformer aux principes de base nécessaires pour réaliser le projet.</p><p>Une fois ces principes de base assimilés, nous avons directement codé des algorithmes de back propagation, les neurones, ainsi que les fonctions d'activations (sigmoïdes). Nous avons continué sur les paramètres du réseau, ils sont sauvegardés dans plusieurs fichiers externes (un fichier par couche qui contient les poids des neurones, ainsi qu'un fichier principal avec le nombre de couches et le nombre de neurones pour chaque couche).</p><p>Le programme fonctionne de la manière suivante : un fichier .mp3 est envoyé au programme qui utilise un convertisseur pour générer une image du signal audio (DSP) (unique partie écrite en Pyhon) puis cette image est analysée colonne par colonne : chaque pixel de la colonne est converti en trois valeurs RGB puis injecté dans un réseau de neurones. Celui-ci déclenche une propagation qui doit donner une lettre. Le programme fonctionne de deux manières : en mode apprentissage, où une fois que la lettre est récupérée en sortie, un autre algorithme de backpropagation va modifier les neurones une par une pour réduire l’erreur, et le mode prédiction, où on ne fait pas intervenir cette backpropagation.</p><p>J’ai été en charge de l’interface utilisateur (réalisée sur Qt), ainsi que l’architecture du programme (MVC). J’ai aussi aidé à implanter la backpropagation, et la structure des neurones.</p><p>Le projet s'est avéré en partie opérationnel, mais n'a pu être mené à son terme par manque de temps. Il nous a néanmoins apporté une première approche constructive l'IA.</p>"
+      }
+    ]
+  },
+  "project4v": {
+    "name": "c",
+    "description": "2017 Semestre 1 <br><em>(projet scolaire, 3 personnes)</em>",
+    "logo": "/content/images/cpp_logo.png",
+    "content": [
+      {
+        "type": "title",
+        "data": "Le projet:"
+      },
+      {
+        "type": "text",
+        "data": "L'idée était de découvrir l'IA et d'en faire une application : la reconnaissance vocale. Nous avions deux choix : prendre des morceaux de code déjà existants type plug-n-play (simple à utiliser, même sans comprendre), ou le choix plus difficile de tout faire en partant de 0, le souci étant que nous n'avions absolument aucune connaissance en IA. Nous avons choisi la seconde méthode, car elle présentait aussi des avantages, en particulier de devoir apprendre quelques fondamentaux de l’IA. Le projet n'a pas été mené a son terme par manque de temps, néanmoins le logiciel réalisé répondait à la première partie du cahier des charges."
+      },
+      {
+        "type": "title",
+        "data": "<p>Comme nous n'avons utilisé aucune API pour faire du deep learning, la première partie de notre travail a consisté à nous autoformer aux principes de base nécessaires pour réaliser le projet.</p><p>Une fois ces principes de base assimilés, nous avons directement codé des algorithmes de back propagation, les neurones, ainsi que les fonctions d'activations (sigmoïdes). Nous avons continué sur les paramètres du réseau, ils sont sauvegardés dans plusieurs fichiers externes (un fichier par couche qui contient les poids des neurones, ainsi qu'un fichier principal avec le nombre de couches et le nombre de neurones pour chaque couche).</p><p>Le programme fonctionne de la manière suivante : un fichier .mp3 est envoyé au programme qui utilise un convertisseur pour générer une image du signal audio (DSP) (unique partie écrite en Pyhon) puis cette image est analysée colonne par colonne : chaque pixel de la colonne est converti en trois valeurs RGB puis injecté dans un réseau de neurones. Celui-ci déclenche une propagation qui doit donner une lettre. Le programme fonctionne de deux manières : en mode apprentissage, où une fois que la lettre est récupérée en sortie, un autre algorithme de backpropagation va modifier les neurones une par une pour réduire l’erreur, et le mode prédiction, où on ne fait pas intervenir cette backpropagation.</p><p>J’ai été en charge de l’interface utilisateur (réalisée sur Qt), ainsi que l’architecture du programme (MVC). J’ai aussi aidé à implanter la backpropagation, et la structure des neurones.</p><p>Le projet s'est avéré en partie opérationnel, mais n'a pu être mené à son terme par manque de temps. Il nous a néanmoins apporté une première approche constructive l'IA.</p>"
+      }
+    ]
+  },
+  "project4vvv": {
+    "name": "b",
+    "description": "2017 Semestre 1 <br><em>(projet scolaire, 3 personnes)</em>",
+    "logo": "/content/images/cpp_logo.png",
+    "content": [
+      {
+        "type": "title",
+        "data": "Le projet:"
+      },
+      {
+        "type": "text",
+        "data": "L'idée était de découvrir l'IA et d'en faire une application : la reconnaissance vocale. Nous avions deux choix : prendre des morceaux de code déjà existants type plug-n-play (simple à utiliser, même sans comprendre), ou le choix plus difficile de tout faire en partant de 0, le souci étant que nous n'avions absolument aucune connaissance en IA. Nous avons choisi la seconde méthode, car elle présentait aussi des avantages, en particulier de devoir apprendre quelques fondamentaux de l’IA. Le projet n'a pas été mené a son terme par manque de temps, néanmoins le logiciel réalisé répondait à la première partie du cahier des charges."
+      },
+      {
+        "type": "title",
+        "data": "<p>Comme nous n'avons utilisé aucune API pour faire du deep learning, la première partie de notre travail a consisté à nous autoformer aux principes de base nécessaires pour réaliser le projet.</p><p>Une fois ces principes de base assimilés, nous avons directement codé des algorithmes de back propagation, les neurones, ainsi que les fonctions d'activations (sigmoïdes). Nous avons continué sur les paramètres du réseau, ils sont sauvegardés dans plusieurs fichiers externes (un fichier par couche qui contient les poids des neurones, ainsi qu'un fichier principal avec le nombre de couches et le nombre de neurones pour chaque couche).</p><p>Le programme fonctionne de la manière suivante : un fichier .mp3 est envoyé au programme qui utilise un convertisseur pour générer une image du signal audio (DSP) (unique partie écrite en Pyhon) puis cette image est analysée colonne par colonne : chaque pixel de la colonne est converti en trois valeurs RGB puis injecté dans un réseau de neurones. Celui-ci déclenche une propagation qui doit donner une lettre. Le programme fonctionne de deux manières : en mode apprentissage, où une fois que la lettre est récupérée en sortie, un autre algorithme de backpropagation va modifier les neurones une par une pour réduire l’erreur, et le mode prédiction, où on ne fait pas intervenir cette backpropagation.</p><p>J’ai été en charge de l’interface utilisateur (réalisée sur Qt), ainsi que l’architecture du programme (MVC). J’ai aussi aidé à implanter la backpropagation, et la structure des neurones.</p><p>Le projet s'est avéré en partie opérationnel, mais n'a pu être mené à son terme par manque de temps. Il nous a néanmoins apporté une première approche constructive l'IA.</p>"
+      }
+    ]
+  },
+  "project4vvvvvv": {
+    "name": "a",
+    "description": "2017 Semestre 1 <br><em>(projet scolaire, 3 personnes)</em>",
+    "logo": "/content/images/cpp_logo.png",
+    "content": [
+      {
+        "type": "title",
+        "data": "Le projet:"
+      },
+      {
+        "type": "text",
+        "data": "L'idée était de découvrir l'IA et d'en faire une application : la reconnaissance vocale. Nous avions deux choix : prendre des morceaux de code déjà existants type plug-n-play (simple à utiliser, même sans comprendre), ou le choix plus difficile de tout faire en partant de 0, le souci étant que nous n'avions absolument aucune connaissance en IA. Nous avons choisi la seconde méthode, car elle présentait aussi des avantages, en particulier de devoir apprendre quelques fondamentaux de l’IA. Le projet n'a pas été mené a son terme par manque de temps, néanmoins le logiciel réalisé répondait à la première partie du cahier des charges."
+      },
+      {
+        "type": "title",
+        "data": "<p>Comme nous n'avons utilisé aucune API pour faire du deep learning, la première partie de notre travail a consisté à nous autoformer aux principes de base nécessaires pour réaliser le projet.</p><p>Une fois ces principes de base assimilés, nous avons directement codé des algorithmes de back propagation, les neurones, ainsi que les fonctions d'activations (sigmoïdes). Nous avons continué sur les paramètres du réseau, ils sont sauvegardés dans plusieurs fichiers externes (un fichier par couche qui contient les poids des neurones, ainsi qu'un fichier principal avec le nombre de couches et le nombre de neurones pour chaque couche).</p><p>Le programme fonctionne de la manière suivante : un fichier .mp3 est envoyé au programme qui utilise un convertisseur pour générer une image du signal audio (DSP) (unique partie écrite en Pyhon) puis cette image est analysée colonne par colonne : chaque pixel de la colonne est converti en trois valeurs RGB puis injecté dans un réseau de neurones. Celui-ci déclenche une propagation qui doit donner une lettre. Le programme fonctionne de deux manières : en mode apprentissage, où une fois que la lettre est récupérée en sortie, un autre algorithme de backpropagation va modifier les neurones une par une pour réduire l’erreur, et le mode prédiction, où on ne fait pas intervenir cette backpropagation.</p><p>J’ai été en charge de l’interface utilisateur (réalisée sur Qt), ainsi que l’architecture du programme (MVC). J’ai aussi aidé à implanter la backpropagation, et la structure des neurones.</p><p>Le projet s'est avéré en partie opérationnel, mais n'a pu être mené à son terme par manque de temps. Il nous a néanmoins apporté une première approche constructive l'IA.</p>"
+      }
+    ]
+  },
+  "project3": {
+    "name": "Carte d'un jeu 2D procédurale",
+    "description": "2017 Semestre 1 <br><em>(projet scolaire, 3 personnes)</em>",
+    "logo": "/content/images/cpp_logo.png",
+    "content": [
+      {
+        "type": "title",
+        "data": "Le projet:"
+      },
+      {
+        "type": "text",
+        "data": "Le projet a été mené en parallèle du projet en IA, il consistait à faire un jeu vidéo en utilisant uniquement le C++, et Qt. (une vidéo présente le rendu tout en bas)"
+      },
+      {
+        "type": "text",
+        "data": "J’ai réalisé le système de carte ainsi que les différents environnements associés : la carte est générée de manière aléatoire, mais en gardant un minimum de contrôle."
+      },
+      {
+        "type": "text",
+        "data": "La carte est représentée par blocs : un bloc est un espace vide ou plein sur la carte. La carte fait 120 blocs en largeur et en hauteur, et elle est découpée en 16 régions qui elles-mêmes font 30 blocs de large. Ces régions, appelées biomes représentent un des 4 environnements : désert, plaine, jungle ou ville."
+      },
+      {
+        "type": "text",
+        "data": "Région après région, le programme va choisir aléatoirement quel biome sera représenté, puis il génère les 90 blocs qui le composent. Il existe deux types de bloc : un obstacle (ou bloc plein), et un bloc vide sur lequel le personnage peut se déplacer. Chaque bloc est choisi aléatoirement, néanmoins pour éviter que le joueur ne soit bloqué trop souvent, le choix est pondéré : il y a moins de chances d’obtenir un obstacle. Lorsque les blocs sont générés, ils sont stockés dans un tableau, qui représente la carte."
       },
       {
         "type": "img",
-        "data": "https://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg"
+        "data": "/content/images/map.png"
+      },
+      {
+        "type": "text",
+        "data": "Lorsque le tableau est complet, il est envoyé au jeu qui va appliquer les textures et les propriétés du bloc en fonction de leur identifiant."
+      },
+      {
+        "type": "text",
+        "data": "Les blocs sont identifiés par un numéro à deux chiffres : le premier (ou les dizaines) indique le biome, le deuxième (ou les unités) le type de bloc : de 0 à 6 il s’agit d’un bloc où le personnage peut passer (les textures changent avec le numéro), et pour 7, 8 et 9, il s’agit d’un obstacle (un arbre, un rocher, etc). Par exemple 02 indique un bloc d’herbe dans une jungle, 09 un arbre dans une jungle, 12 un bloc de fleurs dans une plaine et 18 un rocher dans une plaine."
+      },
+      {
+        "type": "text",
+        "data": "La carte est générée à chaque nouvelle partie."
+      },
+      {
+        "type": "vid",
+        "data": "https://www.youtube.com/embed/KHj4XO35oxo?rel=0"
+      }
+    ]
+  },
+  "project2": {
+    "name": "Creation d'un editeur d'image",
+    "description": "2016 Semestre 2 <br><em>(projet scolaire, solo)</em>",
+    "logo": "/content/images/cpp_logo.png",
+    "content": [
+      {
+        "type": "text",
+        "data": "<p>En 4e année premier semestre, nous avons eu à préparer un éditeur d'image basique en utilisant l'interface de Qt et les propriétés des threads.</p> <p>Le programme permet de mettre plusieurs images sur un fond, de les bouger, de leur faire effectuer une rotation degré par degré vers la droite ou la gauche ou de leur appliquer un filtre grayscale (méthode RGB en nuances de gris, on ne touche pas à la saturation). On peut aussi bloquer les modifications ou débloquer une image.</p><p>Chaque transformation ou blocage/déblocage peut être appliquée en même temps sur une ou plusieurs images en les sélectionnant via la souris</p><p>La partie de grayscalling utilise les Qthreads</p>"
+      }
+    ]
+  },
+  "project1": {
+    "name": "Autres projets plus anciens",
+    "description": "",
+    "logo": "",
+    "content": [
+      {
+        "type": "html",
+        "data": "<ul><li>2015 - Premère place au concours 'Iseg Innovation Week' avec un bracelet connecté</li><br><li>2014 - Participation au concours Cisco's IoT challenge avec une box domotique</li></ul>"
       }
     ]
   }

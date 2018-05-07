@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link async rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link async rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+    crossorigin="anonymous">
+  <link async rel="stylesheet" href="navbar.css">
+  <link async href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+
+  <script async type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap.native@2.0.15/dist/bootstrap-native-v4.min.js"></script>
+
+  <style>
+    .center-spinner {
+      width: 100%;
+      height: 150px;
+      margin: 0 auto;
+      overflow: hidden;
+      padding: 10px 0;
+      align-items: center;
+      justify-content: space-around;
+      display: flex;
+      float: none;
+    }
+
+    .atom-spinner,
+    .atom-spinner * {
+      box-sizing: border-box;
+    }
+
+    .atom-spinner {
+      height: 60px;
+      width: 60px;
+      overflow: hidden;
+    }
+
+    .atom-spinner .spinner-inner {
+      position: relative;
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
+
+    .atom-spinner .spinner-circle {
+      display: block;
+      position: absolute;
+      color: #ff1d5e;
+      font-size: calc(60px * 0.24);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .atom-spinner .spinner-line {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      animation-duration: 1s;
+      border-left-width: calc(60px / 25);
+      border-top-width: calc(60px / 25);
+      border-left-color: #ff1d5e;
+      border-left-style: solid;
+      border-top-style: solid;
+      border-top-color: transparent;
+    }
+
+    .atom-spinner .spinner-line:nth-child(1) {
+      animation: atom-spinner-animation-1 1s linear infinite;
+      transform: rotateZ(120deg) rotateX(66deg) rotateZ(0deg);
+    }
+
+    .atom-spinner .spinner-line:nth-child(2) {
+      animation: atom-spinner-animation-2 1s linear infinite;
+      transform: rotateZ(240deg) rotateX(66deg) rotateZ(0deg);
+    }
+
+    .atom-spinner .spinner-line:nth-child(3) {
+      animation: atom-spinner-animation-3 1s linear infinite;
+      transform: rotateZ(360deg) rotateX(66deg) rotateZ(0deg);
+    }
+
+    @keyframes atom-spinner-animation-1 {
+      100% {
+        transform: rotateZ(120deg) rotateX(66deg) rotateZ(360deg);
+      }
+    }
+
+    @keyframes atom-spinner-animation-2 {
+      100% {
+        transform: rotateZ(240deg) rotateX(66deg) rotateZ(360deg);
+      }
+    }
+
+    @keyframes atom-spinner-animation-3 {
+      100% {
+        transform: rotateZ(360deg) rotateX(66deg) rotateZ(360deg);
+      }
+    }
+  </style>
+  <style>
+    html {
+      font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+
+    .card-block {
+      font-size: 1em;
+      margin: 0;
+      padding: 1em;
+      box-shadow: none;
+    }
+
+    h5 {
+      font-size: 1.28571429em;
+      font-weight: 700;
+      line-height: 1.2857em;
+    }
+
+    .card-text {
+      clear: both;
+      margin-top: .5em;
+      color: rgba(0, 0, 0, .68);
+    }
+
+    .card-footer {
+      font-size: 1em;
+      position: static;
+      top: 0;
+      left: 0;
+      max-width: 100%;
+      padding: .75em 1em;
+      color: rgba(0, 0, 0, .4);
+      border-top: 1px solid rgba(0, 0, 0, .05) !important;
+      background: #fff;
+    }
+
+    .card-img {
+      width: 3rem;
+    }
+
+    .modal-link:hover {
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+        <div class="card">
+          <a class="modal-link" data-toggle="modal" href="#myModal">
+            <div class="card-block">
+              <h5 class="card-title">
+                <img class="card-img" src="https://cdn.worldvectorlogo.com/logos/c-2975.svg"> Aawshif Ahsan Khan long long long long title
+              </h5>
+
+              <div class="card-text">
+                school work.
+              </div>
+            </div>
+            <div class="card-footer">
+              <span class="float-right">5 months</span>
+              <span>
+                <i class=""></i> Octobre 2017
+                <br> Février 2018</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+
+      <div id="myModal" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+              Some content
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+        <div class="card">
+          <div class="card-block">
+            <h5 class="card-title">
+              <img class="card-img" src="https://cdn.worldvectorlogo.com/logos/c-2975.svg"> A
+            </h5>
+
+            <div class="card-text">
+              school work.
+            </div>
+          </div>
+          <div class="card-footer">
+            <span class="float-right">5 months</span>
+            <span>
+              <i class=""></i> Octobre 2017
+              <br> Février 2018</span>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+        <div class="card">
+          <div class="card-block">
+            <h5 class="card-title">
+              <img class="card-img" src="https://cdn.worldvectorlogo.com/logos/c-2975.svg"> B
+            </h5>
+
+            <div class="card-text">
+              school work.
+            </div>
+          </div>
+          <div class="card-footer">
+            <span class="float-right">5 months</span>
+            <span>
+              <i class=""></i> Octobre 2017
+              <br> Février 2018</span>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+        <div class="card">
+          <div class="card-block">
+            <h5 class="card-title">
+              <img class="card-img" src="https://cdn.worldvectorlogo.com/logos/c-2975.svg"> C
+            </h5>
+
+            <div class="card-text">
+              school work.
+            </div>
+          </div>
+          <div class="card-footer">
+            <span class="float-right">5 months</span>
+            <span>
+              <i class=""></i> Octobre 2017
+              <br> Février 2018</span>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+        <div class="card">
+          <div class="card-block">
+            <h5 class="card-title">
+              <img class="card-img" src="https://cdn.worldvectorlogo.com/logos/c-2975.svg"> D
+            </h5>
+
+            <div class="card-text">
+              school work.
+            </div>
+          </div>
+          <div class="card-footer">
+            <span class="float-right">5 months</span>
+            <span>
+              <i class=""></i> Octobre 2017
+              <br> Février 2018</span>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+        <div class="card">
+          <div class="card-block">
+            <h5 class="card-title">
+              <img class="card-img" src="https://cdn.worldvectorlogo.com/logos/c-2975.svg"> E
+            </h5>
+
+            <div class="card-text">
+              school work.
+            </div>
+          </div>
+          <div class="card-footer">
+            <span class="float-right">5 months</span>
+            <span>
+              <i class=""></i> Octobre 2017
+              <br> Février 2018</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

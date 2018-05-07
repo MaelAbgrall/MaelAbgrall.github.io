@@ -18,15 +18,27 @@ function writeData(myObj) {
   var cardString = "";
   var modalString = "";
 
-  for (item in myObj) {
+  for(item in myObj) {
     //CARDS
-    cardString += '<div class="card" data-toggle="modal" data-target="#' + item + '">';
-    cardString += '  <div class="card-body">';
-    cardString += '    <h3 class="card-title">';
-    cardString += '      <img class="card-img" src=" ' + myObj[item].logo + '"> ';
-    cardString += myObj[item].name + '</h3>';
-    cardString += '<p class="card-text"> ' + myObj[item].description + '</p>';
-    cardString += '</div>';
+    cardString += '<div class="col-sm-6 col-md-4 col-lg-4 mt-4">';
+    cardString += '  <div class="card">';
+    cardString += '    <a class="modal-link" data-toggle="modal" href="#' + item + '">';
+    cardString += '      <div class="card-block">';
+    cardString += '        <h5 class="card-title">';
+    cardString += '          <img class="card-img" src=" ' + myObj[item].logo + '"> ';
+    cardString += myObj[item].name + '</h5>';
+    cardString += '        <div class="card-text"> ' + myObj[item].description + '</div>';
+    cardString += '      </div>';
+    cardString += '      <div class="card-footer">';
+    cardString += '        <span class="float-right">' + myObj[item].datenum + '</span>';
+    cardString += '        <span>';
+    cardString += myObj[item].datestart;
+    cardString += '          <br>';
+    cardString += myObj[item].dateend;
+    cardString += '        </span>';
+    cardString += '      </div>';
+    cardString += '    </a>';
+    cardString += '  </div>';
     cardString += '</div>';
 
 
@@ -51,7 +63,7 @@ function writeData(myObj) {
       }
 
       if (myObj[item].content[iteration].type == 'img') {
-        modalString += '<img class="img-card d-flex flex-column flex-grow" src="' + myObj[item].content[iteration].data + '" alt="' + myObj[item].content[iteration].data + '">';
+        modalString += '<img class="img-modal d-flex flex-column flex-grow" src="' + myObj[item].content[iteration].data + '" alt="' + myObj[item].content[iteration].data + '">';
       }
 
       if (myObj[item].content[iteration].type == 'title') {
@@ -66,6 +78,9 @@ function writeData(myObj) {
         modalString += myObj[item].content[iteration].data;
       }
 
+      if (myObj[item].content[iteration].type == 'vid') {
+        //modalString += '<iframe src="' + myObj[item].content[iteration].data + '" frameborder="0" allowfullscreen></iframe>'
+      }
     }
 
     modalString += '      </div>';
@@ -112,8 +127,8 @@ function init() {
   //from https://stackoverflow.com/questions/979975/how-to-get-the-value-from-the-get-parameters
   var loadedJSON;
 
-  
-  getData(dataURI=jsonUrl, function (response) {
+
+  getData(dataURI = jsonUrl, function (response) {
     // Parse JSON string into object
     loadedJSON = JSON.parse(response);
     writeData(loadedJSON);
