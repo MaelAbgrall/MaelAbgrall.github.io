@@ -1,8 +1,11 @@
 {
-  "projectz": {
-    "name": "Segmentation d'images médicales",
-    "description": "Octobre 2017 - Février 2018 <br> <em>(Projet de fin d'études, 3 personnes)</em>",
-    "logo": "/content/images/python_logo.png",
+  "project8": {
+    "name": "Ce site web (v2)",
+    "description": "<br><em>projet solo</em>",
+    "logo": "/content/images/javascript_logo.png",
+    "datenum":"en cours",
+    "datestart":"Avril 2018",
+    "dateend":"en cours",
     "content": [
       {
         "type": "libs",
@@ -26,10 +29,43 @@
       }
     ]
   },
-  "projecty": {
+  "project7": {
+    "name": "Segmentation d'images médicales",
+    "description": "<em>(Projet de fin d'études, 3 personnes)</em>",
+    "logo": "/content/images/python_logo.png",
+    "datenum":"5 mois",
+    "datestart":"Octobre 2017",
+    "dateend":"Février 2018",
+    "content": [
+      {
+        "type": "libs",
+        "data": ""
+      },
+      {
+        "type": "text",
+        "data": "Le projet consistait à isoler (segmentation) l'arche aortique d'une séquence d'images scanner, et de visualiser le résultat en 3D."
+      },
+      {
+        "type": "text",
+        "data": "Les résultats du projet ont été au delà des attentes, car nous avons réussi non seulement à segmenter la zone de l'aorte, mais aussi les artères et les gros vaisseaux sanguins jusqu'à la base du cerveau (machoire)."
+      },
+      {
+        "type": "text",
+        "data": "ci-dessous le résultat"
+      },
+      {
+        "type": "img",
+        "data": ""
+      }
+    ]
+  },
+  "project6": {
     "name": "Creation d'un site web full stack",
-    "description": "2017 Semestre 2 (3 jours) <br><em>(projet scolaire, 2 personnes)</em>",
+    "description": "<em>(projet scolaire, 2 personnes)</em>",
     "logo": "/content/images/java_logo.png",
+    "datenum":"3 jours",
+    "datestart":"2017",
+    "dateend":" Semestre 2",
     "content": [
       {
         "type": "text",
@@ -50,10 +86,13 @@
       }
     ]
   },
-  "projectx": {
+  "project5": {
     "name": "Ce site web (v1)",
-    "description": "<br><br>Septembre - Octobre 2017",
+    "description": "<br>Projet solo",
     "logo": "/content/images/html_logo.png",
+    "datenum":"3 mois",
+    "datestart":"Septembre",
+    "dateend":"Octobre 2017",
     "content": [
       {
         "type": "text",
@@ -81,10 +120,13 @@
       }
     ]
   },
-  "projectw": {
+  "project4": {
     "name": "Reconnaissance vocale (I.A.)",
-    "description": "2017 Semestre 1 <br><em>(projet scolaire, 3 personnes)</em>",
+    "description": "<em>(projet scolaire, 3 personnes)</em>",
     "logo": "/content/images/cpp_logo.png",
+    "datenum":"6 mois",
+    "datestart":"2017",
+    "dateend":" Semestre 1",
     "content": [
       {
         "type": "title",
@@ -104,67 +146,13 @@
       }
     ]
   },
-  "project4v": {
-    "name": "c",
-    "description": "2017 Semestre 1 <br><em>(projet scolaire, 3 personnes)</em>",
-    "logo": "/content/images/cpp_logo.png",
-    "content": [
-      {
-        "type": "title",
-        "data": "Le projet:"
-      },
-      {
-        "type": "text",
-        "data": "L'idée était de découvrir l'IA et d'en faire une application : la reconnaissance vocale. Nous avions deux choix : prendre des morceaux de code déjà existants type plug-n-play (simple à utiliser, même sans comprendre), ou le choix plus difficile de tout faire en partant de 0, le souci étant que nous n'avions absolument aucune connaissance en IA. Nous avons choisi la seconde méthode, car elle présentait aussi des avantages, en particulier de devoir apprendre quelques fondamentaux de l’IA. Le projet n'a pas été mené a son terme par manque de temps, néanmoins le logiciel réalisé répondait à la première partie du cahier des charges."
-      },
-      {
-        "type": "title",
-        "data": "<p>Comme nous n'avons utilisé aucune API pour faire du deep learning, la première partie de notre travail a consisté à nous autoformer aux principes de base nécessaires pour réaliser le projet.</p><p>Une fois ces principes de base assimilés, nous avons directement codé des algorithmes de back propagation, les neurones, ainsi que les fonctions d'activations (sigmoïdes). Nous avons continué sur les paramètres du réseau, ils sont sauvegardés dans plusieurs fichiers externes (un fichier par couche qui contient les poids des neurones, ainsi qu'un fichier principal avec le nombre de couches et le nombre de neurones pour chaque couche).</p><p>Le programme fonctionne de la manière suivante : un fichier .mp3 est envoyé au programme qui utilise un convertisseur pour générer une image du signal audio (DSP) (unique partie écrite en Pyhon) puis cette image est analysée colonne par colonne : chaque pixel de la colonne est converti en trois valeurs RGB puis injecté dans un réseau de neurones. Celui-ci déclenche une propagation qui doit donner une lettre. Le programme fonctionne de deux manières : en mode apprentissage, où une fois que la lettre est récupérée en sortie, un autre algorithme de backpropagation va modifier les neurones une par une pour réduire l’erreur, et le mode prédiction, où on ne fait pas intervenir cette backpropagation.</p><p>J’ai été en charge de l’interface utilisateur (réalisée sur Qt), ainsi que l’architecture du programme (MVC). J’ai aussi aidé à implanter la backpropagation, et la structure des neurones.</p><p>Le projet s'est avéré en partie opérationnel, mais n'a pu être mené à son terme par manque de temps. Il nous a néanmoins apporté une première approche constructive l'IA.</p>"
-      }
-    ]
-  },
-  "project4vvv": {
-    "name": "b",
-    "description": "2017 Semestre 1 <br><em>(projet scolaire, 3 personnes)</em>",
-    "logo": "/content/images/cpp_logo.png",
-    "content": [
-      {
-        "type": "title",
-        "data": "Le projet:"
-      },
-      {
-        "type": "text",
-        "data": "L'idée était de découvrir l'IA et d'en faire une application : la reconnaissance vocale. Nous avions deux choix : prendre des morceaux de code déjà existants type plug-n-play (simple à utiliser, même sans comprendre), ou le choix plus difficile de tout faire en partant de 0, le souci étant que nous n'avions absolument aucune connaissance en IA. Nous avons choisi la seconde méthode, car elle présentait aussi des avantages, en particulier de devoir apprendre quelques fondamentaux de l’IA. Le projet n'a pas été mené a son terme par manque de temps, néanmoins le logiciel réalisé répondait à la première partie du cahier des charges."
-      },
-      {
-        "type": "title",
-        "data": "<p>Comme nous n'avons utilisé aucune API pour faire du deep learning, la première partie de notre travail a consisté à nous autoformer aux principes de base nécessaires pour réaliser le projet.</p><p>Une fois ces principes de base assimilés, nous avons directement codé des algorithmes de back propagation, les neurones, ainsi que les fonctions d'activations (sigmoïdes). Nous avons continué sur les paramètres du réseau, ils sont sauvegardés dans plusieurs fichiers externes (un fichier par couche qui contient les poids des neurones, ainsi qu'un fichier principal avec le nombre de couches et le nombre de neurones pour chaque couche).</p><p>Le programme fonctionne de la manière suivante : un fichier .mp3 est envoyé au programme qui utilise un convertisseur pour générer une image du signal audio (DSP) (unique partie écrite en Pyhon) puis cette image est analysée colonne par colonne : chaque pixel de la colonne est converti en trois valeurs RGB puis injecté dans un réseau de neurones. Celui-ci déclenche une propagation qui doit donner une lettre. Le programme fonctionne de deux manières : en mode apprentissage, où une fois que la lettre est récupérée en sortie, un autre algorithme de backpropagation va modifier les neurones une par une pour réduire l’erreur, et le mode prédiction, où on ne fait pas intervenir cette backpropagation.</p><p>J’ai été en charge de l’interface utilisateur (réalisée sur Qt), ainsi que l’architecture du programme (MVC). J’ai aussi aidé à implanter la backpropagation, et la structure des neurones.</p><p>Le projet s'est avéré en partie opérationnel, mais n'a pu être mené à son terme par manque de temps. Il nous a néanmoins apporté une première approche constructive l'IA.</p>"
-      }
-    ]
-  },
-  "project4vvvvvv": {
-    "name": "a",
-    "description": "2017 Semestre 1 <br><em>(projet scolaire, 3 personnes)</em>",
-    "logo": "/content/images/cpp_logo.png",
-    "content": [
-      {
-        "type": "title",
-        "data": "Le projet:"
-      },
-      {
-        "type": "text",
-        "data": "L'idée était de découvrir l'IA et d'en faire une application : la reconnaissance vocale. Nous avions deux choix : prendre des morceaux de code déjà existants type plug-n-play (simple à utiliser, même sans comprendre), ou le choix plus difficile de tout faire en partant de 0, le souci étant que nous n'avions absolument aucune connaissance en IA. Nous avons choisi la seconde méthode, car elle présentait aussi des avantages, en particulier de devoir apprendre quelques fondamentaux de l’IA. Le projet n'a pas été mené a son terme par manque de temps, néanmoins le logiciel réalisé répondait à la première partie du cahier des charges."
-      },
-      {
-        "type": "title",
-        "data": "<p>Comme nous n'avons utilisé aucune API pour faire du deep learning, la première partie de notre travail a consisté à nous autoformer aux principes de base nécessaires pour réaliser le projet.</p><p>Une fois ces principes de base assimilés, nous avons directement codé des algorithmes de back propagation, les neurones, ainsi que les fonctions d'activations (sigmoïdes). Nous avons continué sur les paramètres du réseau, ils sont sauvegardés dans plusieurs fichiers externes (un fichier par couche qui contient les poids des neurones, ainsi qu'un fichier principal avec le nombre de couches et le nombre de neurones pour chaque couche).</p><p>Le programme fonctionne de la manière suivante : un fichier .mp3 est envoyé au programme qui utilise un convertisseur pour générer une image du signal audio (DSP) (unique partie écrite en Pyhon) puis cette image est analysée colonne par colonne : chaque pixel de la colonne est converti en trois valeurs RGB puis injecté dans un réseau de neurones. Celui-ci déclenche une propagation qui doit donner une lettre. Le programme fonctionne de deux manières : en mode apprentissage, où une fois que la lettre est récupérée en sortie, un autre algorithme de backpropagation va modifier les neurones une par une pour réduire l’erreur, et le mode prédiction, où on ne fait pas intervenir cette backpropagation.</p><p>J’ai été en charge de l’interface utilisateur (réalisée sur Qt), ainsi que l’architecture du programme (MVC). J’ai aussi aidé à implanter la backpropagation, et la structure des neurones.</p><p>Le projet s'est avéré en partie opérationnel, mais n'a pu être mené à son terme par manque de temps. Il nous a néanmoins apporté une première approche constructive l'IA.</p>"
-      }
-    ]
-  },
   "project3": {
     "name": "Carte d'un jeu 2D procédurale",
-    "description": "2017 Semestre 1 <br><em>(projet scolaire, 3 personnes)</em>",
+    "description": "<em>(projet scolaire, 3 personnes)</em>",
     "logo": "/content/images/cpp_logo.png",
+    "datenum":" 6 mois",
+    "datestart":"2017",
+    "dateend":" Semestre 1",
     "content": [
       {
         "type": "title",
@@ -210,8 +198,11 @@
   },
   "project2": {
     "name": "Creation d'un editeur d'image",
-    "description": "2016 Semestre 2 <br><em>(projet scolaire, solo)</em>",
+    "description": "<em>(projet scolaire, solo)</em>",
     "logo": "/content/images/cpp_logo.png",
+    "datenum":"6 mois",
+    "datestart":"2016",
+    "dateend":" semestre 2",
     "content": [
       {
         "type": "text",
@@ -220,9 +211,12 @@
     ]
   },
   "project1": {
-    "name": "Autres projets plus anciens",
+    "name": "Autres projets / Concours plus anciens",
     "description": "",
     "logo": "",
+    "datenum":"",
+    "datestart":"",
+    "dateend":"",
     "content": [
       {
         "type": "html",
