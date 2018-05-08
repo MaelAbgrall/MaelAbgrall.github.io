@@ -1,15 +1,49 @@
 {
-  "project8": {
+  "project10": {
     "name": "Ce site web (v2)",
     "description": "<br><em>projet solo</em>",
     "logo": "/content/images/javascript_logo.png",
-    "datenum":"en cours",
-    "datestart":"Avril 2018",
-    "dateend":"en cours",
+    "datenum": "en cours",
+    "datestart": "Avril 2018",
+    "dateend": "en cours",
+    "content": [
+      {
+        "type": "libs",
+        "data": "sdjhf"
+      },
+      {
+        "type": "text",
+        "data": "Utilisation du javascript pour rendre le site plus rapide à mettre à jour."
+      },
+      {
+        "type": "img",
+        "data": "/content/images/website.png"
+      },
+      {
+        "type":"text",
+        "data":"Un premier script (à gauche sur le graphique) va générer le Menu et le pied de page. Ce premier script utilise l'url pour montrer visuellement sur quelle page se trouve l'utilisateur."
+      },
+      {
+        "type":"text",
+        "data":"Le second script va dans un premier temps récupérer l'url, et en fonction de celle ci charger un des différents fichiers JSON. Une fois que le fichier est chargé, le script va transformer le json en un morceau de page web (que vous visionnez actuellement)"
+      }
+    ]
+  },
+  "project9": {
+    "name": "Segmentation d'images médicales",
+    "description": "<em>(Projet de fin d'études, 3 personnes)</em>",
+    "logo": "/content/images/python_logo.png",
+    "datenum": "5 mois",
+    "datestart": "Octobre 2017",
+    "dateend": "Février 2018",
     "content": [
       {
         "type": "libs",
         "data": ""
+      },
+      {
+        "type": "title",
+        "data": "Description du projet"
       },
       {
         "type": "text",
@@ -17,45 +51,110 @@
       },
       {
         "type": "text",
-        "data": "Les résultats du projet ont été au delà des attentes, car nous avons réussi non seulement à segmenter la zone de l'aorte, mais aussi les artères et les gros vaisseaux sanguins jusqu'à la base du cerveau (machoire)."
+        "data": "Le projet a été réalisé en partenariat avec Basecamp Vascular, qui cherche à créer des cathéter plus pratique. Ces cathéters sont utilisés dans des opérations 'légère' du cerveau qui passent par le réseau sanguin."
+      },
+      {
+        "type": "title",
+        "data": "Résultat"
       },
       {
         "type": "text",
-        "data": "ci-dessous le résultat"
+        "data": "Les résultats du projet ont été au delà des attentes, car nous avons réussi non seulement à segmenter la zone de l'aorte, mais aussi les artères et les gros vaisseaux sanguins jusqu'à la base du cerveau (machoire)."
       },
       {
         "type": "img",
-        "data": ""
+        "data": "/content/images/aorte1.png"
+      },
+      {
+        "type": "img",
+        "data": "/content/images/aorte2.png"
+      },
+      {
+        "type": "img",
+        "data": "/content/images/aorte3.png"
+      }
+    ]
+  },
+  "project8": {
+    "name": "Autres projets / TP / Concours à l'esme",
+    "description": "<br>",
+    "logo": "/content/images/webgl_logo.png",
+    "datenum": "",
+    "datestart": "2013",
+    "dateend": "2018",
+    "content": [
+      {
+        "type": "title",
+        "data": "2018"
+      },
+      {
+        "type": "ullist",
+        "data": [
+          "(Matlab) Utilisation de maths morphologiques et d'outils d'image processing avancé",
+          "(C++, OpenCV) Utilisation d'OpenCV pour de la vision par ordinateur",
+          "(C#) Creation d'un enrivonnement VR avec Unity / leap motion",
+          "(Présentation) Recherches sur les outils d'imagerie médicale et les voxels",
+          "(C++) Visualisation en Raytracing d'objets (aucune librairie)"
+        ]
+      },
+      {
+        "type": "title",
+        "data": "2017"
+      },
+      {
+        "type": "ullist",
+        "data": [
+          "(SQL) Creation, optimisation et gestion de databases avec PostgreSQL",
+          "(NodeJS, Vorpal, Net) Creation d'un chat clients/serveur sur terminal (client connecté)",
+          "(Javascript) Gestion automatique de ressources",
+          "(Python, Qt) Création et gestion d'un annuaire avec interface graphique",
+          "(Java) Création d'un calculateur de résistance avec interface graphique"
+        ]
+      },
+      {
+        "type":"title",
+        "data":"2016 - 2015 et antérieur"
+      },
+      {
+        "type": "ullist",
+        "data": [
+          "2016 - (VHDL) Simulation d'une horloge à affichage numérique en utilisant un oscillateur à qwartz",
+          "2015 - (Python) Réalisation d'un jeu 2D en python",
+          "2015 - (Présentation) Recherches et réalisation de plans pour une maison à énergie neutre et de moyens d'isolation (comment orienter la maison et les rebords pour utiliser un maximum de chaleur naturelle, aérogel de silice, toitures végétales, barrière radiante)",
+          "2015 - (Fablab) Creation d'un drone",
+          "2015 - (Concours) Premère place au concours 'Iseg Innovation Week' avec un bracelet connecté",
+          "2014 - (Concours) Participation au concours Cisco's IoT challenge avec une box domotique"
+        ]
       }
     ]
   },
   "project7": {
-    "name": "Segmentation d'images médicales",
-    "description": "<em>(Projet de fin d'études, 3 personnes)</em>",
-    "logo": "/content/images/python_logo.png",
-    "datenum":"5 mois",
-    "datestart":"Octobre 2017",
-    "dateend":"Février 2018",
+    "name": "Creation d'un environement 3D",
+    "description": "<em>(projet scolaire, 2 personnes)</em>",
+    "logo": "/content/images/webgl_logo.png",
+    "datenum": "4h",
+    "datestart": "2018",
+    "dateend": " Semestre 1",
     "content": [
       {
-        "type": "libs",
-        "data": ""
+        "type": "text",
+        "data": "Il s'agit d'un TP de 4h, et une bibliothèque privée à disposition. L'objectif du TP était de recréer une scène où un X-wing évitait des astéroides"
       },
       {
         "type": "text",
-        "data": "Le projet consistait à isoler (segmentation) l'arche aortique d'une séquence d'images scanner, et de visualiser le résultat en 3D."
-      },
-      {
-        "type": "text",
-        "data": "Les résultats du projet ont été au delà des attentes, car nous avons réussi non seulement à segmenter la zone de l'aorte, mais aussi les artères et les gros vaisseaux sanguins jusqu'à la base du cerveau (machoire)."
-      },
-      {
-        "type": "text",
-        "data": "ci-dessous le résultat"
+        "data": "Chaque astéroide, ainsi que les mouvements du vaisseau étaient calculés pour ne pas être trop répétitif, des ombres étaient calculées ainsi qu'un Cel-shader. Les étoiles scintillent grâce à une rotation de la texture et une interpolation linéaire"
       },
       {
         "type": "img",
-        "data": ""
+        "data": "/content/images/webgl1.png"
+      },
+      {
+        "type": "img",
+        "data": "/content/images/webgl2.png"
+      },
+      {
+        "type": "img",
+        "data": "/content/images/webgl3.png"
       }
     ]
   },
@@ -63,9 +162,9 @@
     "name": "Creation d'un site web full stack",
     "description": "<em>(projet scolaire, 2 personnes)</em>",
     "logo": "/content/images/java_logo.png",
-    "datenum":"3 jours",
-    "datestart":"2017",
-    "dateend":" Semestre 2",
+    "datenum": "3 jours",
+    "datestart": "2017",
+    "dateend": " Semestre 2",
     "content": [
       {
         "type": "text",
@@ -88,11 +187,11 @@
   },
   "project5": {
     "name": "Ce site web (v1)",
-    "description": "<br>Projet solo",
+    "description": "<br><em>Projet solo</em>",
     "logo": "/content/images/html_logo.png",
-    "datenum":"3 mois",
-    "datestart":"Septembre",
-    "dateend":"Octobre 2017",
+    "datenum": "3 mois",
+    "datestart": "Septembre",
+    "dateend": "Octobre 2017",
     "content": [
       {
         "type": "text",
@@ -124,9 +223,9 @@
     "name": "Reconnaissance vocale (I.A.)",
     "description": "<em>(projet scolaire, 3 personnes)</em>",
     "logo": "/content/images/cpp_logo.png",
-    "datenum":"6 mois",
-    "datestart":"2017",
-    "dateend":" Semestre 1",
+    "datenum": "6 mois",
+    "datestart": "2017",
+    "dateend": " Semestre 1",
     "content": [
       {
         "type": "title",
@@ -150,9 +249,9 @@
     "name": "Carte d'un jeu 2D procédurale",
     "description": "<em>(projet scolaire, 3 personnes)</em>",
     "logo": "/content/images/cpp_logo.png",
-    "datenum":" 6 mois",
-    "datestart":"2017",
-    "dateend":" Semestre 1",
+    "datenum": " 6 mois",
+    "datestart": "2017",
+    "dateend": " Semestre 1",
     "content": [
       {
         "type": "title",
@@ -200,9 +299,9 @@
     "name": "Creation d'un editeur d'image",
     "description": "<em>(projet scolaire, solo)</em>",
     "logo": "/content/images/cpp_logo.png",
-    "datenum":"6 mois",
-    "datestart":"2016",
-    "dateend":" semestre 2",
+    "datenum": "6 mois",
+    "datestart": "2016",
+    "dateend": " semestre 2",
     "content": [
       {
         "type": "text",
@@ -211,16 +310,36 @@
     ]
   },
   "project1": {
-    "name": "Autres projets / Concours plus anciens",
-    "description": "",
-    "logo": "",
-    "datenum":"",
-    "datestart":"",
-    "dateend":"",
+    "name": "Recherches sur les réseaux intranet",
+    "description": "<em>(projet scolaire, solo)</em>",
+    "logo": "/content/images/cisco_logo.png",
+    "datenum": "1 mois",
+    "datestart": "2016",
+    "dateend": " semestre 1",
     "content": [
       {
-        "type": "html",
-        "data": "<ul><li>2015 - Premère place au concours 'Iseg Innovation Week' avec un bracelet connecté</li><br><li>2014 - Participation au concours Cisco's IoT challenge avec une box domotique</li></ul>"
+        "type": "text",
+        "data": " Projet réalisé à Valmiera. L'objectif était d'expliquer et de comparer les réseaux LAN, VLAN et MAN, trois types de réseaux qui permettent de faire des 'intranet' sécurisés et efficaces"
+      },
+      {
+        "type": "text",
+        "data": "Le projet a été réalisé avec l'aide de Cisco packet tracer."
+      },
+      {
+        "type": "img",
+        "data": "/content/images/vlan1.png"
+      },
+      {
+        "type": "text",
+        "data": "ci dessus: Protocole de récupération de donnée entre un client et un serveur (ex: une page web). A chaque étape entre le client et le serveur (1 -> 6), une couche de donnée supplémentaire est rajoutée (représentée par le carré en couleurs), afin de retrouver le chemin inverse (6 -> 11)"
+      },
+      {
+        "type": "img",
+        "data": "/content/images/vlan2.png"
+      },
+      {
+        "type": "text",
+        "data": "ci dessus: un exemple de réseau d'une petite entreprise avec 6 VLAN"
       }
     ]
   }

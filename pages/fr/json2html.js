@@ -17,8 +17,9 @@ function getData(dataURI, callback) {
 function writeData(myObj) {
   var cardString = "";
   var modalString = "";
+  var itemnb, inneriteration;
 
-  for(item in myObj) {
+  for (item in myObj) {
     //CARDS
     cardString += '<div class="col-sm-6 col-md-4 col-lg-4 mt-4">';
     cardString += '  <div class="card">';
@@ -79,7 +80,16 @@ function writeData(myObj) {
       }
 
       if (myObj[item].content[iteration].type == 'vid') {
-        //modalString += '<iframe src="' + myObj[item].content[iteration].data + '" frameborder="0" allowfullscreen></iframe>'
+        //modalString += '<iframe width="100%" class="py-8" src="' + myObj[item].content[iteration].data + '" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+      }
+
+      if (myObj[item].content[iteration].type == 'ullist') {
+        itemnb = myObj[item].content[iteration].data.length;
+        modalString += ' <ul>'
+        for(inneriteration = 0; inneriteration < itemnb; inneriteration++){
+          modalString += ' <li>' + myObj[item].content[iteration].data[inneriteration] + '</li>';
+        }
+        modalString += '</ul>';
       }
     }
 
