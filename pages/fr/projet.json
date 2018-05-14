@@ -78,7 +78,7 @@
   "project8": {
     "name": "Autres projets / TP / Concours à l'esme",
     "description": "<br>",
-    "logo": "/content/images/webgl_logo.png",
+    "logo": "",
     "datenum": "",
     "datestart": "2013",
     "dateend": "2018",
@@ -171,12 +171,16 @@
         "data": "Nous avions comme objectif de réaliser en 3 jours un intranet d'école en utilisant Spring, un framework JEE."
       },
       {
+        "type": "img",
+        "data": "/content/images/jee1.png"
+      },
+      {
         "type": "text",
         "data": "Le site est connecté à une database mysql et gère plusieurs type d'utilisateur: Admin, Etudiant ou Enseignant"
       },
       {
         "type": "img",
-        "data": ""
+        "data": "/content/images/jee2.png"
       },
       {
         "type": "link",

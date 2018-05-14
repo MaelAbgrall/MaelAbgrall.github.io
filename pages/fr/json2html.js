@@ -81,15 +81,23 @@ function writeData(myObj) {
 
       if (myObj[item].content[iteration].type == 'vid') {
         //modalString += '<iframe width="100%" class="py-8" src="' + myObj[item].content[iteration].data + '" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+        modalString += '<a href="' + myObj[item].content[iteration].data + '">video</a>';
       }
 
       if (myObj[item].content[iteration].type == 'ullist') {
         itemnb = myObj[item].content[iteration].data.length;
         modalString += ' <ul>'
-        for(inneriteration = 0; inneriteration < itemnb; inneriteration++){
+        for (inneriteration = 0; inneriteration < itemnb; inneriteration++) {
           modalString += ' <li>' + myObj[item].content[iteration].data[inneriteration] + '</li>';
         }
         modalString += '</ul>';
+      }
+
+      if (myObj[item].content[iteration].type == 'toggle') {
+        modalString += '<button type="button" class="btn btn-danger btn-block" data-toggle="collapse" data-target="#' + myObj[item].content[iteration].data[0] + '">' + myObj[item].content[iteration].data[0] +'</button>';
+        modalString += '<div id="' +myObj[item].content[iteration].data[0] + '" class="collapse">';
+        modalString += myObj[item].content[iteration].data[1];
+        modalString += '</div>';
       }
     }
 
@@ -130,7 +138,7 @@ function init() {
     jsonUrl = 'projet.json';
   }
   if (page.indexOf("est") != -1) {
-    jsonUrl = 'projet.json';
+    jsonUrl = 'education.json';
   }
 
 
