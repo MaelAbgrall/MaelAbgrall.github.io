@@ -8,8 +8,20 @@
     "dateend": "Septembre 2013",
     "content": [
       {
-        "type": "text",
-        "data": ""
+        "type": "title",
+        "data": "Cycle Master"
+      },
+      {
+        "type":"text",
+        "data":"Le cycle master s'est déroulé à Ivry (Paris). Les cours étaient uniquement porté sur la pratique"
+      },
+      {
+        "type":"text",
+        "data":"liste des cours:"
+      },
+      {
+        "type":"ullist",
+        "data":""
       }
     ]
   },
