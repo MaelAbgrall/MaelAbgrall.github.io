@@ -5,135 +5,18 @@
   <title>Mael Abgrall</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://use.fontawesome.com/0f43101218.js"></script>
+  <link async rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link async rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+    crossorigin="anonymous">
+  <link async rel="stylesheet" href="navbar.css">
+  <link async href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <link type="text/css" rel="stylesheet" href="/pages/style.css" />
   <style>
-    /*Change rollover cell color here
-    .nav > li > a:hover,
-    .nav > li > a:focus {
-        text-decoration: none;
-        background-color: #ff6666;
-    }*/
-
-    .navbar-default {
-      background-color: #ff3333;
-      border-color: #ff6666;
-    }
-
-    .navbar-default .navbar-brand {
-      color: #ffffff;
-    }
-
-    .navbar-default .navbar-brand:hover,
-    .navbar-default .navbar-brand:focus {
-      color: #ffffff;
-    }
-
-    .navbar-default .navbar-text {
-      color: #ffffff;
-    }
-
-    .navbar-default .navbar-nav>li>a {
-      color: #ffffff;
-    }
-
-    .navbar-default .navbar-nav>li>a:hover,
-    .navbar-default .navbar-nav>li>a:focus {
-      color: #ffffff;
-    }
-
-    .navbar-default .navbar-nav>li>.dropdown-menu {
-      background-color: #ff3333;
-    }
-
-    .navbar-default .navbar-nav>li>.dropdown-menu>li>a {
-      color: #ffffff;
-    }
-
-    .navbar-default .navbar-nav>li>.dropdown-menu>li>a:hover,
-    .navbar-default .navbar-nav>li>.dropdown-menu>li>a:focus {
-      color: #ffffff;
-      background-color: #ff6666;
-    }
-
-    .navbar-default .navbar-nav>li>.dropdown-menu>li.divider {
-      background-color: #ff6666;
-    }
-
-    .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
-    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
-    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
-      color: #ffffff;
-      background-color: #ff6666;
-    }
-
-    .navbar-default .navbar-nav>.active>a,
-    .navbar-default .navbar-nav>.active>a:hover,
-    .navbar-default .navbar-nav>.active>a:focus {
-      color: #ffffff;
-      background-color: #ff6666;
-    }
-
-    .navbar-default .navbar-nav>.open>a,
-    .navbar-default .navbar-nav>.open>a:hover,
-    .navbar-default .navbar-nav>.open>a:focus {
-      color: #ffffff;
-      background-color: #ff6666;
-    }
-
-    .navbar-default .navbar-toggle {
-      border-color: #ff6666;
-    }
-
-    .navbar-default .navbar-toggle:hover,
-    .navbar-default .navbar-toggle:focus {
-      background-color: #ff6666;
-    }
-
-    .navbar-default .navbar-toggle .icon-bar {
-      background-color: #ffffff;
-    }
-
-    .navbar-default .navbar-collapse,
-    .navbar-default .navbar-form {
-      border-color: #ffffff;
-    }
-
-    .navbar-default .navbar-link {
-      color: #ffffff;
-    }
-
-    .navbar-default .navbar-link:hover {
-      color: #ffffff;
-    }
-
-    @media (max-width: 767px) {
-      .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-        color: #ffffff;
-      }
-      .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
-      .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
-        color: #ffffff;
-      }
-      .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
-      .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
-      .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
-        color: #ffffff;
-        background-color: #ff6666;
-      }
-    }
-
-    body {
-      background-color: #E5B88A;
-    }
-
-
     p {
-      color: #333127;
       font-family: 'Roboto', sans-serif;
     }
   </style>
@@ -141,119 +24,47 @@
 
 <body>
 
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
+  <div id='navstring'></div>
 
-      <div class="navbar-header">
-
-        <!-- when collapsed -->
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-
-        <a class="navbar-brand" href="/pages/fr/home.html">Mael Abgrall</a>
-
-      </div>
-
-      <!-- links -->
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li class="active">
-            <a href="/pages/fr/home.html">
-              <i class="fa fa-home" aria-hidden="true"></i> Accueil</a>
-          </li>
-          <li>
-            <a href="/pages/fr/education.html">
-              <i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</a>
-          </li>
-          <li>
-            <a href="/pages/fr/experience.html">
-              <i class="fa fa-suitcase" aria-hidden="true"></i> Expérience</a>
-          </li>
-          <li>
-            <a href="/pages/fr/projet.html">
-              <i class="fa fa-lightbulb-o" aria-hidden="true"></i> Projets</a>
-          </li>
-          <li>
-            <a href="/pages/fr/skill.html">
-              <i class="fa fa-wrench" aria-hidden="true"></i> Compétences</a>
-          </li>
-          <li>
-            <a href="/pages/fr/hobby.html">
-              <i class="fa fa-globe" aria-hidden="true"></i> Hobbies</a>
-          </li>
-          <li>
-            <a href="/pages/fr/contact.html">
-              <i class="fa fa-address-card" aria-hidden="true"></i> Contact</a>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-              <i class="fa fa-flag" aria-hidden="true"></i> Langage
-              <span class="glyphicon glyphicon-menu-down"></span>
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="/pages/en/home.html">English</a>
-              </li>
-              <li class="active">
-                <a href="/pages/fr/home.html">French</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="/index_fr.html">
-              <i class="fa fa-sign-out" aria-hidden="true"></i> Changer de site</a>
-          </li>
-        </ul>
+  <div class="center-spinner" id="spinner">
+    <div class="atom-spinner">
+      <div class="spinner-inner">
+        <div class="spinner-line"></div>
+        <div class="spinner-line"></div>
+        <div class="spinner-line"></div>
+        <!--Chrome renders little circles malformed :(-->
+        <div class="spinner-circle">
+          &#9679;
+        </div>
       </div>
     </div>
-  </nav>
+  </div>
 
-  <img src="https://i.imgur.com/MN9tce8.jpg" class="img-responsive" alt="Drone">
+  <!--<img src="https://i.imgur.com/MN9tce8.jpg" class="img-responsive" alt="Drone">-->
   <div class="container">
     <!--text-->
-    <h3 class="titre">Bienvenue sur mon site !</h3>
+    <h3 class="titre"><br>Bienvenue sur mon site !</h3>
     <p>Il a été entièrement réalisé avec un éditeur de texte (plus d'infos sur l'onglet "projets")</p>
     <p>Ce site n'est pas destiné à être lu rapidement, il vient en complément
       <a href="/file/cv_2017semestre2.pdf">de mon CV</a>.</p>
     <br>
     <p>
-      <u>Attention :</u> ce site a été conçu et optimisé pour un affichage 16:9 (un écran d'ordinateur traditionnel), il n'est
-      pas prévu pour un autre type d'affichage pour le moment.</p>
+      <b>Le site est en cours de mise à jour</b>, certaines parties pourraient ne pas s'afficher correctement <u>et ne sont pas à jour</u>
+    </p>
     <br>
     <h4 class="titre2">Présentation rapide :</h4>
-    <p>Je suis étudiant en école d'ingénieur informatique, et en train de me spécialiser dans les technologies émergentes.</p>
+    <p>Je suis étudiant en école d'ingénieur informatique, spécialisé dans les technologies émergentes. (web, vision par ordinateur, VR/AR, 3D, etc)</p>
     <p>Parmi ces technologies, l'une d'elles me passionne particulièrement : le Deep Learning (intelligence artificielle)</p>
-    <p>Je suis donc en train de me former à des technologies qui pourraient m'aider dans ce parcours (Keras en ce moment).</p>
+    <p>Je suis donc en train de me former à des technologies qui pourraient m'aider dans ce parcours, et je réalise en ce moment un stage de fin d'études dans le domaine.</p>
     <br>
     <p>Je suis aussi très curieux, et selon mon degré d'implication, j'aime retransmettre ce que j'ai pu apprendre de manière
       simple. Les deux meilleurs exemples étant d'avoir réussi lors de mon travail d'éducateur scientifique à apprendre les
-      rudiments de la programmation en C++ à des enfants âgés de 7 à 9 ans, l'autre étant d'avoir partagé sur Github un guide
-      et un programme en c# qui permettent de facilement extraire du texte, des tableaux et des images de documents word.</p>
+      rudiments de la programmation en C++ à des enfants âgés de 7 à 9 ans, l'autre étant de participer sur stackoverflow.</p>
 
-    <footer class="col-md-12">
-      <br>
-      <hr>
-      <div class="footer-bottom">
-        <p class="pull-left">Mael Abgrall
-          <i class="fa fa-copyright" aria-hidden="true"></i> 2010-2017</p>
-        <p class="pull-right">Connect with me
-          <a href="https://www.linkedin.com/in/mael-abgrall-4010b3b5/" data-toggle="tooltip" title="Linkedin">
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-          </a>
-          <a href="https://github.com/MelAbgrall" data-toggle="tooltip" title="GitHub">
-            <i class="fa fa-github-alt" aria-hidden="true"></i>
-          </a>
-        </p>
-      </div>
-      <!--/.footer-bottom-->
-    </footer>
+    <div id="footer"></div>
 
   </div>
+  <script src='navbar.js'></script>
 
 </body>
 

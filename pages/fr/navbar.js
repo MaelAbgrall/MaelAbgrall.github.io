@@ -35,7 +35,7 @@ function init() {
 
 
   navstring += '      <li class="nav-item py-0">';
-  if (page.indexOf("ccueil") != -1) {
+  if (page.indexOf("ome") != -1) {
     navstring += '      <a class="nav-link active" href="/pages/fr/home.html">';
   } else {
     navstring += '      <a class="nav-link" href="/pages/fr/home.html">';
