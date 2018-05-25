@@ -119,7 +119,7 @@ function init() {
   navstring += '      </li>';
 
   navstring += '      <li class="nav-item">';
-  navstring += '        <a class="nav-link" href="/index_fr.html">';
+  navstring += '        <a class="nav-link" href="/index.html">';
   navstring += '          <i class="fas fa-sign-out-alt"></i> change website</a>';
   navstring += '      </li>';
   navstring += '    </ul>';
