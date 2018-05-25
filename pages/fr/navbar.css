@@ -44,14 +44,23 @@
 
 h3{
   color: #dc3545;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height: 1.2857em;
 }
 
 h4{
   color: #dc3545;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height: 1.2857em;
 }
 
 h5{
   color: #dc3545;
+  font-size: 1.28571429em;
+  font-weight: 700;
+  line-height: 1.2857em;
 }
 
 body {
@@ -127,12 +136,6 @@ p {
   box-shadow: none;
 }
 
-h5 {
-  font-size: 1.28571429em;
-  font-weight: 700;
-  line-height: 1.2857em;
-}
-
 .card-text {
   clear: both;
   margin-top: .5em;
@@ -159,7 +162,7 @@ h5 {
   text-decoration: none;
 }
 
-.img-modal{
+.smallimg-modal{
   width: 50%;
 }
 

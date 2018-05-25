@@ -1,0 +1,44 @@
+{
+  "education1":{
+    "name":"Autres",
+    "description":"<em>Autres diplômes variés</em>",
+    "logo": "",
+    "datenum": "",
+    "datestart": "",
+    "dateend": "",
+    "content": [
+      {
+        "type": "toggleopen",
+        "data": "toggleope"
+      },
+      {
+        "type":"title",
+        "data":"data"
+      },
+      {
+        "type":"toggleclose"
+      }
+    ]
+  },
+  "education0":{
+    "name":"Autres",
+    "description":"<em>Autres diplômes variés</em>",
+    "logo": "",
+    "datenum": "",
+    "datestart": "",
+    "dateend": "",
+    "content": [
+      {
+        "type": "toggleopen",
+        "data": "toggleopen"
+      },
+      {
+        "type":"title",
+        "data":"data"
+      },
+      {
+        "type":"toggleclose"
+      }
+    ]
+  }
+}

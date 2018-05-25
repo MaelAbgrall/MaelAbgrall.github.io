@@ -67,6 +67,10 @@ function writeData(myObj) {
         modalString += '<img class="img-modal d-flex flex-column flex-grow" src="' + myObj[item].content[iteration].data + '" alt="' + myObj[item].content[iteration].data + '">';
       }
 
+      if (myObj[item].content[iteration].type == 'smallimg') {
+        modalString += '<img class="smallimg-modal d-flex flex-column flex-grow" src="' + myObj[item].content[iteration].data + '" alt="' + myObj[item].content[iteration].data + '">';
+      }
+
       if (myObj[item].content[iteration].type == 'title') {
         modalString += '<h4 class="d-flex flex-column flex-grow">' + myObj[item].content[iteration].data + '</h4>';
       }
@@ -94,9 +98,18 @@ function writeData(myObj) {
       }
 
       if (myObj[item].content[iteration].type == 'toggle') {
-        modalString += '<button type="button" class="btn btn-danger btn-block" data-toggle="collapse" data-target="#' + myObj[item].content[iteration].data[0] + '">' + myObj[item].content[iteration].data[0] +'</button>';
-        modalString += '<div id="' +myObj[item].content[iteration].data[0] + '" class="collapse">';
+        modalString += '<button type="button" class="btn btn-danger btn-block" data-toggle="collapse" data-target="#' + myObj[item].content[iteration].data[0] + '">' + myObj[item].content[iteration].data[0] + '</button>';
+        modalString += '<div id="' + myObj[item].content[iteration].data[0] + '" class="collapse">';
         modalString += myObj[item].content[iteration].data[1];
+        modalString += '</div>';
+      }
+
+      if (myObj[item].content[iteration].type == 'toggleopen') {
+        modalString += '<button type="button" class="btn btn-danger btn-block" data-toggle="collapse" data-target="#' + myObj[item].content[iteration].data + '">' + myObj[item].content[iteration].data + '</button>';
+        modalString += '<div id="' + myObj[item].content[iteration].data + '" class="collapse">';
+      }
+
+      if (myObj[item].content[iteration].type == 'toggleclose') {
         modalString += '</div>';
       }
     }

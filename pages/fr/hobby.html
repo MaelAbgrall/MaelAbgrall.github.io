@@ -2,93 +2,100 @@
 <html lang="fr">
 
 <head>
-    <title>Mael Abgrall - Hobbies</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link async rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-    <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <link async rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
-        crossorigin="anonymous">
-    <link async rel="stylesheet" href="navbar.css">
-    <link async href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <title>Mael Abgrall - Hobbies</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--bootstrap-->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+  <!--fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!--stylesheet-->
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="/pages/spinner.css">
 
-    <link type="text/css" rel="stylesheet" href="/pages/style.css" />
+  <!--navbar-->
+  <script defer src='navbar.js'></script>
 
-    <!--map-->
-    <link href="lg-map/lg-map.css" rel="stylesheet" type="text/css" />
-    <script src="lg-map/lg-map-libs.js" type="text/javascript"></script>
-    <script src="lg-map/lg-map-panzoom.js" type="text/javascript"></script>
-    <script src="lg-map/lg-map.min.js" type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js" charset="utf-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js" charset="utf-8"></script>
-    <script src="/content/map/jquery.mapael.js" charset="utf-8"></script>
-    <script src="/content/map/world_countries.js" charset="utf-8"></script>
+  <!--Contents-->
+  <script defer src="json2html.js"></script>
 
-    <script src="/pages/map.js"></script>
+  <!--map-->
+  <link href="lg-map/lg-map.css" rel="stylesheet" type="text/css" />
+  <script src="lg-map/lg-map-libs.js" type="text/javascript"></script>
+  <script src="lg-map/lg-map-panzoom.js" type="text/javascript"></script>
+  <script src="lg-map/lg-map.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js" charset="utf-8"></script>
+  <script src="/content/map/jquery.mapael.js" charset="utf-8"></script>
+  <script src="/content/map/world_countries.js" charset="utf-8"></script>
+
+  <script src="/pages/map.js"></script>
+  <link type="text/css" rel="stylesheet" href="/pages/mapael.css" />
 
 </head>
 
 <body>
-    <div id='navstring'></div>
+  <div id='navstring'></div>
 
-    <div class="container">
+  <div class="container">
 
-        <br>
-        <div class="mapcontainer">
-            <div class="map">
-                <span>Alternative content for the map</span>
-            </div>
-            <div class="areaLegend">
-                <span>Alternative content for the legend</span>
-            </div>
-        </div>
-
-        <h4 class="titre"><br>Sports solo:</h4>
-        <p>
-            <b>Quad cross :</b> beaucoup de compétitions entre 2005 et 2013</p>
-        <p>
-            <b>Ski :</b> Quelques compétitions, un peu de freeride et de ski de randonnée</p>
-        <p>
-            <b>Plongée en bouteille</b>
-        </p>
-        <p>
-            <b>Natation :</b> de 2000 à 2013, quelques compétitions</p>
-        <p>
-            <b>Planeur :</b> (2011-2012)</p>
-        <p>j'ai arreté toute compétition sportive à partir du moment où j'ai débuté mes études supérieures</p>
-        <br>
-        <h4 class="titre">Sports en équipe:</h4>
-        <p>
-            <b>Basket-ball</b> (2014-2015)</p>
-        <p>
-            <b>Rugby </b>(2015)</p>
-        <p>
-            <b>Voile</b>
-        </p>
-        <br>
-        <h4 class="titre">Autre:</h4>
-        <p>
-            <b>Nouvelles technologies:</b> je suis passionné de science, curieux de nouveautées, avec une préférence pour l'electronique
-            et l'informatique</p>
-        <p>
-            <b>Photographie:</b> Après avoir eu une petite formation en 2010, j'ai commencé sur les ouvertures longues, qui
-            permettent de faire du lightpainting ou de transformer la mer en "brume". J'ai continué à faire de la photographie,
-            en découvrant de nouvelles techniques petit à petit (astrophotographie, Macro, etc) mais aussi de nouveaux logiciels
-            (comme la suite adobe).</p>
-        <p>
-            <b>Guitare / Basse</b>
-        </p>
-        <p>
-            <b>Voyage</b>
-        </p>
-
-        <div id="footer"></div>
+    <br>
+    <div class="mapcontainer">
+      <div class="map">
+        <span>Alternative content for the map</span>
+      </div>
+      <div class="areaLegend">
+        <span>Alternative content for the legend</span>
+      </div>
     </div>
 
-    <script src='navbar.js'></script>
+    <h4 class="titre">
+      <br>Sports solo:</h4>
+    <p>
+      <b>Quad cross :</b> beaucoup de compétitions entre 2005 et 2013</p>
+    <p>
+      <b>Ski :</b> Quelques compétitions, un peu de freeride et de ski de randonnée</p>
+    <p>
+      <b>Plongée en bouteille</b>
+    </p>
+    <p>
+      <b>Natation :</b> de 2000 à 2013, quelques compétitions</p>
+    <p>
+      <b>Planeur :</b> (2011-2012)</p>
+    <p>j'ai arreté toute compétition sportive à partir du moment où j'ai débuté mes études supérieures</p>
+    <br>
+    <h4 class="titre">Sports en équipe:</h4>
+    <p>
+      <b>Basket-ball</b> (2014-2015)</p>
+    <p>
+      <b>Rugby </b>(2015)</p>
+    <p>
+      <b>Voile</b>
+    </p>
+    <br>
+    <h4 class="titre">Autre:</h4>
+    <p>
+      <b>Nouvelles technologies:</b> je suis passionné de science, curieux de nouveautées, avec une préférence pour l'electronique
+      et l'informatique</p>
+    <p>
+      <b>Photographie:</b> Après avoir eu une petite formation en 2010, j'ai commencé sur les ouvertures longues, qui permettent
+      de faire du lightpainting ou de transformer la mer en "brume". J'ai continué à faire de la photographie, en découvrant
+      de nouvelles techniques petit à petit (astrophotographie, Macro, etc) mais aussi de nouveaux logiciels (comme la suite
+      adobe).</p>
+    <p>
+      <b>Guitare / Basse</b>
+    </p>
+    <p>
+      <b>Voyage</b>
+    </p>
 
+    <div id="footer"></div>
+  </div>
 </body>
 
 </html>
