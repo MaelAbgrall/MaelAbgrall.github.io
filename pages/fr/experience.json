@@ -1,11 +1,11 @@
 {
-  "education1":{
-    "name":"Autres",
-    "description":"<em>Autres diplômes variés</em>",
-    "logo": "",
-    "datenum": "",
-    "datestart": "",
-    "dateend": "",
+  "exp3":{
+    "name":"Président",
+    "description":"<em>BDA ESME Paris (Bureau des Arts)</em>",
+    "logo": "/content/images/logo_bdaparis.png",
+    "datenum": "1 an",
+    "datestart": "Septembre 2016",
+    "dateend": "Septembre 2017",
     "content": [
       {
         "type": "toggleopen",
@@ -20,24 +20,77 @@
       }
     ]
   },
-  "education0":{
-    "name":"Autres",
-    "description":"<em>Autres diplômes variés</em>",
-    "logo": "",
-    "datenum": "",
-    "datestart": "",
-    "dateend": "",
+  "exp2":{
+    "name":"Président",
+    "description":"<em>BDA ESME Paris (Bureau des Arts)</em>",
+    "logo": "/content/images/logo_bdaparis.png",
+    "datenum": "1 an",
+    "datestart": "Septembre 2016",
+    "dateend": "Septembre 2017",
     "content": [
       {
-        "type": "toggleopen",
-        "data": "toggleopen"
+        "type": "text",
+        "data": "A mon arrivée, le BDA de Paris était inactif depuis plusieurs années. J’ai donc repris l’association avec une nouvelle équipe d’une dizaine de personnes. Un des premiers objectifs a été de mettre en place des partenariats avec l’école et les autres associations, entre autres avec une présence photo sur tous les évènements."
       },
       {
-        "type":"title",
-        "data":"data"
+        "type":"text",
+        "data":"Le BDA est ensuite devenu partenaire avec la fédération française des BDA qui venait d’être créée, et j’ai apporté toute l’aide possible à la fédération, en contactant d’autres BDA en France, en participant activement aux évènements de la fédération et en les relayant."
       },
       {
-        "type":"toggleclose"
+        "type":"smallimg",
+        "data":"/content/images/logo_ffbda.png"
+      },
+      {
+        "type":"text",
+        "data":"<br>En milieu d’année, le BDA a aussi repris en main l’ancien club jeux-vidéo qui était en sommeil depuis plusieurs années. L’objectif étant de dynamiser le BDA en proposant un panel plus large d’activités."
+      },
+      {
+        "type":"img",
+        "data":"/content/mabphotography/DSC_2650c.jpg"
+      }
+    ]
+  },
+  "exp1":{
+    "name":"Délégué de classe en échange international",
+    "description":"<em>ViA (Lettonie)</em>",
+    "logo": "/content/images/via_logo.png",
+    "datenum": "7 mois",
+    "datestart": "December 2015",
+    "dateend": "Juin 2016",
+    "content": [
+      {
+        "type": "text",
+        "data": "J’ai assumé l'interface entre les étudiants et l’université partenaire."
+      }
+    ]
+  },
+  "exp0":{
+    "name":"Président",
+    "description":"<em>BDA ESME Lyon (Bureau des Arts)</em>",
+    "logo": "/content/images/logo_bdalyon.png",
+    "datenum": "7 mois",
+    "datestart": "Juillet 2015",
+    "dateend": "Janvier 2016",
+    "content": [
+      {
+        "type": "Title",
+        "data": "Association"
+      },
+      {
+        "type":"text",
+        "data":"En arrivant à l'ESME Lyon, j'ai pu rencontrer des gens passionnés par la musique. Néanmoins, le campus venant d'ouvrir, il n'y avait aucune association."
+      },
+      {
+        "type":"text",
+        "data":"J'ai donc fondé le BDA de Lyon avec une équipe d'une dizaine de personnes, chacun ayant un rôle soit administratif soit orienté dans un domaine artistique."
+      },
+      {
+        "type":"text",
+        "data":" Je n'ai pas eu énormément de temps car je partais pour l'étranger en fin d'année, mais nous avons réussi à organiser des sessions de musique régulières, des sorties photos, la couverture photo de divers évènements, des avant-premières de film et diverses autres activités. Ces activités ont continué après mon départ."
+      },
+      {
+        "type":"smallimg",
+        "data":"/content/mabphotography/bdalyon.jpg"
       }
     ]
   }
