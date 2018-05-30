@@ -1,7 +1,7 @@
 {
   "exp6":{
     "name":"Stage de recherche en IA",
-    "description":"<em>école des mines ParisTech / ARMINES</em>",
+    "description":"<em><br>école des mines ParisTech / ARMINES</em>",
     "logo": "/content/images/logo_minespt.png",
     "datenum": "",
     "datestart": "",
@@ -9,7 +9,19 @@
     "content": [
       {
         "type": "title",
-        "data": "L'entreprise"
+        "data": "L'école"
+      },
+      {
+        "type":"text",
+        "data":"armines / mines"
+      },
+      {
+        "type":"text",
+        "data":"mines"
+      },
+      {
+        "type":"title",
+        "data":"Les recherches effectuées"
       }
     ]
   },
