@@ -1,28 +1,135 @@
 {
-  "exp3":{
-    "name":"Président",
-    "description":"<em>BDA ESME Paris (Bureau des Arts)</em>",
-    "logo": "/content/images/logo_bdaparis.png",
-    "datenum": "1 an",
-    "datestart": "Septembre 2016",
-    "dateend": "Septembre 2017",
+  "exp6":{
+    "name":"Stage de recherche en IA",
+    "description":"<em>école des mines ParisTech / ARMINES</em>",
+    "logo": "/content/images/logo_minespt.png",
+    "datenum": "",
+    "datestart": "",
+    "dateend": "",
     "content": [
       {
-        "type": "toggleopen",
-        "data": "toggleope"
+        "type": "title",
+        "data": "L'entreprise"
+      }
+    ]
+  },
+  "exp5":{
+    "name":"Stagiaire en Web / Business Intelligence",
+    "description":"<em>IT-CE (service IT de la caisse d'épargne)</em>",
+    "logo": "/content/images/logo_itce.png",
+    "datenum": "3 mois",
+    "datestart": "5 Juin",
+    "dateend": "30 Août 2017",
+    "content": [
+      {
+        "type": "title",
+        "data": "L'entreprise"
       },
       {
-        "type":"title",
-        "data":"data"
+        "type":"text",
+        "data":"IT-CE est le service informatique du groupe BPCE, qui regroupe les deux banques Caisse d'Epargne et Banque Populaire. IT-CE est chargé de l'intégralité de l'informatique pour le groupe, de l'architecture au réseau en passant par l'innovation."
       },
       {
-        "type":"toggleclose"
+        "type":"text",
+        "data":"Mon stage s'est déroulé dans le service \"architecture et innovation\" qui est chargé d'intégrer à l'architecture logicielle du groupe des logiciels aussi bien créés par l'entreprise que par des tiers"
+      },
+      {
+        "type": "title",
+        "data": "Les missions"
+      },
+      {
+        "type":"text",
+        "data":"La première mission consistait, à l’aide de PowerBi (Microsoft) et d’une base de données MSSQL, à développer des tableaux d’aide à la décision qui affichent de façon globale et quasiment en temps réel, des solutions créées ou modifiées par IT-CE"
+      },
+      {
+        "type":"smallimg",
+        "data":"/content/images/tab_powerBi.png"
+      },
+      {
+        "type":"text",
+        "data":"La seconde mission consistait à développer un système de documentation automatique qui soit simple à utiliser : un site web en ASP.NET (C#) récupére des documents Word et extrait son contenu vers une base de données et un fichier JSON. Ces informations récupérées sont ensuite affichées de manière claire et rapide à lire (des sections déroulantes remplacent les chapitres, l’interface a été développée pour pouvoir aller droit au but)."
+      }
+    ]
+  },
+  "exp4":{
+    "name":"Stagiaire en DSIO",
+    "description":"<em><br>Centre Hospitalier Princesse Grâce (CHPG)</em>",
+    "logo": "/content/images/logo_hopital.png",
+    "datenum": "1 mois",
+    "datestart": "1er",
+    "dateend": "30 Août 2016",
+    "content": [
+      {
+        "type": "title",
+        "data": "L'entreprise"
+      },
+      {
+        "type":"text",
+        "data":"L'hôpital princesse Grâce est le principal hôpital public de Monaco. Il dispose d'une capacité de 759 lits répartis sur trois sites."
+      },
+      {
+        "type":"text",
+        "data":"J'ai été affecté au système d'information (DSIO) chargé de l'infrastructure, de la sécurité et de l'intégration de logiciels tiers ou développés par le service."
+      },
+      {
+        "type": "title",
+        "data": "La mission"
+      },
+      {
+        "type":"text",
+        "data":"Lors de mon stage, j’ai développé un programme pour le robot Nao, prévu pour servir dans le département \"gériatrie\" pour les personnes âgées atteintes de trouble de la mémoire. Lorsqu'il reconnait une personne, le robot essaie d'interragir avec celle-ci, puis propose de faire des petits jeux de mémoire ou d'exécuter une danse."
+      },
+      {
+        "type":"smallimg",
+        "data":"/content/images/nao.png"
+      },
+      {
+        "type":"text",
+        "data":"Etant manipulé uniquement par du personnel médical, le programme fonctionne sans l’aide d’un ordinateur : pour mettre à jour les patients reconnus, il suffit de toucher certains capteurs du robot lors de l’allumage et de lui indiquer qui ajouter ou enlever."
+      }
+    ]
+  },
+  "exp3":{
+    "name":"Educateur scientifique / Membre",
+    "description":"<em>Objectif Science International (OSI)</em>",
+    "logo": "/content/images/logo_osi.png",
+    "datenum": "multiple missions",
+    "datestart": "",
+    "dateend": "Depuis 2014",
+    "content": [
+      {
+        "type": "title",
+        "data": "L'entreprise"
+      },
+      {
+        "type":"text",
+        "data":"Objectif Science international est une ONG dont le but est de promouvoir la recherche scientifique et la protection de la nature au travers de séjours de vacances. Elle possède un statut consultatif spécial auprès de l'ONU"
+      },
+      {
+        "type":"smallimg",
+        "data":"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d3377330160927.5615f31b516ac.png"
+      },
+      {
+        "type": "title",
+        "data": "Les missions"
+      },
+      {
+        "type":"text",
+        "data":"J’ai pu réaliser plusieurs missions avec OSI dont les durées ont été variables (entre deux semaines et un mois). Hors des missions, j’ai gardé beaucoup de contact avec OSI, en allant régulièrement aux rencontres de préparation des camps d’été et aux réunions du conseil général."
+      },
+      {
+        "type":"text",
+        "data":"J'ai été éducateur scientifique dans le séjour \"Drone connection\" où l'objectif est de sensibiliser au fonctionnement de l'informatique, et de trouver des solutions pour aider les autres camps de vacances de l'ONG au travers des drones."
+      },
+      {
+        "type":"text",
+        "data":"La mission était de créer des activités ludiques pour des enfants âgés de 7 à 17 ans, en adaptant les activités aux tranches d’âge."
       }
     ]
   },
   "exp2":{
     "name":"Président",
-    "description":"<em>BDA ESME Paris (Bureau des Arts)</em>",
+    "description":"<em><br>BDA ESME Paris (Bureau des Arts)</em>",
     "logo": "/content/images/logo_bdaparis.png",
     "datenum": "1 an",
     "datestart": "Septembre 2016",
@@ -66,7 +173,7 @@
   },
   "exp0":{
     "name":"Président",
-    "description":"<em>BDA ESME Lyon (Bureau des Arts)</em>",
+    "description":"<em><br>BDA ESME Lyon (Bureau des Arts)</em>",
     "logo": "/content/images/logo_bdalyon.png",
     "datenum": "7 mois",
     "datestart": "Juillet 2015",
