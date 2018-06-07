@@ -71,6 +71,10 @@ p {
 }
 
 
+.skilltogl{
+  text-align: left;
+}
+
 /* cards */
 .card-block {
   font-size: 1em;
@@ -163,7 +167,7 @@ p {
 }
 
 .smallimg-modal{
-  height: 50%;
+  width: 70%;
 }
 
 /* footer elements */

@@ -1,27 +1,25 @@
 {
   "exp6":{
-    "name":"Stage de recherche en IA",
+    "title":"Stage de recherche en IA",
     "description":"<em><br>école des mines ParisTech / ARMINES</em>",
-    "logo": "/content/images/logo_minespt.png",
-    "datenum": "",
-    "datestart": "",
-    "dateend": "",
     "content": [
       {
-        "type": "title",
-        "data": "L'école"
+        "logo": "/link/",
+        "percentage": "75",
+        "skill": "c++",
+        "color": "bg-danger"
       },
       {
-        "type":"text",
-        "data":"armines / mines"
+        "logo": "/link/",
+        "percentage": "75",
+        "skill": "c++",
+        "color": "bg-info"
       },
       {
-        "type":"text",
-        "data":"à venir"
-      },
-      {
-        "type":"title",
-        "data":"Les recherches effectuées"
+        "logo": "/link/",
+        "percentage": "75",
+        "skill": "c++",
+        "color": "bg-success"
       }
     ]
   },

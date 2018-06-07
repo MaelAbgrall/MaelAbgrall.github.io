@@ -68,7 +68,7 @@ function writeData(myObj) {
       }
 
       if (myObj[item].content[iteration].type == 'smallimg') {
-        modalString += '<img class="smallimg-modal d-flex flex-column flex-grow" src="' + myObj[item].content[iteration].data + '" alt="' + myObj[item].content[iteration].data + '">';
+        modalString += '<img class="smallimg-modal d-flex flex-column flex-grow mx-auto d-block" src="' + myObj[item].content[iteration].data + '" alt="' + myObj[item].content[iteration].data + '">';
       }
 
       if (myObj[item].content[iteration].type == 'title') {
@@ -120,7 +120,7 @@ function writeData(myObj) {
     modalString += '      </div>';
     modalString += '    </div>';
     modalString += '  </div>';
-    modalString += '</div>'
+    modalString += '</div>';
 
 
 
