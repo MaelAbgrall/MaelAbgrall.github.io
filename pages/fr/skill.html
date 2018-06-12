@@ -22,20 +22,13 @@
   <script defer src='navbar.js'></script>
 
   <!--Contents-->
-  
+
 
 </head>
 
 <body>
 
   <div id='navstring'></div>
-
-  <div id="bars"></div>
-
-
-
-
-
 
   <div class="container">
     <p>Legende:</p>
@@ -53,7 +46,9 @@
       </div>
     </div>
 
-    <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#langues">
+    <br>
+
+    <button type="button" class="btn btn-danger btn-block skilltogl" data-toggle="collapse" data-target="#langues">
       <i class="fa fa-flag-o" aria-hidden="true"></i> Langues</button>
     <div id="langues" class="collapse">
       <!--FR-->
@@ -62,13 +57,11 @@
           <img class="img-responsive" src="/content/images/franceflag.png" alt="Francais" style="height:65px;">
         </div>
         <div class="col-md-10">
-          <p>Français: Native</p>
           <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" style="width:90%"></div>
+            <div class="progress-bar bg-success" role="progressbar" style="width:90%">Francais: Natif</div>
           </div>
         </div>
       </div>
-
 
       <!--EN-->
       <div class="row">
@@ -76,9 +69,8 @@
           <img class="img-responsive" src="/content/images/usflag.png" alt="English" style="height:65px;">
         </div>
         <div class="col-md-10">
-          <p>Anglais: TOEIC 915</p>
           <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" style="width:75%"></div>
+            <div class="progress-bar bg-success" role="progressbar" style="width:85%">Anglais: TOEIC 915 / IELTS 6.5</div>
           </div>
         </div>
       </div>
@@ -89,301 +81,26 @@
           <img class="img-responsive" src="http://static.donquijote.org/images/culture/spanish_flag2.jpg" alt="Espagnol" style="height:65px;">
         </div>
         <div class="col-md-10">
-          <p>Espagnol</p>
           <div class="progress">
-            <div class="progress-bar progress-bar-danger" role="progressbar" style="width:10%"></div>
+            <div class="progress-bar bg-danger" role="progressbar" style="width:10%">Espagnol</div>
           </div>
         </div>
       </div>
 
     </div>
 
-    <br>
+    <i class="fas fa-chalkboard-teacher" style="color: black; background-color: black"></i>
     <p>Pour les compétences techniques, les barres représentent ma facilité / si j'apprécie travailler avec ce langage. Ces
       barres peuvent changer en fonction du temps, de l'exprérience, etc.</p>
     <p>Etant donné que cela est difficilement quantifiable, ces barres ne représentent PAS mon expérience/capacités dans ces
-      domaines</p>
-
-    <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#BL">
-      <i class="fa fa-cube" aria-hidden="true"></i> Langages bas niveau / langages fonctionnel</button>
-    <div id="BL" class="collapse">
-      <!--c++-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/cpp_logo.png" alt="C++" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-info" role="progressbar" style="width:85%">C++</div>
-          </div>
-        </div>
-      </div>
-
-      <!--C-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/c_logo.png" alt="C" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-warning" role="progressbar" style="width:40%">C</div>
-          </div>
-        </div>
-      </div>
-
-      <!--VHDL-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/vhdl_logo.jpg" alt="VHDL" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-warning" role="progressbar" style="width:20%">VHDL</div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <br>
-
-    <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#HL">
-      <i class="fa fa-cubes" aria-hidden="true"></i> Langages haut niveau / langage abstrait</button>
-    <div id="HL" class="collapse">
-
-      <!--Python-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/python_logo.png" alt="Python" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-info" role="progressbar" style="width:85%">Python</div>
-          </div>
-        </div>
-      </div>
-
-      <!--JAVA-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/java_logo.png" alt="java" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-warning" role="progressbar" style="width:55%">Java</div>
-          </div>
-        </div>
-      </div>
-
-      <!--C#-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/csharp_logo.png" alt="c#" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" style="width:55%">C#</div>
-          </div>
-        </div>
-      </div>
-
-      <!--VBA-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/excel_logo.png" alt="VBA & Excel" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-info" role="progressbar" style="width:10%">VBA</div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <br>
-
-    <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#VHL">
-      <i class="fa fa-database" aria-hidden="true"></i> Langages web / Descriptif</button>
-    <div id="VHL" class="collapse">
-
-      <!--HTML-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/html_logo.png" alt="html" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" style="width:35%">HTML</div>
-          </div>
-        </div>
-      </div>
-
-      <!--XML-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/xml_logo.png" alt="xml" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" style="width:35%">XML</div>
-          </div>
-        </div>
-      </div>
-
-      <!--OOXML-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/msword_logo.png" alt="OOXML" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" style="width:20%">OOXML</div>
-          </div>
-        </div>
-      </div>
-
-      <!--JSON-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/json_logo.png" alt="json" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" style="width:100%">JSON</div>
-          </div>
-        </div>
-      </div>
-
-      <!--JS-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/javascript_logo.png" alt="javascript" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" style="width:20%">Javascript</div>
-          </div>
-        </div>
-      </div>
+      domaines
+    </p>
 
 
-      <!--CSS-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/css_logo.png" alt="CSS" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" style="width:15%">CSS</div>
-          </div>
-        </div>
-      </div>
+    <div id="bars"></div>
 
-      <!--DB-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="https://axisintegrated.ca/images/ico-db.svg" alt="DB & Queries" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" style="width:35%">DB & Queries (SQL, NoSQL)</div>
-          </div>
-        </div>
-      </div>
 
-    </div>
-
-    <br>
-
-    <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#api">
-      <i class="fa fa-folder-open" aria-hidden="true"></i> API</button>
-    <div id="api" class="collapse">
-
-      <!--Qt-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/qt_logo.png" alt="Qt" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-info" role="progressbar" style="width:35%">Qt</div>
-          </div>
-        </div>
-      </div>
-
-      <!--ASP.NET-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/asp_logo.png" alt="ASP.NET" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" style="width:35%">ASP.NET</div>
-          </div>
-        </div>
-      </div>
-
-      <!--NodeJS-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/nodejs_logo.png" alt="NodeJS" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-info" role="progressbar" style="width:45%">NodeJS</div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <br>
-
-    <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#os">
-      <i class="fa fa-terminal" aria-hidden="true"></i> OS</button>
-    <div id="os" class="collapse">
-      <p>J'utilise quotidiennement Windows et Linux. Néanmoins je préfère largement linux pour développer.</p>
-      <!--Windows-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/windows_logo.png" alt="Windows" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" style="width:85%">Windows</div>
-          </div>
-        </div>
-      </div>
-
-      <!--Linux-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/linux_logo.png" alt="Linux" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-info" role="progressbar" style="width:65%">Linux (Fedora, Arch & Ubuntu under cinnamon)</div>
-          </div>
-        </div>
-      </div>
-
-      <!--Docker-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="https://www.docker.com/sites/default/files/Whale%20Logo332_5.png" alt="Linux" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <div class="progress">
-            <div class="progress-bar progress-bar-danger" role="progressbar" style="width:100%">Docker (currently learning)</div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <br>
-
-    <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#futur">
+    <button type="button" class="btn btn-danger btn-block skilltogl" data-toggle="collapse" data-target="#futur">
       <i class="fa fa-puzzle-piece" aria-hidden="true"></i> Dans le futur...</button>
     <div id="futur" class="collapse">
       <p>Langages qui m'intéressent. Je vais les apprendre lors de mon temps libre ou en fonction de mes prochaines missions.
@@ -459,44 +176,6 @@
         </div>
       </div>
 
-      <p>Langages que j'apprend en cours cette année</p>
-
-      <!--UML-->
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/logo_uml.png" alt="UML" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <p>UML</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/react_logo.png" alt="react" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <p>React</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/angular_logo.png" alt="angular" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <p>Angular</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-2">
-          <img class="img-responsive" src="/content/images/javaee_logo.png" alt="JEE" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <p>Java EE</p>
-        </div>
-      </div>
 
 
     </div>
@@ -504,7 +183,7 @@
 
     <br>
 
-    <button type="button" class="btn btn-custom btn-block" data-toggle="collapse" data-target="#mathsci">
+    <button type="button" class="btn btn-danger btn-block skilltogl" data-toggle="collapse" data-target="#mathsci">
       <i class="fa fa-flask" aria-hidden="true"></i> Maths / Science</button>
     <div id="mathsci" class="collapse">
 
@@ -540,8 +219,9 @@
 
 
 
-<script src="json2bar.js"></script>
+  <script src="json2bar.js"></script>
 
 
 </body>
+
 </html>

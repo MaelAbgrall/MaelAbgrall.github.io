@@ -14,24 +14,28 @@ function getData(dataURI, callback) {
 }
 
 function writeData(myObj) {
-  var cardString = "";
   var modalString = "";
-  var itemnb, inneriteration;
 
   for (item in myObj) {
     //CARDS
     //cardString += '<div class="col-sm-6 col-md-4 col-lg-4 mt-4">';
     modalString += '<button type="button" class="btn btn-danger btn-block skilltogl" data-toggle="collapse" data-target="#' + item + '">' + myObj[item].title + '</button>';
     modalString += '<div id="' + item + '" class="collapse">';
-
-    modalString += 'plop';
+    modalString += '<br>';
+    modalString += '<p>' +  myObj[item].description + '</p>';
 
     
     for (var iteration = 0; iteration < myObj[item].content.length; iteration++) {
-      myObj[item].content[iteration].logo;
-      myObj[item].content[iteration].percentage;
-      myObj[item].content[iteration].skill;
-      myObj[item].content[iteration].color;
+      modalString += '<div class="row">';
+      modalString += '  <div class="col-md-2">';
+      modalString += '    <img class="img-responsive" src="' + myObj[item].content[iteration].logo + '" alt="' + myObj[item].content[iteration].logo + '" style="height:65px;">';
+      modalString += '  </div>';
+      modalString += '  <div class="col-md-10">';
+      modalString += '    <div class="progress">';
+      modalString += '      <div class="progress-bar ' + myObj[item].content[iteration].color + '" role="progressbar" style="width:' + myObj[item].content[iteration].percentage + '%">' + myObj[item].content[iteration].skill + '</div>';
+      modalString += '    </div>';
+      modalString += '  </div>';
+      modalString += '</div>';
     }
     modalString += '</div><br>';
   }
