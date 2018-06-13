@@ -26,9 +26,9 @@ function writeData(myObj) {
 
     
     for (var iteration = 0; iteration < myObj[item].content.length; iteration++) {
-      modalString += '<div class="row">';
+      modalString += '<div class="row d-flex mb-3 align-items-center">';
       modalString += '  <div class="col-md-2">';
-      modalString += '    <img class="img-responsive" src="' + myObj[item].content[iteration].logo + '" alt="' + myObj[item].content[iteration].logo + '" style="height:65px;">';
+      modalString += '    <img class="bar-img mb-2 img-responsive" src="' + myObj[item].content[iteration].logo + '" alt="' + myObj[item].content[iteration].logo + '" style="height:65px;">';
       modalString += '  </div>';
       modalString += '  <div class="col-md-10">';
       modalString += '    <div class="progress">';

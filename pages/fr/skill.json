@@ -4,25 +4,25 @@
     "description":"",
     "content": [
       {
-        "logo": "/content/images/c_logo.png",
+        "logo": "../../content/images/c_logo.png",
         "percentage": "40",
         "skill": "C",
         "color": "bg-warning"
       },
       {
-        "logo": "/content/images/cpp_logo.png",
+        "logo": "../../content/images/cpp_logo.png",
         "percentage": "80",
         "skill": "C++",
         "color": "bg-info"
       },
       {
-        "logo": "/content/images/vhdl_logo.png",
+        "logo": "../../content/images/vhdl_logo.png",
         "percentage": "20",
         "skill": "VHDL",
         "color": "bg-danger"
       },
       {
-        "logo": "/content/images/qt_logo.png",
+        "logo": "../../content/images/qt_logo.png",
         "percentage": "20",
         "skill": "Qt C++",
         "color": "bg-warning"
@@ -34,25 +34,25 @@
     "description":"Langages à haut niveau d'abstraction",
     "content": [
       {
-        "logo": "/content/images/python_logo.png",
+        "logo": "../../content/images/python_logo.png",
         "percentage": "95",
         "skill": "Python",
         "color": "bg-success"
       },
       {
-        "logo": "/content/images/java_logo.png",
+        "logo": "../../content/images/java_logo.png",
         "percentage": "65",
         "skill": "Java",
         "color": "bg-info"
       },
       {
-        "logo": "/content/images/csharp_logo.png",
+        "logo": "../../content/images/csharp_logo.png",
         "percentage": "20",
         "skill": "Csharp",
         "color": "bg-info"
       },
       {
-        "logo": "/content/images/matlab_logo.png",
+        "logo": "../../content/images/matlab_logo.png",
         "percentage": "20",
         "skill": "Matlab",
         "color": "bg-info"
@@ -64,57 +64,63 @@
     "description":"Langages de description / sauvegarde de donnée, et langages utilisés dans les sites web",
     "content": [
       {
-        "logo": "/content/images/html_logo.png",
+        "logo": "../../content/images/html_logo.png",
         "percentage": "50",
         "skill": "HTML5",
         "color": "bg-success"
       },
       {
-        "logo": "/content/images/xml_logo.png",
+        "logo": "../../content/images/xml_logo.png",
         "percentage": "35",
         "skill": "XML",
         "color": "bg-info"
       },
       {
-        "logo": "/content/images/msword_logo.png",
+        "logo": "../../content/images/msword_logo.png",
         "percentage": "20",
         "skill": "OOXML",
         "color": "bg-warning"
       },
       {
-        "logo": "/content/images/json_logo.png",
+        "logo": "../../content/images/json_logo.png",
         "percentage": "90",
         "skill": "JSON",
         "color": "bg-success"
       },
       {
-        "logo": "/content/images/javascript_logo.png",
+        "logo": "../../content/images/javascript_logo.png",
         "percentage": "40",
         "skill": "JavaScript",
         "color": "bg-success"
       },
       {
-        "logo": "/content/images/angular_logo.png",
+        "logo": "../../content/images/angular_logo.png",
         "percentage": "20",
         "skill": "Angular 1 & 2+",
         "color": "bg-danger"
       },
       {
-        "logo": "/content/images/react_logo.png",
+        "logo": "../../content/images/react_logo.png",
         "percentage": "20",
         "skill": "React",
         "color": "bg-danger"
       },
       {
-        "logo": "/content/images/logo_uml.png",
+        "logo": "../../content/images/logo_uml.png",
         "percentage": "60",
         "skill": "UML",
         "color": "bg-warning"
       },
       {
-        "logo": "/content/images/css_logo.png",
+        "logo": "../../content/images/css_logo.png",
         "percentage": "25",
         "skill": "CSS",
+        "color": "bg-success"
+      },
+      {
+        "logo": "../../content/images/bootstrap_logo.png",
+        "percentage": "50",
+        "skill": "Bootstrap",
         "color": "bg-success"
       }
     ]
@@ -124,19 +130,19 @@
     "description":"",
     "content": [
       {
-        "logo": "/content/images/nodejs_logo.png",
+        "logo": "../../content/images/nodejs_logo.png",
         "percentage": "60",
         "skill": "NodeJS",
         "color": "bg-warning"
       },
       {
-        "logo": "/content/images/asp_logo.png",
+        "logo": "../../content/images/asp_logo.png",
         "percentage": "35",
         "skill": "ASP.NET",
         "color": "bg-warning"
       },
       {
-        "logo": "/content/images/javaee_logo.png",
+        "logo": "../../content/images/javaee_logo.png",
         "percentage": "40",
         "skill": "JEE (Spring)",
         "color": "bg-info"
@@ -154,13 +160,13 @@
     "description":"J'utilise quotidiennement Windows et Linux. Néanmoins je préfère largement linux.",
     "content": [
       {
-        "logo": "/content/images/linux_logo.png",
+        "logo": "../../content/images/linux_logo.png",
         "percentage": "90",
         "skill": "Linux",
         "color": "bg-success"
       },
       {
-        "logo": "/content/images/windows_logo.png",
+        "logo": "../../content/images/windows_logo.png",
         "percentage": "75",
         "skill": "Windows",
         "color": "bg-success"
@@ -172,7 +178,7 @@
         "color": "bg-danger"
       },
       {
-        "logo":"/content/images/virtualbox_logo.png",
+        "logo":"../../content/images/virtualbox_logo.png",
         "percentage":"50",
         "skill":"VirtualBox",
         "color":"bg-info"

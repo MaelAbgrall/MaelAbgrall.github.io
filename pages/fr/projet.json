@@ -2,7 +2,7 @@
   "project10": {
     "name": "Ce site web (v2)",
     "description": "<br><em>projet solo</em>",
-    "logo": "/content/images/javascript_logo.png",
+    "logo": "../../content/images/javascript_logo.png",
     "datenum": "en cours",
     "datestart": "Avril 2018",
     "dateend": "en cours",
@@ -17,7 +17,7 @@
       },
       {
         "type": "img",
-        "data": "/content/images/website.png"
+        "data": "../../content/images/website.png"
       },
       {
         "type":"text",
@@ -32,7 +32,7 @@
   "project9": {
     "name": "Segmentation d'images médicales",
     "description": "<em>(Projet de fin d'études, 3 personnes)</em>",
-    "logo": "/content/images/python_logo.png",
+    "logo": "../../content/images/python_logo.png",
     "datenum": "5 mois",
     "datestart": "Octobre 2017",
     "dateend": "Février 2018",
@@ -63,15 +63,15 @@
       },
       {
         "type": "img",
-        "data": "/content/images/aorte1.png"
+        "data": "../../content/images/aorte1.png"
       },
       {
         "type": "img",
-        "data": "/content/images/aorte2.png"
+        "data": "../../content/images/aorte2.png"
       },
       {
         "type": "img",
-        "data": "/content/images/aorte3.png"
+        "data": "../../content/images/aorte3.png"
       }
     ]
   },
@@ -131,7 +131,7 @@
   "project7": {
     "name": "Creation d'un environement 3D",
     "description": "<em>(projet scolaire, 2 personnes)</em>",
-    "logo": "/content/images/webgl_logo.png",
+    "logo": "../../content/images/webgl_logo.png",
     "datenum": "4h",
     "datestart": "2018",
     "dateend": " Semestre 1",
@@ -146,22 +146,22 @@
       },
       {
         "type": "img",
-        "data": "/content/images/webgl1.png"
+        "data": "../../content/images/webgl1.png"
       },
       {
         "type": "img",
-        "data": "/content/images/webgl2.png"
+        "data": "../../content/images/webgl2.png"
       },
       {
         "type": "img",
-        "data": "/content/images/webgl3.png"
+        "data": "../../content/images/webgl3.png"
       }
     ]
   },
   "project6": {
     "name": "Creation d'un site web full stack",
     "description": "<em>(projet scolaire, 2 personnes)</em>",
-    "logo": "/content/images/java_logo.png",
+    "logo": "../../content/images/java_logo.png",
     "datenum": "3 jours",
     "datestart": "2017",
     "dateend": " Semestre 2",
@@ -172,7 +172,7 @@
       },
       {
         "type": "img",
-        "data": "/content/images/jee1.png"
+        "data": "../../content/images/jee1.png"
       },
       {
         "type": "text",
@@ -180,7 +180,7 @@
       },
       {
         "type": "img",
-        "data": "/content/images/jee2.png"
+        "data": "../../content/images/jee2.png"
       },
       {
         "type": "link",
@@ -192,7 +192,7 @@
   "project5": {
     "name": "Ce site web (v1)",
     "description": "<br><em>Projet solo</em>",
-    "logo": "/content/images/html_logo.png",
+    "logo": "../../content/images/html_logo.png",
     "datenum": "3 mois",
     "datestart": "Septembre",
     "dateend": "Octobre 2017",
@@ -226,7 +226,7 @@
   "project4": {
     "name": "Reconnaissance vocale (I.A.)",
     "description": "<em>(projet scolaire, 3 personnes)</em>",
-    "logo": "/content/images/cpp_logo.png",
+    "logo": "../../content/images/cpp_logo.png",
     "datenum": "6 mois",
     "datestart": "2017",
     "dateend": " Semestre 1",
@@ -252,7 +252,7 @@
   "project3": {
     "name": "Carte d'un jeu 2D procédurale",
     "description": "<em>(projet scolaire, 3 personnes)</em>",
-    "logo": "/content/images/cpp_logo.png",
+    "logo": "../../content/images/cpp_logo.png",
     "datenum": " 6 mois",
     "datestart": "2017",
     "dateend": " Semestre 1",
@@ -279,7 +279,7 @@
       },
       {
         "type": "img",
-        "data": "/content/images/map.png"
+        "data": "../../content/images/map.png"
       },
       {
         "type": "text",
@@ -302,7 +302,7 @@
   "project2": {
     "name": "Creation d'un editeur d'image",
     "description": "<em>(projet scolaire, solo)</em>",
-    "logo": "/content/images/cpp_logo.png",
+    "logo": "../../content/images/cpp_logo.png",
     "datenum": "6 mois",
     "datestart": "2016",
     "dateend": " semestre 2",
@@ -316,7 +316,7 @@
   "project1": {
     "name": "Recherches sur les réseaux intranet",
     "description": "<em>(projet scolaire, solo)</em>",
-    "logo": "/content/images/cisco_logo.png",
+    "logo": "../../content/images/cisco_logo.png",
     "datenum": "1 mois",
     "datestart": "2016",
     "dateend": " semestre 1",
@@ -331,7 +331,7 @@
       },
       {
         "type": "img",
-        "data": "/content/images/vlan1.png"
+        "data": "../../content/images/vlan1.png"
       },
       {
         "type": "text",
@@ -339,7 +339,7 @@
       },
       {
         "type": "img",
-        "data": "/content/images/vlan2.png"
+        "data": "../../content/images/vlan2.png"
       },
       {
         "type": "text",
