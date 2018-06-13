@@ -2,7 +2,7 @@
   "exp6":{
     "name":"Stage de recherche en IA",
     "description":"<em><br>école des mines ParisTech / ARMINES</em>",
-    "logo": "/content/images/logo_minespt.png",
+    "logo": "../../content/images/logo_minespt.png",
     "datenum": "",
     "datestart": "",
     "dateend": "",
@@ -28,7 +28,7 @@
   "exp5":{
     "name":"Stagiaire en Web / Business Intelligence",
     "description":"<em>IT-CE (service IT de la caisse d'épargne)</em>",
-    "logo": "/content/images/logo_itce.png",
+    "logo": "../../content/images/logo_itce.png",
     "datenum": "3 mois",
     "datestart": "5 Juin",
     "dateend": "30 Août 2017",
@@ -55,7 +55,7 @@
       },
       {
         "type":"smallimg",
-        "data":"/content/images/tab_powerBi.png"
+        "data":"../../content/images/tab_powerBi.png"
       },
       {
         "type":"text",
@@ -66,7 +66,7 @@
   "exp4":{
     "name":"Stagiaire en DSIO",
     "description":"<em><br>Centre Hospitalier Princesse Grâce (CHPG)</em>",
-    "logo": "/content/images/logo_hopital.png",
+    "logo": "../../content/images/logo_hopital.png",
     "datenum": "1 mois",
     "datestart": "1er",
     "dateend": "30 Août 2016",
@@ -93,7 +93,7 @@
       },
       {
         "type":"smallimg",
-        "data":"/content/images/nao.png"
+        "data":"../../content/images/nao.png"
       },
       {
         "type":"text",
@@ -104,7 +104,7 @@
   "exp3":{
     "name":"Educateur scientifique / Membre",
     "description":"<em>Objectif Science International (OSI)</em>",
-    "logo": "/content/images/logo_osi.png",
+    "logo": "../../content/images/logo_osi.png",
     "datenum": "multiple missions",
     "datestart": "",
     "dateend": "Depuis 2014",
@@ -155,7 +155,7 @@
   "exp2":{
     "name":"Président",
     "description":"<em><br>BDA ESME Paris (Bureau des Arts)</em>",
-    "logo": "/content/images/logo_bdaparis.png",
+    "logo": "../../content/images/logo_bdaparis.png",
     "datenum": "1 an",
     "datestart": "Septembre 2016",
     "dateend": "Septembre 2017",
@@ -169,8 +169,8 @@
         "data":"Le BDA est ensuite devenu partenaire avec la fédération française des BDA qui venait d’être créée, et j’ai apporté toute l’aide possible à la fédération, en contactant d’autres BDA en France, en participant activement aux évènements de la fédération et en les relayant."
       },
       {
-        "type":"smallimg",
-        "data":"/content/images/logo_ffbda.png"
+        "type":"text",
+        "data":"<img class=\"d-flex flex-column flex-grow flex-align-items-center mx-auto d-block\" src=\"../../content/images/logo_ffbda.png\" style=\"height:40%\">"
       },
       {
         "type":"text",
@@ -178,14 +178,14 @@
       },
       {
         "type":"img",
-        "data":"/content/mabphotography/DSC_2650c.jpg"
+        "data":"../../content/mabphotography/DSC_2650c.jpg"
       }
     ]
   },
   "exp1":{
     "name":"Délégué de classe en échange international",
     "description":"<em>ViA (Lettonie)</em>",
-    "logo": "/content/images/via_logo.png",
+    "logo": "../../content/images/via_logo.png",
     "datenum": "7 mois",
     "datestart": "December 2015",
     "dateend": "Juin 2016",
@@ -199,7 +199,7 @@
   "exp0":{
     "name":"Président",
     "description":"<em><br>BDA ESME Lyon (Bureau des Arts)</em>",
-    "logo": "/content/images/logo_bdalyon.png",
+    "logo": "../../content/images/logo_bdalyon.png",
     "datenum": "7 mois",
     "datestart": "Juillet 2015",
     "dateend": "Janvier 2016",
@@ -222,7 +222,7 @@
       },
       {
         "type":"smallimg",
-        "data":"/content/mabphotography/bdalyon.jpg"
+        "data":"../../content/mabphotography/bdalyon.jpg"
       }
     ]
   }

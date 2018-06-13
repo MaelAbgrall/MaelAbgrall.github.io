@@ -16,7 +16,7 @@
         "color": "bg-info"
       },
       {
-        "logo": "../../content/images/vhdl_logo.png",
+        "logo": "../../content/images/vhdl_logo.jpg",
         "percentage": "20",
         "skill": "VHDL",
         "color": "bg-danger"
@@ -56,6 +56,12 @@
         "percentage": "20",
         "skill": "Matlab",
         "color": "bg-info"
+      },
+      {
+        "logo": "../../content/images/excel_logo.png",
+        "percentage": "10",
+        "skill": "VBA",
+        "color": "bg-danger"
       }
     ]
   },
