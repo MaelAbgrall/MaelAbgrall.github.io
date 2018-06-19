@@ -62,6 +62,12 @@
         "percentage": "10",
         "skill": "VBA",
         "color": "bg-danger"
+      },
+      {
+        "logo": "../../content/images/keras_logo.png",
+        "percentage": "50",
+        "skill": "Keras",
+        "color": "bg-success"
       }
     ]
   },
