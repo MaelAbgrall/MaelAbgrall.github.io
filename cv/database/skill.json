@@ -1,6 +1,6 @@
 {
   "LLbar":{
-    "title":"<i class=\"far fa-square\"></i> Langages bas niveau",
+    "title":"<i class=\"far fa-square\"></i> Compiled languages",
     "description":"",
     "content": [
       {
@@ -11,7 +11,7 @@
       },
       {
         "logo": "../../content/images/cpp_logo.png",
-        "percentage": "80",
+        "percentage": "90",
         "skill": "C++",
         "color": "bg-info"
       },
@@ -30,12 +30,12 @@
     ]
   },
   "HLbar":{
-    "title":"<i class=\"fas fa-cubes\"></i> Langages haut niveau",
-    "description":"Langages à haut niveau d'abstraction",
+    "title":"<i class=\"fas fa-cubes\"></i> Interpreted langages",
+    "description":"",
     "content": [
       {
         "logo": "../../content/images/python_logo.png",
-        "percentage": "95",
+        "percentage": "80",
         "skill": "Python",
         "color": "bg-success"
       },
@@ -62,18 +62,12 @@
         "percentage": "10",
         "skill": "VBA",
         "color": "bg-danger"
-      },
-      {
-        "logo": "../../content/images/keras_logo.png",
-        "percentage": "50",
-        "skill": "Keras",
-        "color": "bg-success"
       }
     ]
   },
   "frontendbar":{
     "title":"<i class=\"fas fa-folder-open\"></i> Frontend / Descriptive language",
-    "description":"Langages de description / sauvegarde de donnée, et langages utilisés dans les sites web",
+    "description":"",
     "content": [
       {
         "logo": "../../content/images/html_logo.png",
@@ -168,8 +162,8 @@
     ]
   },
   "osbar":{
-    "title":"<i class=\"fas fa-terminal\"></i> OS",
-    "description":"J'utilise quotidiennement Windows et Linux. Néanmoins je préfère largement linux.",
+    "title":"<i class=\"fas fa-terminal\"></i> OS / Shell",
+    "description":"I'm using daily Linux. I use windows only when necessary.",
     "content": [
       {
         "logo": "../../content/images/linux_logo.png",
@@ -194,6 +188,18 @@
         "percentage":"50",
         "skill":"VirtualBox",
         "color":"bg-info"
+      },
+      {
+        "logo":"../../content/images/bash_logo.png",
+        "percentage":"50",
+        "skill":"Bash",
+        "color":"bg-info"
+      },
+      {
+        "logo":"../../content/images/batch_logo.png",
+        "percentage":"20",
+        "skill":"Batch",
+        "color":"bg-warning"
       }
     ]
   }

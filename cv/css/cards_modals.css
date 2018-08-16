@@ -1,0 +1,95 @@
+/* cards */
+
+.card-block {
+  font-size: 1em;
+  margin: 0;
+  padding: 1em;
+  box-shadow: none;
+}
+
+.card-text {
+  clear: both;
+  margin-top: .5em;
+  color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+  font-size: 1em;
+  position: static;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  padding: .75em 1em;
+  color: rgba(0, 0, 0, .4);
+  border-top: 1px solid rgba(0, 0, 0, .05) !important;
+  background: #fff;
+}
+
+.card:hover {
+  box-shadow: 4px 4px 2px #2f2f2f;
+}
+
+.card {
+  box-shadow: 2px 2px 1px #2f2f2f;
+}
+
+.card-img {
+  width: 3rem;
+}
+
+
+/* modal */
+.img-modal {
+  width: 100%;
+  height: 100%;
+}
+
+.modal-header {
+  background-color: #424242;
+}
+
+.close {
+  color: white;
+}
+
+.custombtn-red {
+  background-color: #dc3545;
+  color: white;
+}
+
+.card-block {
+  font-size: 1em;
+  margin: 0;
+  padding: 1em;
+  box-shadow: none;
+}
+
+.card-text {
+  clear: both;
+  margin-top: .5em;
+  color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+  font-size: 1em;
+  position: static;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  padding: .75em 1em;
+  color: rgba(0, 0, 0, .4);
+  border-top: 1px solid rgba(0, 0, 0, .05) !important;
+  background: #fff;
+}
+
+.card-img {
+  width: 3rem;
+}
+
+.modal-link:hover {
+  text-decoration: none;
+}
+
+.smallimg-modal{
+  width: 70%;
+}

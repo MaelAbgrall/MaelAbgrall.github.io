@@ -47,7 +47,7 @@ function writeData(myObj) {
 
 
 function init() {
-  var jsonUrl = 'skill.json';
+  var jsonUrl = '../database/skill.json';
 
 
   //from https://stackoverflow.com/questions/979975/how-to-get-the-value-from-the-get-parameters

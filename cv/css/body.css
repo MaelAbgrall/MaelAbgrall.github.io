@@ -1,0 +1,29 @@
+/* body elements */
+
+h3{
+  color: #dc3545;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height: 1.2857em;
+}
+
+h4{
+  color: #dc3545;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height: 1.2857em;
+}
+
+h5{
+  color: #dc3545;
+  font-size: 1.28571429em;
+  font-weight: 700;
+  line-height: 1.2857em;
+}
+
+body {
+  background-color: #fafafa;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}

@@ -3,7 +3,7 @@ function loadhtml(callback) {
 
   var xobj = new XMLHttpRequest();
   
-  xobj.open('GET', "/pages/en/navbar.html", true);
+  xobj.open('GET', "/cv/en/navbar.html", true);
   xobj.responseType = "document";
   xobj.onreadystatechange = function () {
     if (xobj.readyState == 4 && xobj.status == "200") {
@@ -26,7 +26,7 @@ function init() {
 
 
   navstring += '<nav class="navbar navbar-expand-lg py-1">';
-  navstring += '  <a class="navbar-brand" href="/pages/en/home.html">Mael Abgrall</a>';
+  navstring += '  <a class="navbar-brand" href="/cv/en/home.html">Mael Abgrall</a>';
   navstring += '  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">';
   navstring += '    <i class="fas fa-bars"></i>';
   navstring += '  </button>';
@@ -36,9 +36,9 @@ function init() {
 
   navstring += '      <li class="nav-item py-0">';
   if (page.indexOf("ome") != -1) {
-    navstring += '      <a class="nav-link active" href="/pages/en/home.html">';
+    navstring += '      <a class="nav-link active" href="/cv/en/home.html">';
   } else {
-    navstring += '      <a class="nav-link" href="/pages/en/home.html">';
+    navstring += '      <a class="nav-link" href="/cv/en/home.html">';
   }
   navstring += '          <i class="fas fa-home"></i> Home</a>';
   navstring += '      </li>';
@@ -46,9 +46,9 @@ function init() {
 
   navstring += '      <li class="nav-item py-0">';
   if (page.indexOf("ducation") != -1) {
-    navstring += '      <a class="nav-link active" href="/pages/en/education.html">';
+    navstring += '      <a class="nav-link active" href="/cv/en/education.html">';
   } else {
-    navstring += '      <a class="nav-link" href="/pages/en/education.html">';
+    navstring += '      <a class="nav-link" href="/cv/en/education.html">';
   }
   navstring += '          <i class="fas fa-graduation-cap"></i> Education</a>';
   navstring += '      </li>';
@@ -56,9 +56,9 @@ function init() {
 
   navstring += '      <li class="nav-item">';
   if (page.indexOf("xperience") != -1) {
-    navstring += '      <a class="nav-link active" href="/pages/en/experience.html">';
+    navstring += '      <a class="nav-link active" href="/cv/en/experience.html">';
   } else {
-    navstring += '      <a class="nav-link" href="/pages/en/experience.html">';
+    navstring += '      <a class="nav-link" href="/cv/en/experience.html">';
   }
   navstring += '          <i class="fas fa-suitcase"></i> Experience</a>';
   navstring += '      </li>';
@@ -66,9 +66,9 @@ function init() {
 
   navstring += '      <li class="nav-item">';
   if (page.indexOf("rojet") != -1) {
-    navstring += '      <a class="nav-link active" href="/pages/en/projet.html">';
+    navstring += '      <a class="nav-link active" href="/cv/en/projet.html">';
   } else {
-    navstring += '      <a class="nav-link" href="/pages/en/projet.html">';
+    navstring += '      <a class="nav-link" href="/cv/en/projet.html">';
   }
   navstring += '          <i class="fas fa-lightbulb"></i> Projects</a>';
   navstring += '      </li>';
@@ -76,9 +76,9 @@ function init() {
 
   navstring += '      <li class="nav-item">';
   if (page.indexOf("kill") != -1) {
-    navstring += '      <a class="nav-link active" href="/pages/en/skill.html">';
+    navstring += '      <a class="nav-link active" href="/cv/en/skill.html">';
   } else {
-    navstring += '      <a class="nav-link" href="/pages/en/skill.html">';
+    navstring += '      <a class="nav-link" href="/cv/en/skill.html">';
   }
   navstring += '          <i class="fas fa-wrench"></i> Skills</a>';
   navstring += '      </li>';
@@ -86,9 +86,9 @@ function init() {
 
   navstring += '      <li class="nav-item">';
   if (page.indexOf("obby") != -1) {
-    navstring += '      <a class="nav-link active" href="/pages/en/hobby.html">';
+    navstring += '      <a class="nav-link active" href="/cv/en/hobby.html">';
   } else {
-    navstring += '      <a class="nav-link" href="/pages/en/hobby.html">';
+    navstring += '      <a class="nav-link" href="/cv/en/hobby.html">';
   }
   navstring += '          <i class="fas fa-map-signs"></i> Hobbies</a>';
   navstring += '      </li>';
@@ -96,9 +96,9 @@ function init() {
 
   navstring += '      <li class="nav-item">';
   if (page.indexOf("ontact") != -1) {
-    navstring += '      <a class="nav-link active" href="/pages/en/contact.html">';
+    navstring += '      <a class="nav-link active" href="/cv/en/contact.html">';
   } else {
-    navstring += '      <a class="nav-link" href="/pages/en/contact.html">';
+    navstring += '      <a class="nav-link" href="/cv/en/contact.html">';
   }
   navstring += '          <i class="fas fa-address-card"></i> Contact</a>';
   navstring += '      </li>';
@@ -113,8 +113,8 @@ function init() {
   navstring += '          <i class="fas fa-flag"></i> Language';
   navstring += '        </a>';
   navstring += '        <div class="dropdown-menu">';
-  navstring += '          <a class="dropdown-item" href="/pages/fr/home.html">French</a>';
-  navstring += '          <a class="dropdown-item active" href="/pages/en/home.html">English</a>';
+  navstring += '          <a class="dropdown-item" href="/cv/fr/home.html">French</a>';
+  navstring += '          <a class="dropdown-item active" href="/cv/en/home.html">English</a>';
   navstring += '        </div>';
   navstring += '      </li>';
 

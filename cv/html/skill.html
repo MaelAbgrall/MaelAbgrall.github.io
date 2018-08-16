@@ -5,6 +5,7 @@
   <title>Mael Abgrall - Compétences</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--CDN-->
   <!--bootstrap-->
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
@@ -14,15 +15,23 @@
   <!--fonts-->
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+  <!--Local-->
   <!--stylesheet-->
-  <link rel="stylesheet" href="navbar.css">
-  <link rel="stylesheet" href="/pages/spinner.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/body.css">
+  <link rel="stylesheet" href="../css/button.css">
+  <link rel="stylesheet" href="../css/spinner.css">
+  <link rel="stylesheet" href="../css/footer.css">
+
+  <!--content related stylesheet-->
+  <link rel="stylesheet" href="../css/other.css">
 
   <!--navbar-->
-  <script defer src='navbar.js'></script>
+  <script defer src='../js/navbar.js'></script>
 
   <!--Contents-->
-
+  <script defer src="../js/json2bar.js"></script>
 
 </head>
 
@@ -31,25 +40,25 @@
   <div id='navstring'></div>
 
   <div class="container">
-    <p>Legende: (cliquez pour afficher les catégories)</p>
+    <p>Legend: (click to show categories)</p>
     <div class="progress">
       <div class="progress-bar bg-success" role="progressbar" style="width:25%">
-        En cours d'utilisation</div>
+        using it</div>
       <div class="progress-bar bg-info" role="progressbar" style="width:25%">
-        Utilisé récemment
+        recent use
       </div>
       <div class="progress-bar bg-warning" role="progressbar" style="width:25%">
-        Utilisé + 1 an / Peu utilisé
+        >1y / not used a lot
       </div>
       <div class="progress-bar bg-danger" role="progressbar" style="width:25%">
-        +2 ans / très peu utilisé
+        >2y / used only a few times
       </div>
     </div>
 
     <br>
 
     <button type="button" class="btn btn-danger btn-block skilltogl" data-toggle="collapse" data-target="#langues">
-      <i class="fa fa-flag-o" aria-hidden="true"></i> Langues</button>
+      <i class="fas fa-language"></i> Languages</button>
     <div id="langues" class="collapse">
       <!--FR-->
       <div class="row  d-flex mb-3 align-items-center">
@@ -58,7 +67,7 @@
         </div>
         <div class="col-md-10">
           <div class="progress">
-            <div class="progress-bar bg-success" role="progressbar" style="width:90%">Francais: Natif</div>
+            <div class="progress-bar bg-success" role="progressbar" style="width:90%">French: Native</div>
           </div>
         </div>
       </div>
@@ -70,7 +79,7 @@
         </div>
         <div class="col-md-10">
           <div class="progress">
-            <div class="progress-bar bg-success" role="progressbar" style="width:85%">Anglais: TOEIC 915 / IELTS 6.5</div>
+            <div class="progress-bar bg-success" role="progressbar" style="width:85%">English: TOEIC 915 / IELTS 6.5</div>
           </div>
         </div>
       </div>
@@ -82,7 +91,7 @@
         </div>
         <div class="col-md-10">
           <div class="progress">
-            <div class="progress-bar bg-danger" role="progressbar" style="width:10%">Espagnol</div>
+            <div class="progress-bar bg-danger" role="progressbar" style="width:10%">Spanish</div>
           </div>
         </div>
       </div>
@@ -90,21 +99,16 @@
     </div>
 
     <i class="fas fa-chalkboard-teacher" style="color: black; background-color: black"></i>
-    <p>Pour les compétences techniques, les barres représentent ma facilité / si j'apprécie travailler avec ce langage. Ces
-      barres peuvent changer en fonction du temps, de l'exprérience, etc.</p>
-    <p>Etant donné que cela est difficilement quantifiable, ces barres ne représentent PAS mon expérience/capacités dans ces
-      domaines
-    </p>
+    <p>Those bars indicate if I like a technology / language. It does NOT represent my actual skill.</p>
 
 
     <div id="bars"></div>
 
 
     <button type="button" class="btn btn-danger btn-block skilltogl" data-toggle="collapse" data-target="#futur">
-      <i class="fa fa-puzzle-piece" aria-hidden="true"></i> Dans le futur...</button>
+      <i class="fa fa-puzzle-piece" aria-hidden="true"></i> In the future...</button>
     <div id="futur" class="collapse">
-      <p>Langages qui m'intéressent. Je vais les apprendre lors de mon temps libre ou en fonction de mes prochaines missions.
-        Pour chaque langage présenté je connais au moins la philosophie derrière le langage, et quelle utilisation en avoir</p>
+      <p>Those languages / technologies interest me. I will try to learn them during my free time or depending my missions.</p>
 
       <!--CUDA-->
       <div class="row  d-flex mb-3 align-items-center">
@@ -113,16 +117,6 @@
         </div>
         <div class="col-md-10">
           <p>CUDA</p>
-        </div>
-      </div>
-
-      <!--ASM-->
-      <div class="row  d-flex mb-3 align-items-center">
-        <div class="col-md-2">
-          <img class="img-responsive bar-img mb-2" src="../../content/images/asm_logo.jpg" alt="ASM" style="height:65px;">
-        </div>
-        <div class="col-md-10">
-          <p>ASM / Assembly</p>
         </div>
       </div>
 
@@ -149,20 +143,20 @@
 
       <div class="row  d-flex mb-3 align-items-center">
         <div class="col-md-2">
-          <img class="img-responsive bar-img mb-2" src="https://avatars2.githubusercontent.com/u/15658638?s=400&v=4" alt="Ruby" style="height:65px;">
+          <img class="img-responsive bar-img mb-2" src="../../content/images/rust_logo.png" alt="Rust" style="height:65px;">
         </div>
         <div class="col-md-10">
-          <p>Tensorflow</p>
+          <p>Rust</p>
         </div>
       </div>
 
       <!--Go-->
       <div class="row d-flex mb-3 align-items-center">
         <div class="col-md-2">
-          <img class="img-responsive bar-img mb-2" src="../../content/images/go_logo.png" alt="Gopher" style="height:65px;">
+          <img class="img-responsive bar-img mb-2" src="../../content/images/cat.png" alt="Gopher" style="height:65px;">
         </div>
         <div class="col-md-10">
-          <p>Go</p>
+          <p>Quantum computing</p>
         </div>
       </div>
 
@@ -174,7 +168,7 @@
     <br>
 
     <button type="button" class="btn btn-danger btn-block skilltogl" data-toggle="collapse" data-target="#mathsci">
-      <i class="fa fa-flask" aria-hidden="true"></i> Maths / Science / Autre</button>
+      <i class="fa fa-flask" aria-hidden="true"></i> Maths / Science / Other</button>
     <div id="mathsci" class="collapse">
 
       <!--Maths-->
@@ -184,7 +178,7 @@
         </div>
         <div class="col-md-10">
           <p>Maths:</p>
-          <p>Derniers sujets Abordés: Calculs stochastiques (Statistique), Matrices, Recherche opérationelle</p>
+          <p>Last courses: Linear algebra, statistics, operational research</p>
         </div>
       </div>
 
@@ -194,9 +188,8 @@
           <img class="img-responsive bar-img mb-2" src="../../content/images/cpu_logo.png" alt="microchip" style="height:65px;">
         </div>
         <div class="col-md-10">
-          <p>Electronique: </p>
-          <p>Derniers sujets abordés: Microcontroleurs, architecture de microprocesseur, composant mémoire (de la simple bascule
-            D a la Ram)</p>
+          <p>Electronic: </p>
+          <p>Last courses: Microcontrolers, microprocessor architecture, memory components (permanent/volatile memory), logic circuits</p>
         </div>
       </div>
 
@@ -206,7 +199,7 @@
           </div>
           <div class="col-md-10">
             <p>Hardware: </p>
-            <p>Electronique requise pour les ordinateurs type bureautique, workstation, serveur, etc</p>
+            <p>computer's hardware (I build sometimes workstations, gaming computers, home servers, etc)</p>
           </div>
         </div>
 
@@ -219,7 +212,7 @@
 
 
 
-  <script src="json2bar.js"></script>
+  <script src="../js/json2bar.js"></script>
 
 
 </body>

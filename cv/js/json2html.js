@@ -9,6 +9,7 @@ function getData(dataURI, callback) {
     if (xobj.readyState == 4 && xobj.status == "200") {
       // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
       callback(xobj.responseText);
+      console.log("prout");
     }
   };
   xobj.send(null);
@@ -141,17 +142,17 @@ function init() {
   urlparsed = urlpath.split("/");
   page = urlparsed.slice(-1)[0];
 
-  if (page.indexOf("ducation") != -1) {
-    jsonUrl = 'education.json';
+  if (page.indexOf("ducation.html") != -1) {
+    jsonUrl = '../database/education.json';
   }
   if (page.indexOf("xperience") != -1) {
-    jsonUrl = 'experience.json';
+    jsonUrl = '../database/experience.json';
   }
-  if (page.indexOf("rojet") != -1) {
-    jsonUrl = 'projet.json';
+  if (page.indexOf("rojet.html") != -1) {
+    jsonUrl = '../database/projet.json';
   }
   if (page.indexOf("est") != -1) {
-    jsonUrl = 'education.json';
+    jsonUrl = '../database/education.json';
   }
 
 

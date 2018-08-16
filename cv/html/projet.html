@@ -5,6 +5,7 @@
   <title>Mael Abgrall - Projets</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--CDN-->
   <!--bootstrap-->
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
@@ -13,16 +14,25 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
   <!--fonts-->
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+  <!--Local-->
   <!--stylesheet-->
-  <link rel="stylesheet" href="navbar.css">
-  <link rel="stylesheet" href="/pages/spinner.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/body.css">
+  <link rel="stylesheet" href="../css/button.css">
+  <link rel="stylesheet" href="../css/spinner.css">
+  <link rel="stylesheet" href="../css/footer.css">
+
+  <!--content related stylesheet-->
+  <link rel="stylesheet" href="../css/cards_modals.css">
+
 
   <!--navbar-->
-  <script defer src='navbar.js'></script>
+  <script defer src='../js/navbar.js'></script>
 
   <!--Contents-->
-  <script defer src="json2html.js"></script>
+  <script defer src="../js/json2html.js"></script>
   
 </head>
 
@@ -30,8 +40,8 @@
   <div id='navstring'></div>
 
   <div class="container">
-    <h3>Projets réalisés hors entreprise / OpenSource / Travaux pratiques</h3>
-    <p>cliquez sur les cartes pour afficher plus d'informations</p>
+    <h3>Personal projects / OpenSource / Practical work</h3>
+    <p>Click on cards to show more information</p>
 
     <div class="center-spinner" id="spinner">
       <div class="atom-spinner">
@@ -52,6 +62,7 @@
     <div id="modals"></div>
 
     <div id="footer"></div>
+    
   </div>
 
 </body>

@@ -1,0 +1,350 @@
+{
+  "project4": {
+    "name": "Voice recognition (AI from scratch)",
+    "description": "<em>(School project, 3 members)</em>",
+    "logo": "../../content/images/cpp_logo.png",
+    "datenum": "6 months",
+    "datestart": "2017",
+    "dateend": " Semester 1",
+    "content": [
+      {
+        "type": "title",
+        "data": "The project:"
+      },
+      {
+        "type": "text",
+        "data": "The idea was to discover AI. We choosed to do the hardest way by coding everything from scratch (no library or framework were used). The issue was we had absolutely no experience in AI. The positive outcome was that we learned fundamentals of AI. The project was not finished due to lack of time, however the software was still able to recognise if someone was talking or not on a given recording."
+      },
+      {
+        "type": "title",
+        "data": "The technical part"
+      },
+      {
+        "type": "text",
+        "data": "<p>Since we didn't used a library for deep learning, we had first to learn by ourselves what was AI (again we had absolutely no idea about how it worked).</p><p>When we understood the basics we coded from scratch backpropagation algorithms, neurons and activation functions (sigmoïds). We followed on the network parameters: they are stored on multiple external files (one file per layer, with all weights of the neurons, and a single file with the number of layers, and the number of neurons per layer).</p><p>We saddly didn't finished the project, it was too long to do everything, however we still gained a lot of knowledge about AI.</p>"
+      }
+    ]
+  },
+  "project10": {
+    "name": "This website (v2)",
+    "description": "<br><em>personal</em>",
+    "logo": "../../content/images/javascript_logo.png",
+    "datenum": "August 2018",
+    "datestart": "April/May 2018",
+    "dateend": "3 months",
+    "content": [
+      {
+        "type": "text",
+        "data": "Using Javascript to make the website easier to update."
+      },
+      {
+        "type": "img",
+        "data": "../../content/images/website.png"
+      },
+      {
+        "type":"text",
+        "data":"The first script (left) will show the menu and the page footer using the page url to indicate on which page the user is."
+      },
+      {
+        "type":"text",
+        "data":"The second script will first gather data in json files using the url (ex: if you are on the page education, the script will search the file education.json), then the script will show this data to the user (this window for example)."
+      }
+    ]
+  },
+  "project9": {
+    "name": "Medical image segmentation",
+    "description": "<em>(End of studies project, 3 members)</em>",
+    "logo": "../../content/images/python_logo.png",
+    "datenum": "5 months",
+    "datestart": "Octobre 2017",
+    "dateend": "Février 2018",
+    "content": [
+      {
+        "type": "title",
+        "data": "Project description"
+      },
+      {
+        "type": "text",
+        "data": "The goal of this project was to isolate (segmentation) the aorta from scanners and RMIs, then to visualise the result in 3D."
+      },
+      {
+        "type": "text",
+        "data": "This project was conducted in partnership with Basecamp Vascular, which goal is to create active catheters. Those catheters will be used for 'light' operations on the brain."
+      },
+      {
+        "type": "title",
+        "data": "Results"
+      },
+      {
+        "type": "text",
+        "data": "The results of this project are beyond expectation: we successfuly segmented the aorta, but we also isolated arteries and big blood vessels to the back of the skull (jaw)."
+      },
+      {
+        "type": "img",
+        "data": "../../content/images/aorte1.png"
+      },
+      {
+        "type": "img",
+        "data": "../../content/images/aorte2.png"
+      },
+      {
+        "type": "img",
+        "data": "../../content/images/aorte3.png"
+      },
+      {
+        "type": "title",
+        "data": "Improvements and future development"
+      },
+      {
+        "type": "text",
+        "data": "Since the results has been really good, the project is still maintained by other ESME's researchers and students."
+      }
+    ]
+  },
+  "project8": {
+    "name": "Practical work / Challenges at ESME",
+    "description": "<br>",
+    "logo": "../../content/images/gradcap_logo.png",
+    "datenum": "",
+    "datestart": "2013",
+    "dateend": "2018",
+    "content": [
+      {
+        "type": "title",
+        "data": "2018"
+      },
+      {
+        "type": "ullist",
+        "data": [
+          "(Matlab) Use of mathematical morphology and advanced image processing tools",
+          "(C++, OpenCV) Use of OpenCV for computer vision",
+          "(C#) Creation of a VR environment with Unity and a leap motion",
+          "(Presentation) Research on medical imaging tools (capture tools and visualisation tools)",
+          "(C++) Visualisatoin of objects using raytracing (no library used, cpu only)"
+        ]
+      },
+      {
+        "type": "title",
+        "data": "2017"
+      },
+      {
+        "type": "ullist",
+        "data": [
+          "(SQL, NoSQL) Creation, optimisation and management of databases with PostgreSQL and MangoDB",
+          "(NodeJS, Vorpal, Net) Creation of a real time chat on a terminal",
+          "(Javascript) Automatic ressource management",
+          "(Python, Qt) Creation and management of a yearbook with a graphical interface",
+          "(Java) Creation of a graphical resistance calculator"
+        ]
+      },
+      {
+        "type":"title",
+        "data":"2016 - 2015 and before"
+      },
+      {
+        "type": "ullist",
+        "data": [
+          "2016 - (VHDL) Simulation of a quartz digital clock",
+          "2015 - (Python) Realisation of a 2D game in python (some ideas were taken to do the C++ game)",
+          "2015 - (Presentation) Research and realisation of an architecture for neutral energy houses (silica airgel, green roof, radiant barrier)",
+          "2015 - (Fablab) Creation of a quadricopter drone",
+          "2015 - (Challenge) First position at 'Iseg Innovation Week' with a connected strap",
+          "2014 - (Challenge) Participation at Cisco's IoT challenge with a domotic box"
+        ]
+      }
+    ]
+  },
+  "project7": {
+    "name": "Creation of a 3D environment",
+    "description": "<em>(School project, 2 members)</em>",
+    "logo": "../../content/images/webgl_logo.png",
+    "datenum": "4h",
+    "datestart": "2018",
+    "dateend": " Semestre 1",
+    "content": [
+      {
+        "type": "text",
+        "data": "This is a 4h practical work. We had a private library to ease Webgl usage. The goal of the practical work was to create a scenery with a moving spaceship and asteroids"
+      },
+      {
+        "type": "text",
+        "data": "Each asteroid, and the spaceship movements were calculated to not be too repetitive. There was also shadows and a Cel-shader. Stars sparkled with a texture rotation and a linear interpolation"
+      },
+      {
+        "type": "img",
+        "data": "../../content/images/webgl1.png"
+      },
+      {
+        "type": "img",
+        "data": "../../content/images/webgl2.png"
+      },
+      {
+        "type": "img",
+        "data": "../../content/images/webgl3.png"
+      }
+    ]
+  },
+  "project6": {
+    "name": "Making of a website (full stack)",
+    "description": "<em>(School project, 2 members)</em>",
+    "logo": "../../content/images/java_logo.png",
+    "datenum": "3 days",
+    "datestart": "2017",
+    "dateend": " Semester 2",
+    "content": [
+      {
+        "type": "text",
+        "data": "We had to realise in 3 days a school intranet using Spring (Java)."
+      },
+      {
+        "type": "img",
+        "data": "../../content/images/jee1.png"
+      },
+      {
+        "type": "text",
+        "data": "The website use a MySQL database to store users (admin, student or teacher)"
+      },
+      {
+        "type": "img",
+        "data": "../../content/images/jee2.png"
+      },
+      {
+        "type": "link",
+        "data": "https://github.com/MelAbgrall/jeeIntranet",
+        "linktext": "The source code is available here."
+      }
+    ]
+  },
+  "project5": {
+    "name": "This website (v1)",
+    "description": "<br><em>Personal</em>",
+    "logo": "../../content/images/html_logo.png",
+    "datenum": "3 months",
+    "datestart": "Septembre",
+    "dateend": "Octobre 2017",
+    "content": [
+      {
+        "type": "text",
+        "data": "The first version of this website was created only with HTML and Bootstrap"
+      },
+      {
+        "type": "title",
+        "data": "SOURCES:"
+      },
+      {
+        "type": "html",
+        "data": "<ul><li>Mapael</li><li>Bootstrap</li><li>FontAwesome</li><li>Hover.css</li></ul>"
+      },
+      {
+        "type": "title",
+        "data": "Pictures"
+      },
+      {
+        "type": "text",
+        "data": "All the photographies on this website are also available with a better quality on my portfolio."
+      },
+      {
+        "type": "html",
+        "data": "<p>Locations:</p><p>Accueil : Giant's glacier (Mont Blanc)</p><p>CV home : Drone at OSI, Crupies (Auvergne, France)</p><p>Education, ESME Paris : Sunrise at Ivry-sur-seine (France)</p><p>Education, ESME Lyon : Bellecour place, Fête des lumières, Lyon (France)</p><p>Education, Valmiera : winter in Valmiera (Latvia)</p><p>Experience, Photographie : Giant's glacier</p><p>Contact : Mountain in front of the Cervin / Matterhörn (Zermatt, Switzerland)</p><p>Portfolio : Sicily beach (Italy)</p><p>All photographies are under copyright. You are free to use them if you cite me.</p>"
+      }
+    ]
+  },
+  "project3": {
+    "name": "2D procedural map for a game",
+    "description": "<em>(School project, 3 members)</em>",
+    "logo": "../../content/images/cpp_logo.png",
+    "datenum": " 6 months",
+    "datestart": "2017",
+    "dateend": " Semester 1",
+    "content": [
+      {
+        "type": "title",
+        "data": "The project:"
+      },
+      {
+        "type": "text",
+        "data": "This project was made alongside the voice recognition project. The goal was to create a game using C++ and Qt only (a video is showing the final software below)"
+      },
+      {
+        "type": "text",
+        "data": "I did the map system and the different environments : The map was randomly generated."
+      },
+      {
+        "type": "text",
+        "data": "The map is built from blocks: a bloc is a free or locked space. The map is a square made from 120 blocks wide, and is cut in 16 areas. Each of those areas is also a square 30 blocks wide. An area represents an environment: desert, flower plain, jungle or city."
+      },
+      {
+        "type": "text",
+        "data": "Area after area, the software will randomly choose one of the environment, and generate the 90 blocks inside. There are two types of blocks: the locked space (or obstacle), and the free space where the player can move. Each of those blocks is randomly chosen, however in order to make the game playable, the selection of blocks is weighted: there is more chance to have a free block"
+      },
+      {
+        "type": "img",
+        "data": "../../content/images/map.png"
+      },
+      {
+        "type": "text",
+        "data": "Once the area is filled, it is saved in a table that represent the entire map. And when this table is full, the map is sent to the game."
+      },
+      {
+        "type": "text",
+        "data": "To understand which type of blocks the game should print on screen and its physic properties, each block is identified with a two-digit number:"
+      },
+      {
+        "type": "text",
+        "data": "The first number (or tens) indicates the environment, and the second number (or units) the type of block: from 0 to 6, it is a “free block” with different textures, 7, 8 and 9 are obstacles (rock, tree, pond, etc). <br> For example, 02 indicate a block of grass in a jungle, 09 a tree in a jungle. 12 a block of flowers in a plain, and 18 a rock a plain. <br> The map is generated before each game"
+      },
+      {
+        "type": "vid",
+        "data": "https://www.youtube.com/embed/KHj4XO35oxo?rel=0"
+      }
+    ]
+  },
+  "project2": {
+    "name": "Making a image editor",
+    "description": "<em>(school project, alone)</em>",
+    "logo": "../../content/images/cpp_logo.png",
+    "datenum": "6 months",
+    "datestart": "2016",
+    "dateend": " semester 2",
+    "content": [
+      {
+        "type": "text",
+        "data": "<p>In 4th year first semester, I had to develop an image editor using Qt and threads properties.</p><p>The software allows to put multiple images on a background, to move them, rotate them right or left degree by degree, or grayscale them (using RGB). Images can be locked or unlocked to prevent modification.</p><p>Each transformation can be done with one or multiple selected images.</p><p>Grayscale is done using Qthreads.</p>"
+      }
+    ]
+  },
+  "project1": {
+    "name": "Researches on LAN/VLAN/MAN networks",
+    "description": "<em>(School project, alone)</em>",
+    "logo": "../../content/images/cisco_logo.png",
+    "datenum": "1 mois",
+    "datestart": "2016",
+    "dateend": " semestre 1",
+    "content": [
+      {
+        "type": "text",
+        "data": "The project was done at Valmiera. The goal was to explain and compare LAN, VLAN and MAN networks, three types of networks to create intranets"
+      },
+      {
+        "type": "text",
+        "data": "This project was done using Cisco packet tracer."
+      },
+      {
+        "type": "img",
+        "data": "../../content/images/vlan1.png"
+      },
+      {
+        "type": "text",
+        "data": "Protocol of data collection between a client and a server (ex: a webpage). On each step between the client and the server (1 -> 6), an aditionnal layer of data is added in order to find the way back to the client (6 -> 11)"
+      },
+      {
+        "type": "img",
+        "data": "../../content/images/vlan2.png"
+      },
+      {
+        "type": "text",
+        "data": "An exemple of a small company network with 6 different VLAN"
+      }
+    ]
+  }
+}
