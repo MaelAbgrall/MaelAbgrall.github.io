@@ -90,7 +90,7 @@ function init() {
   } else {
     navstring += '      <a class="nav-link" href="../../cv/html/hobby.html">';
   }
-  navstring += '          <i class="fas fa-map-signs"></i> Hobbies</a>';
+  navstring += '          <i class="fas fa-plane"></i> Hobbies</a>';
   navstring += '      </li>';
 
 
