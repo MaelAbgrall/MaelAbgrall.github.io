@@ -45,7 +45,7 @@ $(function () {
         },
         legend: {
             area: {
-                title: "Légende",
+                title: "Legend",
                 slices: [
                     {
                         max: 1,
@@ -53,7 +53,7 @@ $(function () {
                         attrs: {
                             fill: "#33cc33"
                         },
-                        label: "1 voyage"
+                        label: "1 trip"
                     },
                     {
                         min: 2,
@@ -61,15 +61,15 @@ $(function () {
                         attrs: {
                             fill: "#3f7d1a"
                         },
-                        label: "2 à 5 voyages"
+                        label: "2 to 5 trip"
                     },
                     {
                         min: 6,
                         max: 6,
                         attrs: {
-                            fill: "#ff6600"
+                            fill: "#175123"
                         },
-                        label: "Plus de 10 voyages"
+                        label: ">10 trip"
                     },
                     {
                         min: 20,
@@ -77,7 +77,7 @@ $(function () {
                         attrs: {
                             fill: "#ff3300"
                         },
-                        label: "Etudié/Travaillé dans le pays"
+                        label: "Studied/Worked in this country"
                     }
                 ]
             }
@@ -108,7 +108,7 @@ $(function () {
                 }
             },
             "DE": {
-                "value": 1,
+                "value": 2,
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Germany</span>"
                 }
@@ -156,7 +156,7 @@ $(function () {
                 }
             },
             "AT": {
-                "value": 0,
+                "value": 1,
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Austria</span>"
                 }
@@ -960,7 +960,7 @@ $(function () {
                 }
             },
             "GB": {
-                "value": 30,
+                "value": 20,
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">United Kingdom</span>"
                 }

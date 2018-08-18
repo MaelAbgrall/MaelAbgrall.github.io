@@ -1,7 +1,35 @@
 {
-  "exp6":{
-    "name":"Stage de recherche en IA",
-    "description":"<em><br>école des mines ParisTech / ARMINES</em>",
+  "exp7": {
+    "name": "Formator [student club]",
+    "type": "club",
+    "description": "<em><br>Data science society</em>",
+    "logo": "../../content/images/logo_hwu.png",
+    "datenum": "Ongoing",
+    "datestart": "August 2018",
+    "dateend": "now",
+    "content": [
+      {
+        "type": "title",
+        "data": ""
+      },
+      {
+        "type": "text",
+        "data": ""
+      },
+      {
+        "type": "text",
+        "data": ""
+      },
+      {
+        "type": "title",
+        "data": ""
+      }
+    ]
+  },
+  "exp6": {
+    "name": "Stage de recherche en IA",
+    "type": "internship",
+    "description": "<em><br>école des mines ParisTech / ARMINES</em>",
     "logo": "../../content/images/logo_minespt.png",
     "datenum": "",
     "datestart": "",
@@ -12,217 +40,220 @@
         "data": "L'école"
       },
       {
-        "type":"text",
-        "data":"armines / mines"
+        "type": "text",
+        "data": "armines / mines"
       },
       {
-        "type":"text",
-        "data":"à venir"
+        "type": "text",
+        "data": "à venir"
       },
       {
-        "type":"title",
-        "data":"Les recherches effectuées"
+        "type": "title",
+        "data": "Les recherches effectuées"
       }
     ]
   },
-  "exp5":{
-    "name":"Stagiaire en Web / Business Intelligence",
-    "description":"<em>IT-CE (service IT de la caisse d'épargne)</em>",
+  "exp5": {
+    "name": "Web / Business Intelligence internship",
+    "type": "internship",
+    "description": "<em>IT-CE (IT at Caisse d'épargne)</em>",
     "logo": "../../content/images/logo_itce.png",
-    "datenum": "3 mois",
-    "datestart": "5 Juin",
-    "dateend": "30 Août 2017",
+    "datenum": "3 months",
+    "datestart": "5 June",
+    "dateend": "30 August 2017",
     "content": [
       {
         "type": "title",
-        "data": "L'entreprise"
+        "data": "The company"
       },
       {
-        "type":"text",
-        "data":"IT-CE est le service informatique du groupe BPCE, qui regroupe les deux banques Caisse d'Epargne et Banque Populaire. IT-CE est chargé de l'intégralité de l'informatique pour le groupe, de l'architecture au réseau en passant par l'innovation."
+        "type": "text",
+        "data": "IT-CE is the IT department of BPCE group. BPCE result from a merge of two banks (Banque populaire and Caisse d’épargne). IT-CE ideals with IT of the company from architecture to network including research & development."
       },
       {
-        "type":"text",
-        "data":"Mon stage s'est déroulé dans le service \"architecture et innovation\" qui est chargé d'intégrer à l'architecture logicielle du groupe des logiciels aussi bien créés par l'entreprise que par des tiers"
+        "type": "text",
+        "data": "My internship took place in the unit “Architecture and innovation” which is in charge of software architecture for their proprietary software as well as commercial software."
       },
       {
         "type": "title",
-        "data": "Les missions"
+        "data": "Missions"
       },
       {
-        "type":"text",
-        "data":"La première mission consistait, à l’aide de PowerBi (Microsoft) et d’une base de données MSSQL, à développer des tableaux d’aide à la décision qui affichent de façon globale et quasiment en temps réel, des solutions créées ou modifiées par IT-CE"
+        "type": "text",
+        "data": "The first mission was to develop decision-making dashboards using PowerBi and MSSQL. The dashboards displayed in almost real time, all software creations or modifications within the company."
       },
       {
-        "type":"smallimg",
-        "data":"../../content/images/tab_powerBi.png"
+        "type": "smallimg",
+        "data": "../../content/images/tab_powerBi.png"
       },
       {
-        "type":"text",
-        "data":"La seconde mission consistait à développer un système de documentation automatique qui soit simple à utiliser : un site web en ASP.NET (C#) récupére des documents Word et extrait son contenu vers une base de données et un fichier JSON. Ces informations récupérées sont ensuite affichées de manière claire et rapide à lire (des sections déroulantes remplacent les chapitres, l’interface a été développée pour pouvoir aller droit au but)."
+        "type": "text",
+        "data": "The second mission was to develop an automated website for documentation: Writen in C# (ASP.NET) the website collects Word document, analyses it and store its content in a database and a JSON file, allowing to see this content later in a web page. The website goal was to be easy to use and read (Chapters in the document were replaced by clickable drop-down menus, the interface was developed to be able to get straight to the point)."
       }
     ]
   },
-  "exp4":{
-    "name":"Stagiaire en DSIO",
-    "description":"<em><br>Centre Hospitalier Princesse Grâce (CHPG)</em>",
-    "logo": "../../content/images/logo_hopital.png",
-    "datenum": "1 mois",
-    "datestart": "1er",
-    "dateend": "30 Août 2016",
-    "content": [
-      {
-        "type": "title",
-        "data": "L'entreprise"
-      },
-      {
-        "type":"text",
-        "data":"L'hôpital princesse Grâce est le principal hôpital public de Monaco. Il dispose d'une capacité de 759 lits répartis sur trois sites."
-      },
-      {
-        "type":"text",
-        "data":"J'ai été affecté au système d'information (DSIO) chargé de l'infrastructure, de la sécurité et de l'intégration de logiciels tiers ou développés par le service."
-      },
-      {
-        "type": "title",
-        "data": "La mission"
-      },
-      {
-        "type":"text",
-        "data":"Lors de mon stage, j’ai développé un programme pour le robot Nao, prévu pour servir dans le département \"gériatrie\" pour les personnes âgées atteintes de trouble de la mémoire. Lorsqu'il reconnait une personne, le robot essaie d'interragir avec celle-ci, puis propose de faire des petits jeux de mémoire ou d'exécuter une danse."
-      },
-      {
-        "type":"smallimg",
-        "data":"../../content/images/nao.png"
-      },
-      {
-        "type":"text",
-        "data":"Etant manipulé uniquement par du personnel médical, le programme fonctionne sans l’aide d’un ordinateur : pour mettre à jour les patients reconnus, il suffit de toucher certains capteurs du robot lors de l’allumage et de lui indiquer qui ajouter ou enlever."
-      }
-    ]
-  },
-  "exp3":{
-    "name":"Educateur scientifique / Membre",
-    "description":"<em>Objectif Science International (OSI)</em>",
-    "logo": "../../content/images/logo_osi.png",
-    "datenum": "multiple missions",
-    "datestart": "",
-    "dateend": "Depuis 2014",
-    "content": [
-      {
-        "type": "title",
-        "data": "L'entreprise"
-      },
-      {
-        "type":"text",
-        "data":"Objectif Science international est une ONG dont le but est de promouvoir la recherche scientifique et la protection de la nature au travers de séjours de vacances. Elle possède un statut consultatif spécial auprès de l'ONU"
-      },
-      {
-        "type":"smallimg",
-        "data":"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d3377330160927.5615f31b516ac.png"
-      },
-      {
-        "type": "title",
-        "data": "Les missions"
-      },
-      {
-        "type":"text",
-        "data":"J’ai pu réaliser plusieurs missions avec OSI dont les durées ont été variables (entre deux semaines et un mois). Hors des missions, j’ai gardé beaucoup de contact avec OSI, en allant régulièrement aux rencontres de préparation des camps d’été et aux réunions du conseil général."
-      },
-      {
-        "type":"text",
-        "data":"J'ai été éducateur scientifique dans le séjour \"Drone connection\" où l'objectif est de sensibiliser au fonctionnement de l'informatique, et de trouver des solutions pour aider les autres camps de vacances de l'ONG au travers des drones."
-      },
-      {
-        "type":"text",
-        "data":"La mission était de créer des activités ludiques pour des enfants âgés de 7 à 17 ans, en adaptant les activités aux tranches d’âge."
-      },
-      {
-        "type":"title",
-        "data":"Quelques rapports de mission (destinés aux parents)"
-      },
-      {
-        "type":"ullist",
-        "data":[
-          "<a href=\"http://prog-paradisaea.com/Drone-Connection-Provence-du-24,154.html\">2016 Provence (2 semaines)</a>",
-          "<a href=\"http://www.osi-drone-connection.org/Drone-connection-Alpes-Suisses-20.html\">2014 Suisse (2 semaines)</a>",
-          "<a href=\"http://www.osi-drone-connection.org/Drone-connection-Pyrenees-06-au-20.html\">2014 Pyrénées (1 semaine)</a>",
-          "<a href=\"http://www.osi-drone-connection.org/Drone-connection-Provence-06-au-20.html\">2014 Provence (1 semaine)</a>"
-        ]
-      }
-    ]
-  },
-  "exp2":{
-    "name":"Président",
-    "description":"<em><br>BDA ESME Paris (Bureau des Arts)</em>",
+  "exp2": {
+    "name": "President [student club]",
+    "type": "club",
+    "description": "<em><br>BDA ESME Paris (Bureau des Arts)</em>",
     "logo": "../../content/images/logo_bdaparis.png",
-    "datenum": "1 an",
-    "datestart": "Septembre 2016",
-    "dateend": "Septembre 2017",
+    "datenum": "1 year",
+    "datestart": "September 2016",
+    "dateend": "September 2017",
     "content": [
       {
         "type": "text",
-        "data": "A mon arrivée, le BDA de Paris était inactif depuis plusieurs années. J’ai donc repris l’association avec une nouvelle équipe d’une dizaine de personnes. Un des premiers objectifs a été de mettre en place des partenariats avec l’école et les autres associations, entre autres avec une présence photo sur tous les évènements."
+        "data": "When I joined, the Art club was inactive since many years. I took over the association with a new team of about ten people. One of the first objectives was to set up partnerships with the school and other associations, for example with a photographic support on all events"
       },
       {
-        "type":"text",
-        "data":"Le BDA est ensuite devenu partenaire avec la fédération française des BDA qui venait d’être créée, et j’ai apporté toute l’aide possible à la fédération, en contactant d’autres BDA en France, en participant activement aux évènements de la fédération et en les relayant."
+        "type": "text",
+        "data": "The Art club then became partner with freshly created French federation of Art Clubs, and I helped as far as possible the federation, contacting other art clubs in France, actively participating and relaying Federation’s events to ESME students."
       },
       {
-        "type":"text",
-        "data":"<img class=\"d-flex flex-column flex-grow flex-align-items-center mx-auto d-block\" src=\"../../content/images/logo_ffbda.png\" style=\"height:40%\">"
+        "type": "text",
+        "data": "<img class=\"d-flex flex-column flex-grow flex-align-items-center mx-auto d-block\" src=\"../../content/images/logo_ffbda.png\" style=\"height:40%\">"
       },
       {
-        "type":"text",
-        "data":"<br>En milieu d’année, le BDA a aussi repris en main l’ancien club jeux-vidéo qui était en sommeil depuis plusieurs années. L’objectif étant de dynamiser le BDA en proposant un panel plus large d’activités."
+        "type": "text",
+        "data": "<br>In middle of the year, the student art club took over the old video game club which was also inactive since several years. The objective was to dynamize the art club with a more various choice of activities"
       },
       {
-        "type":"img",
-        "data":"../../content/mabphotography/DSC_2650c.jpg"
+        "type": "img",
+        "data": "../../content/mabphotography/DSC_2650c.jpg"
       }
     ]
   },
-  "exp1":{
-    "name":"Délégué de classe en échange international",
-    "description":"<em>ViA (Lettonie)</em>",
+  "exp4": {
+    "name": "Internship in an IT department",
+    "type": "internship",
+    "description": "<em><br>Centre Hospitalier Princesse Grâce (CHPG)</em>",
+    "logo": "../../content/images/logo_hopital.png",
+    "datenum": "1 month",
+    "datestart": "1st",
+    "dateend": "30 August 2016",
+    "content": [
+      {
+        "type": "title",
+        "data": "The company"
+      },
+      {
+        "type": "text",
+        "data": "The hospital Princesse Grâce is the major public hospital in Monaco. It has a capacity of 759 bed shared in three buildings."
+      },
+      {
+        "type": "text",
+        "data": "I did my internship in the IT department, which was in charge of the network, security and software management of the hospital."
+      },
+      {
+        "type": "title",
+        "data": "Mission"
+      },
+      {
+        "type": "text",
+        "data": "During this internship, I developed a software for the Nao robot. It was used in the geriatric department for old people with memory disabilities."
+      },
+      {
+        "type": "smallimg",
+        "data": "../../content/images/nao.png"
+      },
+      {
+        "type": "text",
+        "data": "The robot is used by medical staff, so the software is designed to work without a computer: to update recognised patients, the staff only needs to touch some sensors during power up process, and indicates whose patient to add or remove from the robot’s memory."
+      }
+    ]
+  },
+  "exp1": {
+    "name": "Class representative [Latvia]",
+    "type": "club",
+    "description": "<em>ViA (Lettonie)</em>",
     "logo": "../../content/images/via_logo.png",
-    "datenum": "7 mois",
+    "datenum": "7 months",
     "datestart": "December 2015",
-    "dateend": "Juin 2016",
+    "dateend": "June 2016",
     "content": [
       {
         "type": "text",
-        "data": "J’ai assumé l'interface entre les étudiants et l’université partenaire."
+        "data": "I was the interface between the students and the partner university."
       }
     ]
   },
-  "exp0":{
-    "name":"Président",
-    "description":"<em><br>BDA ESME Lyon (Bureau des Arts)</em>",
+  "exp0": {
+    "name": "President [student club]",
+    "type": "club",
+    "description": "<em><br>BDA ESME Lyon (Bureau des Arts)</em>",
     "logo": "../../content/images/logo_bdalyon.png",
-    "datenum": "7 mois",
-    "datestart": "Juillet 2015",
-    "dateend": "Janvier 2016",
+    "datenum": "7 months",
+    "datestart": "July 2015",
+    "dateend": "January 2016",
     "content": [
       {
         "type": "Title",
         "data": "Association"
       },
       {
-        "type":"text",
-        "data":"En arrivant à l'ESME Lyon, j'ai pu rencontrer des gens passionnés par la musique. Néanmoins, le campus venant d'ouvrir, il n'y avait aucune association."
+        "type": "text",
+        "data": "When I arrived at ESME Lyon, I had the chance to meet music enthusiast. However, due to the recent opening of the campus, there was not any art association. So I created the Art club with a team of ten people, each of them having an administrative role or art oriented role."
       },
       {
-        "type":"text",
-        "data":"J'ai donc fondé le BDA de Lyon avec une équipe d'une dizaine de personnes, chacun ayant un rôle soit administratif soit orienté dans un domaine artistique."
+        "type": "text",
+        "data": "I did not have much time because I was going to the exchange program at the end of the year, but we managed to create regular activities in music, photography, cinema, and various others. Those activities continued after my departure."
       },
       {
-        "type":"text",
-        "data":" Je n'ai pas eu énormément de temps car je partais pour l'étranger en fin d'année, mais nous avons réussi à organiser des sessions de musique régulières, des sorties photos, la couverture photo de divers évènements, des avant-premières de film et diverses autres activités. Ces activités ont continué après mon départ."
+        "type": "smallimg",
+        "data": "../../content/mabphotography/bdalyon.jpg"
+      }
+    ]
+  },
+  "exp3": {
+    "name": "Science educator / Member",
+    "type": "OSI",
+    "description": "<em>Objectif Science International (OSI)</em>",
+    "logo": "../../content/images/logo_osi.png",
+    "datenum": "multiple missions",
+    "datestart": "",
+    "dateend": "From 2014",
+    "content": [
+      {
+        "type": "title",
+        "data": "The NGO"
       },
       {
-        "type":"smallimg",
-        "data":"../../content/mabphotography/bdalyon.jpg"
+        "type": "text",
+        "data": "Objectif Science International is a NGO which goal is to promote science research and nature protection through holiday camps and various events. It has consultative status at the UN."
+      },
+      {
+        "type": "smallimg",
+        "data": ""
+      },
+      {
+        "type": "title",
+        "data": "Missions"
+      },
+      {
+        "type": "text",
+        "data": "I had the opportunity to do multiple missions with OSI with various duration (from two weeks to a month). Outside the missions, I kept a lot of contact with the NGO, by going regularly to preparation meetings for summer camp and general council meetings."
+      },
+      {
+        "type": "text",
+        "data": "I was science educator on the camp “drone connection”. The first objective of this camp was sensitisation to drones, UAVs and computer science. The other objective was to help other camps with drones & UAVs created by the children."
+      },
+      {
+        "type": "text",
+        "data": "My mission was to create recreational activities based on electronics, drones and computer science for children from 7 to 17, adapting those activities with the ages."
+      },
+      {
+        "type": "title",
+        "data": "Some feedback from our camp (intended for the parents)"
+      },
+      {
+        "type": "ullist",
+        "data": [
+          "Beware, this content is writen in french",
+          "<a href=\"http://prog-paradisaea.com/Drone-Connection-Provence-du-24,154.html\">2016 Provence (2 semaines)</a>",
+          "<a href=\"http://www.osi-drone-connection.org/Drone-connection-Alpes-Suisses-20.html\">2014 Suisse (2 semaines)</a>",
+          "<a href=\"http://www.osi-drone-connection.org/Drone-connection-Pyrenees-06-au-20.html\">2014 Pyrénées (1 semaine)</a>",
+          "<a href=\"http://www.osi-drone-connection.org/Drone-connection-Provence-06-au-20.html\">2014 Provence (1 semaine)</a>"
+        ]
       }
     ]
   }

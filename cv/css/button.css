@@ -44,3 +44,24 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.filter-btn {
+  border: none;
+  color: grey;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1px 20px;
+  font-size: 16px;
+  border-radius: 2px;
+}
+
+.filter-btn.active{
+  background-color: #dc3545;
+  color: white;
+}
+
+.filter-btn:hover{
+  background-color: #dc3545;
+  color: white;
+}
