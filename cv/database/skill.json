@@ -168,12 +168,12 @@
       {
         "logo": "../../content/images/linux_logo.png",
         "percentage": "90",
-        "skill": "Linux",
+        "skill": "Linux (fedora)",
         "color": "bg-success"
       },
       {
         "logo": "../../content/images/windows_logo.png",
-        "percentage": "75",
+        "percentage": "20",
         "skill": "Windows",
         "color": "bg-success"
       },
@@ -200,6 +200,36 @@
         "percentage":"20",
         "skill":"Batch",
         "color":"bg-warning"
+      }
+    ]
+  },
+  "softbar":{
+    "title":"<i class=\"fas fa-cog\"></i> Softwares",
+    "description":"",
+    "content": [
+      {
+        "logo": "../../content/images/git_logo.png",
+        "percentage": "40",
+        "skill": "Git",
+        "color": "bg-success"
+      },
+      {
+        "logo": "../../content/images/vscode_logo.png",
+        "percentage": "65",
+        "skill": "VS Code",
+        "color": "bg-success"
+      },
+      {
+        "logo": "../../content/images/gimp_logo.png",
+        "percentage": "60",
+        "skill": "gimp",
+        "color": "bg-info"
+      },
+      {
+        "logo":"../../content/images/lr_logo.png",
+        "percentage":"70",
+        "skill":"Adobe Lighroom",
+        "color":"bg-success"
       }
     ]
   }
