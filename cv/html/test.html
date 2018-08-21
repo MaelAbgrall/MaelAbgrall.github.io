@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Mael Abgrall - Education</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--CDN-->
+  <!--bootstrap-->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+  <!--fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+  <!--Local-->
+  <!--stylesheet-->
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/body.css">
+  <link rel="stylesheet" href="../css/button.css">
+  <link rel="stylesheet" href="../css/spinner.css">
+  <link rel="stylesheet" href="../css/footer.css">
+
+  <!--content related stylesheet-->
+  <link rel="stylesheet" href="../css/cards_modals.css">
+  <link rel="stylesheet" href="../css/education.css">
+
+
+  <!--navbar-->
+  <script defer src='../js/navbar.js'></script>
+  <script defer src='../js/json2html.js'></script>
+
+  <!--tab color-->
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#424242">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#424242">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#424242">
+
+</head>
+<body>
+  <div id='navstring'></div>
+
+  <div class="container">
+    <h4>Legend:</h4>
+    <p>
+      <i class="fas fa-code"></i> Technical course (programation)</p>
+    <p>
+      <i class="fas fa-flask"></i> Maths / Science</p>
+    <p>
+      <i class="fas fa-comments"></i> Human relations / Management / Languages</p>
+    <p>
+      <i class="fas fa-book"></i> Other (Law / Strategy / Etc.)</p>
+
+    <div class="center-spinner" id="spinner">
+      <div class="atom-spinner">
+        <div class="spinner-inner">
+          <div class="spinner-line"></div>
+          <div class="spinner-line"></div>
+          <div class="spinner-line"></div>
+          <!--Chrome renders little circles malformed :(-->
+          <div class="spinner-circle">
+            &#9679;
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="cards" class="row"></div>
+
+    <div id="modals"></div>
+
+    <div id="footer"></div>
+
+  </div>
+
+</body>
+
+</html>

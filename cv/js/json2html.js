@@ -9,7 +9,6 @@ function getData(dataURI, callback) {
     if (xobj.readyState == 4 && xobj.status == "200") {
       // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
       callback(xobj.responseText);
-      console.log("prout");
     }
   };
   xobj.send(null);
@@ -106,8 +105,9 @@ function writeData(myObj) {
       }
 
       if (myObj[item].content[iteration].type == 'toggleopen') {
-        modalString += '<button type="button" class="btn btn-danger btn-block" data-toggle="collapse" data-target="#' + myObj[item].content[iteration].data + '">' + myObj[item].content[iteration].data + '</button>';
-        modalString += '<div id="' + myObj[item].content[iteration].data + '" class="collapse">';
+        modalString += '<button type="button" class="btn btn-danger btn-block" data-toggle="collapse" data-target="#' + iteration.toString() + '">' + myObj[item].content[iteration].data + '</button>';
+        modalString += '<div id="' + iteration.toString() + '" class="collapse">';
+        console.log("toggle open:", iteration);
       }
 
       if (myObj[item].content[iteration].type == 'toggleclose') {

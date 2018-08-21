@@ -3,25 +3,104 @@
     "name":"Ingénieur Diplomé CTI",
     "description":"<em>ESME Sudria <br>(France)</em>",
     "logo": "../../content/images/esme_logo.png",
-    "datenum": "5 ans",
-    "datestart": "Septembre 2018",
-    "dateend": "Septembre 2013",
+    "datenum": "5 year",
+    "datestart": "September 2018",
+    "dateend": "September 2013",
     "content": [
       {
         "type": "title",
-        "data": "Cycle Master"
+        "data": "Master (2y)"
       },
       {
         "type":"text",
-        "data":"Le cycle master s'est déroulé à Ivry (Paris). Les cours étaient uniquement porté sur la pratique"
+        "data":"Master courses took place in Ivry-sur-Seine (Paris). This part of the curriculum was technical and theoretical in 4th year, but when went technical when specializing in 4th year second semester and 5th year."
+      },
+      {
+        "type":"smallimg",
+        "data":"https://i.imgur.com/bPBaO2P.jpg"
       },
       {
         "type":"text",
-        "data":"liste des cours:"
+        "data":"<br>"
       },
       {
-        "type":"ullist",
-        "data":""
+        "type":"toggleopen",
+        "data":"<i class=\"fa fa-chevron-down\"></i> courses from Master cycle (4th year, 5th year)"
+      },
+      {
+        "type":"text",
+        "data":"<br><h5>5th year, SPECIALIZATION IT - new technology</h5>"
+      },
+      {
+        "type": "ullist",
+        "data": 
+        [
+          "<i class=\"fa fa-flask\"></i>  Introduction to artificial intelligence",
+          "<i class=\"fa fa-code\"></i> Database",
+          "<i class=\"fa fa-code\"></i> UML",
+          "<i class=\"fa fa-code\"></i> Client-Server & microservices(Node JS)",
+          "<i class=\"fa fa-code\"></i> Compression algorithms, analogic & numeric images",
+          "<i class=\"fa fa-code\"></i> Advanced web interfaces (React, Angular 1 & 2+)",
+          "<i class=\"fa fa-flask\"></i>  Images processing",
+          "<i class=\"fa fa-code\"></i> Introduction to webgl",
+          "<i class=\"fa fa-code\"></i> AR / VR (unity)",
+          "<i class=\"fa fa-code\"></i> Real-time vision / Computer vision",
+          "<i class=\"fa fa-code\"></i> JavaEE / Spring",
+          "<i class=\"fa fa-code\"></i> Introduction to raytracing",
+          "<i class=\"fas fa-comments\"></i>  English",
+          "<i class=\"fas fa-book\"></i>  one week introduction to french law"
+        ]
+      },
+      {
+        "type":"text",
+        "data":"<br><h5>4th year second semester - SPECIALIZATION IT</h5>"
+      },
+      {
+        "type": "ullist",
+        "data": 
+        [
+          "<i class=\"fa fa-code\"></i> JAVA",
+          "<i class=\"fa fa-code\"></i> NodeJs",
+          "<i class=\"fa fa-code\"></i> OOP",
+          "<i class=\"fa fa-code\"></i> Introduction to bigdata",
+          "<i class=\"fa fa-flask\"></i>  Statistical and stochastic modeling",
+          "<i class=\"fa fa-flask\"></i>  Functionnal analysis & partial differential equations",
+          "<i class=\"fa fa-code\"></i> VBA / Excel",
+          "<i class=\"fa fa-flask\"></i>  operational research",
+          "<i class=\"fas fa-comments\"></i>  English",
+          "<i class=\"fas fa-book\"></i>  Business strategy (one week)",
+          "<i class=\"fas fa-book\"></i>  Project management",
+          "<i class=\"fa fa-code\"></i> Git"
+        ]
+      },
+      {
+        "type":"text",
+        "data":"<br><h5>4th year 1st semester</h5>"
+      },
+      {
+        "type": "ullist",
+        "data": 
+        [
+          "<i class=\"fa fa-flask\"></i>  Linear automatic",
+          "<i class=\"fa fa-flask\"></i>  Power electronics",
+          "<i class=\"fa fa-flask\"></i>  Energy convertion",
+          "<i class=\"fa fa-flask\"></i> Microsystems architecture",
+          "<i class=\"fa fa-flask\"></i>  Programmable logic component & memories",
+          "<i class=\"fa fa-flask\"></i>  Design of digital circuits",
+          "<i class=\"fa fa-flask\"></i>  Digital signal processing",
+          "<i class=\"fa fa-flask\"></i>  Introduction to digital communications",
+          "<i class=\"fa fa-flask\"></i>  Computer networks",
+          "<i class=\"fa fa-code\"></i> Databases",
+          "<i class=\"fa fa-code\"></i> User experience / User interface",
+          "<i class=\"fa fa-code\"></i> Multithreading & distributed programming",
+          "<i class=\"fa fa-code\"></i> Unix systems",
+          "<i class=\"fas fa-comments\"></i>  English",
+          "<i class=\"fas fa-book\"></i>  Quality management",
+          "<i class=\"fas fa-book\"></i>  Sustainable development"
+        ]
+      },
+      {
+        "type":"toggleclose"
       }
     ]
   },
