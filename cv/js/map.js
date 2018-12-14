@@ -67,7 +67,7 @@ $(function () {
                         min: 6,
                         max: 6,
                         attrs: {
-                            fill: "#175123"
+                            fill: "#072800"
                         },
                         label: ">10 trip"
                     },

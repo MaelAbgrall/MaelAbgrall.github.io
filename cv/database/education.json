@@ -1,9 +1,61 @@
 {
+  "education3":{
+    "name":"Msc. Artificial intelligence",
+    "description":"<em>Heriot Watt University <br>(Scotland)</em>",
+    "logo": "../../content/images/hwu_logo.png",
+    "datenum": "1 year",
+    "datestart": "September 2018",
+    "dateend": "August 2019",
+    "content": [
+      {
+        "type": "title",
+        "data": "Msc. Artificial intelligence"
+      },
+      {
+        "type":"text",
+        "data":"Courses took place in Edinburgh (Scotland)."
+      },
+      {
+        "type":"smallimg",
+        "data":"https://imgur.com/J7B1NQB.jpg"
+      },
+      {
+        "type":"text",
+        "data":"<br>"
+      },
+      {
+        "type":"toggleopen",
+        "data":"<i class=\"fa fa-chevron-down\"></i> courses"
+      },
+      {
+        "type":"text",
+        "data":"<br><h5></h5>"
+      },
+      {
+        "type": "ullist",
+        "data": 
+        [
+          "<i class=\"fa fa-code\"></i>  OpenGL (C++)",
+          "<i class=\"fa fa-code\"></i> Data mining and Machine learning",
+          "<i class=\"fa fa-code\"></i> Biologically inspired computation",
+          "<i class=\"fa fa-code\"></i> Artificial intelligence and intelligent agents",
+          "<i class=\"fas fa-code\"></i> (TBD) Natural language processing",
+          "<i class=\"fas fa-code\"></i> (TBD) Big data",
+          "<i class=\"fas fa-code\"></i> (TBD) User interface"
+        ]
+      },
+      {
+        "type":"toggleclose"
+      }
+    ]
+  },
+
+
   "education2":{
     "name":"Ingénieur Diplomé CTI",
     "description":"<em>ESME Sudria <br>(France)</em>",
     "logo": "../../content/images/esme_logo.png",
-    "datenum": "5 year",
+    "datenum": "5 years",
     "datestart": "September 2018",
     "dateend": "September 2013",
     "content": [
@@ -101,6 +153,98 @@
       },
       {
         "type":"toggleclose"
+      },
+      {
+        "type": "title",
+        "data": "Bachelor (3y)"
+      },
+      {
+        "type":"text",
+        "data":"Bachelor courses took place in Lyon. This part of the curriculum was mostly theoretical."
+      },
+      {
+        "type":"smallimg",
+        "data":"https://i.imgur.com/MmaSLDb.jpg"
+      },
+      {
+        "type":"text",
+        "data":"<br>"
+      },
+      {
+        "type":"toggleopen",
+        "data":"<i class=\"fa fa-chevron-down\"></i> courses from Bachelor cycle (1th year - 3rd year)"
+      },
+      {
+        "type":"text",
+        "data":"<br><h5>3rd year first semester</h5>"
+      },
+      {
+        "type": "ullist",
+        "data": 
+        [
+          "<i class=\"fa fa-flask\"></i>  Linear systems",
+          "<i class=\"fa fa-flask\"></i> Energy",
+          "<i class=\"fa fa-flask\"></i> Electrical machines",
+          "<i class=\"fa fa-flask\"></i> Analogic signal processing",
+          "<i class=\"fa fa-flask\"></i> Telecom network",
+          "<i class=\"fa fa-flask\"></i> Analogic communication",
+          "<i class=\"fa fa-code\"></i>  HTML, CSS, PHP",
+          "<i class=\"fa fa-code\"></i> C",
+          "<i class=\"fa fa-code\"></i> Python",
+          "<i class=\"fa fa-flask\"></i> Analog electronics",
+          "<i class=\"fa fa-flask\"></i> Passive components",
+          "<i class=\"fa fa-flask\"></i> Digital electronics",
+          "<i class=\"fas fa-code\"></i>  Microprocessors",
+          "<i class=\"fas fa-book\"></i>  Entrepreneurship",
+          "<i class=\"fas fa-comments\"></i>  English"
+        ]
+      },
+      {
+        "type":"text",
+        "data":"<br><h5>2nd year</h5>"
+      },
+      {
+        "type": "ullist",
+        "data": 
+        [
+          "<i class=\"fa fa-flask\"></i> Fundamentals of mathematics",
+          "<i class=\"fa fa-flask\"></i> Mathematical tools for engineering",
+          "<i class=\"fa fa-flask\"></i> Wave physics",
+          "<i class=\"fa fa-flask\"></i> Signals",
+          "<i class=\"fa fa-flask\"></i>  Electromagnetism",
+          "<i class=\"fa fa-flask\"></i>  Analog electronics",
+          "<i class=\"fa fa-flask\"></i> Engineering sciences",
+          "<i class=\"fas fa-comments\"></i>  Human relations - introduction to psychology and NLP",
+          "<i class=\"fas fa-book\"></i>  Basics of business management",
+          "<i class=\"fas fa-code\"></i>  C",
+          "<i class=\"fas fa-code\"></i>  C++",
+          "<i class=\"fa fa-code\"></i> Software engineering",
+          "<i class=\"fas fa-comments\"></i>  English",
+          "<i class=\"fas fa-comments\"></i>  Spanish"
+        ]
+      },
+      {
+        "type":"text",
+        "data":"<br><h5>1st year</h5>"
+      },
+      {
+        "type": "ullist",
+        "data": 
+        [
+          "<i class=\"fa fa-flask\"></i> Fundamentals of mathematics",
+          "<i class=\"fa fa-code\"></i> Matlab",
+          "<i class=\"fa fa-flask\"></i> Thermodynamics - Optics",
+          "<i class=\"fa fa-flask\"></i>  Electricity",
+          "<i class=\"fa fa-flask\"></i> Engineering sciences",
+          "<i class=\"fas fa-comments\"></i>  Human relations - introduction to psychology and NLP",
+          "<i class=\"fas fa-book\"></i>  Basics of economy",
+          "<i class=\"fas fa-code\"></i>  C",
+          "<i class=\"fas fa-comments\"></i>  English",
+          "<i class=\"fas fa-comments\"></i>  Spanish"
+        ]
+      },
+      {
+        "type":"toggleclose"
       }
     ]
   },
@@ -108,19 +252,55 @@
     "name":"Exchange program",
     "description":"<em>Vidzemes Augstskola university of applied sciences (Lettonie)</em>",
     "logo": "../../content/images/via_logo.png",
-    "datenum": "6 mois",
-    "datestart": "Janvier 2016",
-    "dateend": "Juin 2016",
+    "datenum": "6 months",
+    "datestart": "January 2016",
+    "dateend": "June 2016",
     "content": [
       {
-        "type": "text",
-        "data": ""
+        "type": "title",
+        "data": "Exchange program"
+      },
+      {
+        "type":"text",
+        "data":"Courses took place in Valmiera (Latvia)."
+      },
+      {
+        "type":"smallimg",
+        "data":"https://i.imgur.com/gqhM3Uv.jpg"
+      },
+      {
+        "type":"text",
+        "data":"<br>"
+      },
+      {
+        "type":"toggleopen",
+        "data":"<i class=\"fa fa-chevron-down\"></i> courses"
+      },
+      {
+        "type":"text",
+        "data":"<br><h5></h5>"
+      },
+      {
+        "type": "ullist",
+        "data": 
+        [
+          "<i class=\"fa fa-code\"></i>  C++",
+          "<i class=\"fa fa-code\"></i> Front end web development with Bootsrap",
+          "<i class=\"fa fa-code\"></i> Initiation to augmented and virtual reality",
+          "<i class=\"fa fa-code\"></i> Computer networks and administration (CISCO 1)",
+          "<i class=\"fas fa-comments\"></i> Latvian language and culture",
+          "<i class=\"fas fa-book\"></i> Project management",
+          "<i class=\"fas fa-comments\"></i> English"
+        ]
+      },
+      {
+        "type":"toggleclose"
       }
     ]
   },
   "education0":{
-    "name":"Autres",
-    "description":"<em>Autres diplômes variés</em>",
+    "name":"Other",
+    "description":"<em>Other various diploma</em>",
     "logo": "",
     "datenum": "",
     "datestart": "",
@@ -128,7 +308,7 @@
     "content": [
       {
         "type": "ullist",
-        "data": ["2018 - IELTS 6.5 (TBD)", "2017 - Google cloud onboard (Google/SFEIR)", "2017 - TOEIC 915 (ETS)", "2015 - BAFA (Certificate of competency to animate/supervise children in summer camp) (DDJS)", "2011 - Advanced Open Water Diver (scuba-diving) (PADI)"]
+        "data": ["2018 - IELTS 6.5 (listening 6.5, reading 7.5, writing 5.5, speaking 7.0)", "2017 - Google cloud onboard (Google/SFEIR)", "2017 - TOEIC 915 (ETS)", "2015 - BAFA (Certificate of competency to animate/supervise children in summer camp) (DDJS)", "2011 - Advanced Open Water Diver (scuba-diving) (PADI)"]
       }
     ]
   }

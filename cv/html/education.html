@@ -31,6 +31,7 @@
 
   <!--navbar-->
   <script defer src='../js/navbar.js'></script>
+  <script defer src='../js/json2html.js'></script>
 
   <!--tab color-->
   <!-- Chrome, Firefox OS and Opera -->
@@ -41,10 +42,9 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="#424242">
 
 </head>
-
 <body>
   <div id='navstring'></div>
-  <br>
+
   <div class="container">
     <h4>Legend:</h4>
     <p>
@@ -56,344 +56,28 @@
     <p>
       <i class="fas fa-book"></i> Other (Law / Strategy / Etc.)</p>
 
-
-    <!--modals-->
-    <div class="row">
-      <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
-        <div class="card">
-          <a class="modal-link" data-toggle="modal" href="#education2">
-            <div class="card-block">
-              <h5 class="card-title">
-                <img class="card-img" src="../../content/images/esme_logo.png"> Ingénieur Diplomé CTI</h5>
-              <div class="card-text">
-                <em>ESME Sudria
-                  <br>(France)</em>
-              </div>
-            </div>
-            <div class="card-footer">
-              <span class="float-right">5 year</span>
-              <span>September 2018
-                <br>September 2013 </span>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="modal fade" id="education2">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-          <div class="modal-content">
-            <div class="modal-header py-2">
-              <h4 class="modal-title">Ingénieur Diplomé CTI</h4>
-              <button type="button" class="close" data-dismiss="modal">×</button>
-            </div>
-            <div class="modal-body d-flex flex-column h-100">
-              <h4>Master (2y)</h4>
-              <p>The master cycle took place at Ivry (Paris).</p>
-
-              <div class="mx-auto text-center">
-                <img src="https://i.imgur.com/bPBaO2P.jpg" class="img-responsive img-thumbnail img-modal" alt="Paris">
-              </div>
-
-              <button type="button" class="btn custombtn-red" data-toggle="collapse" data-target="#esme2">
-                <i class="fa fa-chevron-down" aria-hidden="true"></i> courses from Master (Bac+4, Bac+5)</button>
-              <div id="esme2" class="collapse">
-                <p class="titre2">5e année MAJEURE technologies émergentes (En ce moment, jusqu'en Avril 2018)</p>
-                <ul class="ul-educ">
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Bases de l'intelligence artificielle</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Base de données, Hadoop</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> UML</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Client-Serveur & microservices (Node JS)</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Traitement des image</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Interfaces web avancées (Angular 1, 2+, React)</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Algorithmes de compression & synthèse de l'image</li>
-                  <li>(pas encore confirmé:) Technologies 3D </li>
-                  <li>(pas encore confirmé:) Réalité virtuelle </li>
-                  <li>(pas encore confirmé:) Vision temps-réel </li>
-                  <li>
-                    <i class="fas fa-comments" aria-hidden="true"></i> Anglais </li>
-                  <li>
-                    <i class="fas fa-cogs" aria-hidden="true"></i> Droit des entreprises / Droit du numérique</li>
-                </ul>
-                <br>
-                <p class="titre2">4e année 2nd semestre - MAJEURE informatique</p>
-                <ul class="ul-educ">
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> JAVA</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Node JS</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Modélisation objet</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Sensibilisation au Big Data</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Modélisation statistique et stochastique</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Analyse fonctionnelle et EDP</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> VBA</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Recherche opérationelle</li>
-                  <li>
-                    <i class="fas fa-comments" aria-hidden="true"></i> Anglais</li>
-                </ul>
-                <p>MINEURES</p>
-                <ul class="ul-educ">
-                  <li>
-                    <i class="fas fa-cogs" aria-hidden="true"></i> Stratégie en entreprise</li>
-                  <li>
-                    <i class="fas fa-cogs" aria-hidden="true"></i> Management de projet</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Git</li>
-                </ul>
-                <br>
-                <p class="titre2">4e année 1er semestre</p>
-                <ul class="ul-educ">
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Automatique linéaire</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Electronique de puissance</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Conversion de l'énergie</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Architecture des microsystèmes</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Composant programmables - mémoires</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Conception de circuits numériques</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Traitement numérique du signal</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Introduction aux communications numériques</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Panorama des réseaux</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Bases de données</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Interface homme-machine</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Multi-threading & programmes distribués</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Le système UNIX</li>
-                  <li>
-                    <i class="fas fa-comments" aria-hidden="true"></i> Anglais</li>
-                  <li>
-                    <i class="fas fa-cogs" aria-hidden="true"></i> Management de la qualité</li>
-                  <li>
-                    <i class="fas fa-cogs" aria-hidden="true"></i> Développement durable</li>
-                </ul>
-
-              </div>
-
-              <br>
-              <h4 class="d-flex flex-column flex-grow">
-                <p></p>Cycle Bachelor</h4>
-              <p>Le cycle bachelor s'est déroulé à Lyon, cette partie du cursus était orientée sur la théorie, elle est devenue
-                plus technique à partir de la 3e année. </p>
-
-              <div class="mx-auto text-center">
-                <img src="https://i.imgur.com/MmaSLDb.jpg" class="img-responsive img-thumbnail img-modal text-center" alt="Lyon">
-              </div>
-
-              <button type="button" class="btn custombtn-red btn-block" data-toggle="collapse" data-target="#esme1">
-                <i class="fa fa-chevron-down" aria-hidden="true"></i> Cours du cycle bachelor (Bac +1 à Bac+3)</button>
-              <div id="esme1" class="collapse">
-                <p class="titre2">3e année 1er semestre</p>
-                <ul class="ul-educ">
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Systèmes linéaires</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Energie</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Machines électriques</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Traitement analogique du signal</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Panorama des télécoms</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Communications analogiques</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> HTML CSS PHP</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> C</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Python</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Electronique analogique (AOP)</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Instrumentation électronique / analogique</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Electronique numérique</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Microprocesseurs / microsystèmes</li>
-                  <li>
-                    <i class="fas fa-cogs" aria-hidden="true"></i> Entrepreneuriat</li>
-                  <li>
-                    <i class="fas fa-comments" aria-hidden="true"></i> Anglais</li>
-                </ul>
-                <br>
-                <p class="titre2">2e année</p>
-                <ul class="ul-educ">
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Maths fondamentales</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Outils mathématiques pour l'ingénieur</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Physique des ondes</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Signaux et systèmes</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Electromagnétisme</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Electronique analogique</li>
-                  <li>
-                    <i class="fas fa-flask" aria-hidden="true"></i> Génie des systèmes</li>
-                  <li>
-                    <i class="fas fa-comments" aria-hidden="true"></i> Relations humaines / Communication</li>
-                  <li>
-                    <i class="fas fa-cogs" aria-hidden="true"></i> Initiation à la gestion en entreprise</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> C</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> C++</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Algorithmique avancée</li>
-                  <li>
-                    <i class="fas fa-comments" aria-hidden="true"></i> Anglais</li>
-                </ul>
-                <p class="titre2">Les cours de 1ere année sont quasiment identique à ceux de deuxième année</p>
-
-              </div>
-
-              <div class="modal-footer">
-                <button type="button" class="btn custombtn-red" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-
-      <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
-        <div class="card">
-          <a class="modal-link" data-toggle="modal" href="#education1">
-            <div class="card-block">
-              <h5 class="card-title">
-                <img class="card-img" src=" ../../content/images/via_logo.png"> Exchange program</h5>
-              <div class="card-text">
-                <em>Vidzemes Augstskola university of applied sciences (Lettonie)</em>
-              </div>
-            </div>
-            <div class="card-footer">
-              <span class="float-right">6 mois</span>
-              <span>Janvier 2016
-                <br>Juin 2016 </span>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="modal fade" id="education1">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-          <div class="modal-content">
-            <div class="modal-header py-2">
-              <h4 class="modal-title">Semestre d'échange</h4>
-              <button type="button" class="close" data-dismiss="modal">×</button>
-            </div>
-            <div class="modal-body d-flex flex-column h-100">
-              <p>Semestre d'échange internationnal. ViA est une école situé à Valmiera en Lettonie.</p>
-
-              <div class="mx-auto text-center">
-                <img src="https://i.imgur.com/gqhM3Uv.jpg" class="img-responsive img-thumbnail img-modal" alt="Valmiera winter">
-              </div>
-
-              <button type="button" class="btn custombtn-red" data-toggle="collapse" data-target="#lat">
-                <i class="fa fa-chevron-down" aria-hidden="true"></i> Cours</button>
-              <div id="lat" class="collapse">
-                <ul class="ul-educ">
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> C++</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Développement web avec bootstrap</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Sensibilisation à la réalité virtuelle et à la réalité augmentée</li>
-                  <li>
-                    <i class="fas fa-code" aria-hidden="true"></i> Réseau informatique et administration (CISCO)</li>
-                  <li>
-                    <i class="fas fa-comments" aria-hidden="true"></i> Management</li>
-                  <li>
-                    <i class="fas fa-comments" aria-hidden="true"></i> Anglais</li>
-                  <li>
-                    <i class="fas fa-comments" aria-hidden="true"></i> Culture lettonne</li>
-                </ul>
-              </div>
-
-            </div>
-
-            <div class="modal-footer">
-              <button type="button" class="btn custombtn-red" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-      <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
-        <div class="card">
-          <a class="modal-link" data-toggle="modal" href="#education0">
-            <div class="card-block">
-              <h5 class="card-title">
-                <img class="card-img" src=" "> Autres</h5>
-              <div class="card-text">
-                <em>Autres diplômes variés</em>
-              </div>
-            </div>
-            <div class="card-footer">
-              <span class="float-right"></span>
-              <span>
-                <br> </span>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="modal fade" id="education0">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-          <div class="modal-content">
-            <div class="modal-header py-2">
-              <h4 class="modal-title">Autres</h4>
-              <button type="button" class="close" data-dismiss="modal">×</button>
-            </div>
-            <div class="modal-body d-flex flex-column h-100">
-              <ul>
-                <li>2018 - IELTS 6.5 (TBD)</li>
-                <li>2017 - Google cloud onboard (Google/SFEIR)</li>
-                <li>2017 - TOEIC 915 (ETS)</li>
-                <li>2015 - BAFA (Certificate of competency to animate/supervise children in summer camp) (DDJS)</li>
-                <li>2011 - Advanced Open Water Diver (scuba-diving) (PADI)</li>
-              </ul>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn custombtn-red" data-dismiss="modal">Close</button>
-            </div>
+    <div class="center-spinner" id="spinner">
+      <div class="atom-spinner">
+        <div class="spinner-inner">
+          <div class="spinner-line"></div>
+          <div class="spinner-line"></div>
+          <div class="spinner-line"></div>
+          <!--Chrome renders little circles malformed :(-->
+          <div class="spinner-circle">
+            &#9679;
           </div>
         </div>
       </div>
     </div>
-    <!--end of modals-->
+
+    <div id="cards" class="row"></div>
+
+    <div id="modals"></div>
 
     <div id="footer"></div>
+
   </div>
-  <!--end of container-->
+
 </body>
 
 </html>

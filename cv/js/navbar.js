@@ -141,7 +141,7 @@ function init() {
   footString += '    <a href="https://www.linkedin.com/in/mael-abgrall-4010b3b5/" data-toggle="tooltip" title="Linkedin">';
   footString += '      <i class="fab fa-linkedin"></i>';
   footString += '    </a>';
-  footString += '    <a href="https://github.com/MelAbgrall" data-toggle="tooltip" title="GitHub">';
+  footString += '    <a href="https://github.com/MaelAbgrall" data-toggle="tooltip" title="GitHub">';
   footString += '      <i class="fab fa-github"></i>';
   footString += '    </a>';
   footString += '  </div>';

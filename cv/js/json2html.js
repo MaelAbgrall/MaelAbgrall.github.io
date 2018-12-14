@@ -18,6 +18,7 @@ function writeData(myObj) {
   var cardString = "";
   var modalString = "";
   var itemnb, inneriteration;
+  var toggleCount = 0; //keep track of toggle id
 
   for (item in myObj) {
     //CARDS
@@ -105,9 +106,11 @@ function writeData(myObj) {
       }
 
       if (myObj[item].content[iteration].type == 'toggleopen') {
-        modalString += '<button type="button" class="btn btn-danger btn-block" data-toggle="collapse" data-target="#' + iteration.toString() + '">' + myObj[item].content[iteration].data + '</button>';
-        modalString += '<div id="' + iteration.toString() + '" class="collapse">';
-        console.log("toggle open:", iteration);
+        //create an open tag for toggle with bootstrap, use the togglecount as an ID
+        modalString += '<button type="button" class="btn btn-danger btn-block" data-toggle="collapse" data-target="#' + toggleCount.toString() + '">' + myObj[item].content[iteration].data + '</button>';
+        modalString += '<div id="' + toggleCount.toString() + '" class="collapse">';
+        toggleCount += 1;
+        console.log("toggle open:", toggleCount);
       }
 
       if (myObj[item].content[iteration].type == 'toggleclose') {
