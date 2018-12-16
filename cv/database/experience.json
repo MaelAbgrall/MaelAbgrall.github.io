@@ -3,26 +3,27 @@
     "name": "Formator [student club]",
     "type": "club",
     "description": "<em><br>Data science society</em>",
-    "logo": "../../content/images/logo_hwu.png",
+    "logo": "../../content/images/hwu_logo.png",
     "datenum": "Ongoing",
     "datestart": "August 2018",
     "dateend": "now",
     "content": [
       {
-        "type": "title",
-        "data": ""
+        "type": "text",
+        "data": "I joined the datascience society when arriving to Heriot Watt, to share my knowledge in software engineering."
       },
       {
         "type": "text",
-        "data": ""
+        "data": "I made several courses for the members of the society, they were all aimed to be very easy to understand and as broad as possible (click on the link to access those courses)"
       },
       {
-        "type": "text",
-        "data": ""
-      },
-      {
-        "type": "title",
-        "data": ""
+        "type": "ullist",
+        "data": [
+          "<a href=\"https://1drv.ms/p/s!Ald8Q8ssAVWKh2VUZ7oL_1sMdsoa\">Introduction to programmation with C++, Java, Javascript and Python</a>",
+          "<a href=\"\">Advanced programming</a>",
+          "<a href=\"https://1drv.ms/p/s!Ald8Q8ssAVWKiDaTRht0rwF5H3Cc\">Introduction to machine learning and data science",
+          "<a href=\"\">Computer hardware and introduction to linux</a>"
+        ]
       }
     ]
   },
