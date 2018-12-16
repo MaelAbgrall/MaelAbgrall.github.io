@@ -115,8 +115,8 @@ function init() {
   navstring += '        <div class="dropdown-menu">';
   navstring += '          <a class="dropdown-item active" href="../../cv/html/home.html">htmlançais</a>';
   navstring += '          <a class="dropdown-item" href="../../cv/en/home.html">Anglais</a>';
-  navstring += '        </div>';*/
-  navstring += '      </li>';
+  navstring += '        </div>';
+  navstring += '      </li>';*/
 
   navstring += '      <li class="nav-item">';
   navstring += '        <a class="nav-link" href="../../index.html">';
