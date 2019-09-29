@@ -125,7 +125,7 @@ function init() {
   navstring += '    </ul>';
   navstring += '  </div>';
   navstring += '</nav>';
-  navstring += '<br>';
+  //navstring += '<br>';
 
 
   document.getElementById("navstring").innerHTML = navstring;

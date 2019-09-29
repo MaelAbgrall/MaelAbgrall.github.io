@@ -1,8 +1,8 @@
 {
   "exp7": {
-    "name": "Formator [student club]",
-    "type": "club",
-    "description": "<em><br>Data science society</em>",
+    "name": "Commitee member [student society]",
+    "type": "society",
+    "description": "<em><br>Heriot Watt Uni. Photography society</em>",
     "logo": "../../content/images/hwu_logo.png",
     "datenum": "Ongoing",
     "datestart": "August 2018",
@@ -10,11 +10,11 @@
     "content": [
       {
         "type": "text",
-        "data": "I joined the datascience society when arriving to Heriot Watt, to share my knowledge in software engineering."
+        "data": "I joined the photography society when arriving to Heriot Watt, to share my knowledge and help organisation in the society."
       },
       {
         "type": "text",
-        "data": "I made several courses for the members of the society, they were all aimed to be very easy to understand and as broad as possible (click on the link to access those courses)"
+        "data": "I helped the society in multiple ways, and I was in charge of two important activities in the society: manage the organisation of trips in the Scottish highlands for 10 to 20 people, and making several workshop and tutorials for the members of the society (click on the link to access those courses)"
       },
       {
         "type": "ullist",
@@ -28,29 +28,33 @@
     ]
   },
   "exp6": {
-    "name": "Stage de recherche en IA",
+    "name": "Research intern in AI",
     "type": "internship",
     "description": "<em><br>école des mines ParisTech / ARMINES</em>",
     "logo": "../../content/images/logo_minespt.png",
-    "datenum": "",
-    "datestart": "",
-    "dateend": "",
+    "datenum": "5 Months",
+    "datestart": "April",
+    "dateend": "August 2018",
     "content": [
       {
         "type": "title",
-        "data": "L'école"
+        "data": "The school"
       },
       {
         "type": "text",
-        "data": "armines / mines"
-      },
-      {
-        "type": "text",
-        "data": "à venir"
+        "data": "The school of Mines ParisTech is a french engineering school deeply involved in research. I worked at the CMM (Mathematical Morphology Center) which specialize in image processing."
       },
       {
         "type": "title",
-        "data": "Les recherches effectuées"
+        "data": "Reasearch / missions"
+      },
+      {
+        "type": "text",
+        "data": "The main project was to research for new way to defend neural networks against adversarial examples (attacks that can be described as optical illusions for artificial intelligence). I found a way to defend neural networks against those attacks using mathematical morphology, and a publication is currently being written by my supervisor."
+      },
+      {
+        "type": "text",
+        "data": "The second project was to use active learning (a methodology used to train artificial intelligence) on neural networks used in image segmentation. The imediate objective was to successfully separate different layers of skin tissues on microscope images. The goal was to measure how much melanin was present in a specific layer. The long term objective was to create an \"interactive\" AI algorithm that could be used by everyone. I proved that active learning could be used to reduce the use of very large datasets/labelise datasets during training: it only require 5 to 10 percent of a fully labeled dataset to achieve almost the same results."
       }
     ]
   },
@@ -94,8 +98,8 @@
     ]
   },
   "exp2": {
-    "name": "President [student club]",
-    "type": "club",
+    "name": "President [student society]",
+    "type": "society",
     "description": "<em><br>BDA ESME Paris (Bureau des Arts)</em>",
     "logo": "../../content/images/logo_bdaparis.png",
     "datenum": "1 year",
@@ -104,11 +108,11 @@
     "content": [
       {
         "type": "text",
-        "data": "When I joined, the Art club was inactive since many years. I took over the association with a new team of about ten people. One of the first objectives was to set up partnerships with the school and other associations, for example with a photographic support on all events"
+        "data": "When I joined, the Art society was inactive since many years. I took over the association with a new team of about ten people. One of the first objectives was to set up partnerships with the school and other associations, for example with a photographic support on all events"
       },
       {
         "type": "text",
-        "data": "The Art club then became partner with freshly created French federation of Art Clubs, and I helped as far as possible the federation, contacting other art clubs in France, actively participating and relaying Federation’s events to ESME students."
+        "data": "The Art society then became partner with freshly created French federation of Art societies, and I helped as far as possible the federation, contacting other art societies in France, actively participating and relaying Federation’s events to ESME students."
       },
       {
         "type": "text",
@@ -116,7 +120,7 @@
       },
       {
         "type": "text",
-        "data": "<br>In middle of the year, the student art club took over the old video game club which was also inactive since several years. The objective was to dynamize the art club with a more various choice of activities"
+        "data": "<br>In middle of the year, the student art society took over the old video game society which was also inactive since several years. The objective was to dynamize the art society with a more various choice of activities"
       },
       {
         "type": "img",
@@ -165,7 +169,7 @@
   },
   "exp1": {
     "name": "Class representative [Latvia]",
-    "type": "club",
+    "type": "society",
     "description": "<em>ViA (Lettonie)</em>",
     "logo": "../../content/images/via_logo.png",
     "datenum": "7 months",
@@ -179,8 +183,8 @@
     ]
   },
   "exp0": {
-    "name": "President [student club]",
-    "type": "club",
+    "name": "President [student society]",
+    "type": "society",
     "description": "<em><br>BDA ESME Lyon (Bureau des Arts)</em>",
     "logo": "../../content/images/logo_bdalyon.png",
     "datenum": "7 months",
@@ -193,7 +197,7 @@
       },
       {
         "type": "text",
-        "data": "When I arrived at ESME Lyon, I had the chance to meet music enthusiast. However, due to the recent opening of the campus, there was not any art association. So I created the Art club with a team of ten people, each of them having an administrative role or art oriented role."
+        "data": "When I arrived at ESME Lyon, I had the chance to meet music enthusiast. However, due to the recent opening of the campus, there was not any art association. So I created the Art society with a team of ten people, each of them having an administrative role or art oriented role."
       },
       {
         "type": "text",

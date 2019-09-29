@@ -1,4 +1,48 @@
 {
+  "education4":{
+    "name":"Msc. Business strategy, leadership and change",
+    "description":"<em>Heriot Watt University <br>(Scotland)</em>",
+    "logo": "../../content/images/hwu_logo.png",
+    "datenum": "1 year",
+    "datestart": "September 2019",
+    "dateend": "August 2020",
+    "content": [
+      {
+        "type": "title",
+        "data": "Msc. Business strategy"
+      },
+      {
+        "type":"text",
+        "data":"Courses took place in Edinburgh (Scotland)."
+      },
+      {
+        "type":"smallimg",
+        "data":"https://imgur.com/J7B1NQB.jpg"
+      },
+      {
+        "type":"text",
+        "data":"<br>"
+      },
+      {
+        "type":"text",
+        "data":"<br><h5></h5>"
+      },
+      {
+        "type": "ullist",
+        "data": 
+        [
+          "<i class=\"fa fa-book\"></i>  Competitive strategy",
+          "<i class=\"fa fas fa-comments\"></i> Leadership",
+          "<i class=\"fa fa-book\"></i> Strategic change",
+          "<i class=\"fa fa-book\"></i> Business models",
+          "<i class=\"fas fa-book\"></i> (TBD) International Marketing",
+          "<i class=\"fas fa-comments\"></i> (TBD) Project Management",
+          "<i class=\"fas fa-book\"></i> (TBD) Business Economics"
+        ]
+      }
+    ]
+  },
+
   "education3":{
     "name":"Msc. Artificial intelligence",
     "description":"<em>Heriot Watt University <br>(Scotland)</em>",
@@ -24,10 +68,6 @@
         "data":"<br>"
       },
       {
-        "type":"toggleopen",
-        "data":"<i class=\"fa fa-chevron-down\"></i> courses"
-      },
-      {
         "type":"text",
         "data":"<br><h5></h5>"
       },
@@ -39,13 +79,10 @@
           "<i class=\"fa fa-code\"></i> Data mining and Machine learning",
           "<i class=\"fa fa-code\"></i> Biologically inspired computation",
           "<i class=\"fa fa-code\"></i> Artificial intelligence and intelligent agents",
-          "<i class=\"fas fa-code\"></i> (TBD) Natural language processing",
-          "<i class=\"fas fa-code\"></i> (TBD) Big data",
-          "<i class=\"fas fa-code\"></i> (TBD) User interface"
+          "<i class=\"fas fa-code\"></i> Natural language processing",
+          "<i class=\"fas fa-code\"></i> Big data",
+          "<i class=\"fas fa-code\"></i> Advanced software engineering (Java)"
         ]
-      },
-      {
-        "type":"toggleclose"
       }
     ]
   },
@@ -74,10 +111,6 @@
       {
         "type":"text",
         "data":"<br>"
-      },
-      {
-        "type":"toggleopen",
-        "data":"<i class=\"fa fa-chevron-down\"></i> courses from Master cycle (4th year, 5th year)"
       },
       {
         "type":"text",
@@ -152,9 +185,6 @@
         ]
       },
       {
-        "type":"toggleclose"
-      },
-      {
         "type": "title",
         "data": "Bachelor (3y)"
       },
@@ -169,10 +199,6 @@
       {
         "type":"text",
         "data":"<br>"
-      },
-      {
-        "type":"toggleopen",
-        "data":"<i class=\"fa fa-chevron-down\"></i> courses from Bachelor cycle (1th year - 3rd year)"
       },
       {
         "type":"text",
@@ -242,9 +268,6 @@
           "<i class=\"fas fa-comments\"></i>  English",
           "<i class=\"fas fa-comments\"></i>  Spanish"
         ]
-      },
-      {
-        "type":"toggleclose"
       }
     ]
   },
@@ -273,10 +296,6 @@
         "data":"<br>"
       },
       {
-        "type":"toggleopen",
-        "data":"<i class=\"fa fa-chevron-down\"></i> courses"
-      },
-      {
         "type":"text",
         "data":"<br><h5></h5>"
       },
@@ -292,9 +311,6 @@
           "<i class=\"fas fa-book\"></i> Project management",
           "<i class=\"fas fa-comments\"></i> English"
         ]
-      },
-      {
-        "type":"toggleclose"
       }
     ]
   },
