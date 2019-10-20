@@ -25,6 +25,41 @@
       }
     ]
   },
+  "project11": {
+    "name": "Sentiment analysis in customer reviews",
+    "description": "<em>(MSc dissertation, alone)</em>",
+    "logo": "../../content/images/python_logo.png",
+    "datenum": "3/4 months",
+    "datestart": "May 2019",
+    "dateend": "August 2019",
+    "content": [
+      {
+        "type": "title",
+        "data": "Project description"
+      },
+      {
+        "type": "text",
+        "data": "The goal of this project was to correct the difference between rating and the text in customer reviews."
+      },
+      {
+        "type": "text",
+        "data": "Multiple techniques of pre-processing, text representation (word embedding, bag of word) and machine learning techniques were compared"
+      },
+      {
+        "type": "title",
+        "data": "Results"
+      },
+      {
+        "type": "text",
+        "data": "The results of this project were good, the best ML algorithm (not deep learning) scoring 88% / 89% of accuracy."
+      },
+      {
+        "type": "link",
+        "data": "../../content/files/customer_review_thesis.pdf",
+        "linktext": "The full dissertation can be found here (English)."
+      }
+    ]
+  },
   "project10": {
     "name": "This website (v2)",
     "description": "<br><em>personal</em>",
@@ -65,7 +100,7 @@
       },
       {
         "type": "text",
-        "data": "The goal of this project was to isolate (segmentation) the aorta from scanners and RMIs, then to visualise the result in 3D."
+        "data": "The goal of this project was to isolate (segmentation) the aorta from scanners and MRIs, then to visualise the result in 3D."
       },
       {
         "type": "text",

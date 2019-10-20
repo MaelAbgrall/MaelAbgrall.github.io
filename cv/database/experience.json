@@ -55,6 +55,14 @@
       {
         "type": "text",
         "data": "The second project was to use active learning (a methodology used to train artificial intelligence) on neural networks used in image segmentation. The imediate objective was to successfully separate different layers of skin tissues on microscope images. The goal was to measure how much melanin was present in a specific layer. The long term objective was to create an \"interactive\" AI algorithm that could be used by everyone. I proved that active learning could be used to reduce the use of very large datasets/labelise datasets during training: it only require 5 to 10 percent of a fully labeled dataset to achieve almost the same results."
+      },
+      {
+        "type": "img",
+        "data": "../../content/images/skin_segmentation.png"
+      },
+      {
+        "type": "text",
+        "data": "On the left, a sample of the dataset. On the right the labelisation asked by the algorithm at different stage of training."
       }
     ]
   },
