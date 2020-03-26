@@ -4,9 +4,9 @@
     "type": "society",
     "description": "<em><br>Heriot Watt Uni. Photography society</em>",
     "logo": "../../content/images/hwu_logo.png",
-    "datenum": "Ongoing",
+    "datenum": "2 years",
     "datestart": "August 2018",
-    "dateend": "now",
+    "dateend": "August 2020",
     "content": [
       {
         "type": "text",
@@ -19,10 +19,7 @@
       {
         "type": "ullist",
         "data": [
-          "<a href=\"https://1drv.ms/p/s!Ald8Q8ssAVWKh2VUZ7oL_1sMdsoa\">Introduction to programmation with C++, Java, Javascript and Python</a>",
-          "<a href=\"\">Advanced programming</a>",
-          "<a href=\"https://1drv.ms/p/s!Ald8Q8ssAVWKiDaTRht0rwF5H3Cc\">Introduction to machine learning and data science",
-          "<a href=\"\">Computer hardware and introduction to linux</a>"
+          "<a href=\"https://drive.google.com/file/d/1NDxSzwFZTGh6JbEGoHwAcX337lZxMUx6/view?usp=sharing\">Long exposure</a>"
         ]
       }
     ]

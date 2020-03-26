@@ -335,7 +335,7 @@
     ]
   },
   "project2": {
-    "name": "Making a image editor",
+    "name": "Making an image editor",
     "description": "<em>(school project, alone)</em>",
     "logo": "../../content/images/cpp_logo.png",
     "datenum": "6 months",
@@ -352,9 +352,9 @@
     "name": "Researches on LAN/VLAN/MAN networks",
     "description": "<em>(School project, alone)</em>",
     "logo": "../../content/images/cisco_logo.png",
-    "datenum": "1 mois",
+    "datenum": "1 months",
     "datestart": "2016",
-    "dateend": " semestre 1",
+    "dateend": " semester 1",
     "content": [
       {
         "type": "text",

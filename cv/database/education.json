@@ -25,20 +25,34 @@
       },
       {
         "type":"text",
-        "data":"<br><h5></h5>"
+        "data":"<h5>Courses</h5>"
       },
       {
         "type": "ullist",
         "data": 
         [
-          "<i class=\"fa fa-book\"></i>  Competitive strategy",
-          "<i class=\"fa fas fa-comments\"></i> Leadership",
-          "<i class=\"fa fa-book\"></i> Strategic change",
-          "<i class=\"fa fa-book\"></i> Business models",
-          "<i class=\"fas fa-book\"></i> (TBD) International Marketing",
-          "<i class=\"fas fa-comments\"></i> (TBD) Project Management",
-          "<i class=\"fas fa-book\"></i> (TBD) Business Economics"
+          "<i class=\"fa fa-book\"></i>  <b>Competitive strategy:</b> This course aimed to present theorical and practical issues in competitive strategy, but also to enhance business planning skills and strategic thinking. The course had various business case scenario and a coursework (case study) where a business was analysed and a strategy proposed for this business.",
+          "<br>",
+          "<i class=\"fa fas fa-comments\"></i> <b>Leadership:</b> This course introduced several theories of leadership and the impact on projects & businesses. The course had several case studies and a coursework focused on analysing the leadership style and background of Mr. Ren Zhengfei (Huawei)",
+          "<br>",
+          "<i class=\"fa fa-comments\"></i> <b>Strategic change:</b> This course aimed to analyse the processes used for strategic change and the impact on human resources. The course had several case studies and a coursework focused on the case of Zappos, an online shoe retailer using holacracy.",
+          "<br>",
+          "<i class=\"fa fa-book\"></i> <b>Business models:</b> This course was focused on analysing business models, value proposition and strategic thinking. The course presented the various points of a business model (Customers, Customer relationships, distribution channels, value proposition, key activities & resources, key partners, costs and revenues). A group coursework was done and aimed to simulate the creation of a small business and present it to investors (represented by the lecturers & classmates).",
+          "<br>",
+          "<i class=\"fas fa-book\"></i> <b>International Marketing:</b> This course aimed to present marketing environment and risk factors in a global context. The lecture analysed the effects of globalisation, international structures and ethics on marketing strategies. A coursework was done on a small business (bluevalet): this case study aimed to analyse the company, and the macro environment of the UK to propose an implementation strategy in a new market (UK).",
+          "<br>",
+          "<i class=\"fas fa-book\"></i> <b>Business Economics:</b> This course presented the key concepts and principles of micro and macro economics and many economic problems (such as globalization, employment, environment, technological progress, and inequalities). A coursework was done that analysed how technological progress can impact unemployment and standards of living in the long term.",
+          "<br>",
+          "<i class=\"fas fa-book\"></i> <b>System thinking</b>"
         ]
+      },
+      {
+        "type":"text",
+        "data":"<h5>Thesis</h5>"
+      },
+      {
+        "type": "text",
+        "data": "My MSc thesis is under writing (until August 2020).<br>This thesis aims to analyse how AI can impact positively or negatively competitive intelligence"
       }
     ]
   },
@@ -69,7 +83,7 @@
       },
       {
         "type":"text",
-        "data":"<br><h5></h5>"
+        "data":"<h5>Courses</h5>"
       },
       {
         "type": "ullist",
@@ -83,6 +97,14 @@
           "<i class=\"fas fa-code\"></i> Big data",
           "<i class=\"fas fa-code\"></i> Advanced software engineering (Java)"
         ]
+      },
+      {
+        "type":"text",
+        "data":"<h5>Thesis</h5>"
+      },
+      {
+        "type": "text",
+        "data": "This thesis aimed to analyse and compare multiple tools used in NLP (natural language processing) for sentiment analysis.<br><br>More information can be found under the project tab, “Sentiment analysis in customer reviews”."
       }
     ]
   },
@@ -96,6 +118,14 @@
     "datestart": "September 2018",
     "dateend": "September 2013",
     "content": [
+      {
+        "type": "title",
+        "data": "The school"
+      },
+      {
+        "type":"text",
+        "data":"ESME Sudria is a French engineering school that deliver a regulated diploma “Ingénieur diplomé” (recognized by the French organization CTI – commission des titres d’ingénieurs) which is an equivalent of a Master of Science in engineering.<br><br>This school is providing courses across various domain of engineering (Mechanics, Energy, Signal processing, Electronics, Computer science & software engineering). During the 4th year, I specialized in Software Engineering & computer science. An internship is mandatory each year of study.<br><br>The school aim to promote “managerial employees” and provide several non-engineering courses (sociology & psychology, project management, French law, business analysis, startup creation/ entrepreneurship, quality management & sustainable development."
+      },
       {
         "type": "title",
         "data": "Master (2y)"
@@ -114,7 +144,15 @@
       },
       {
         "type":"text",
-        "data":"<br><h5>5th year, SPECIALIZATION IT - new technology</h5>"
+        "data":"<h5>Master project</h5>"
+      },
+      {
+        "type": "text",
+        "data": "This final year project (close to a thesis) was aiming to use image processing methodologies to extract the aorta from MRI images.<br><br>More information on this project can be found under the project tab, “Medical image segmentation”."
+      },
+      {
+        "type":"text",
+        "data":"<h5>5th year, SPECIALIZATION IT - new technology</h5>"
       },
       {
         "type": "ullist",
@@ -138,7 +176,7 @@
       },
       {
         "type":"text",
-        "data":"<br><h5>4th year second semester - SPECIALIZATION IT</h5>"
+        "data":"<h5>4th year second semester - SPECIALIZATION IT</h5>"
       },
       {
         "type": "ullist",
@@ -160,7 +198,7 @@
       },
       {
         "type":"text",
-        "data":"<br><h5>4th year 1st semester</h5>"
+        "data":"<h5>4th year 1st semester</h5>"
       },
       {
         "type": "ullist",
@@ -185,6 +223,10 @@
         ]
       },
       {
+        "type":"text",
+        "data":"<br>"
+      },
+      {
         "type": "title",
         "data": "Bachelor (3y)"
       },
@@ -202,7 +244,7 @@
       },
       {
         "type":"text",
-        "data":"<br><h5>3rd year first semester</h5>"
+        "data":"<h5>3rd year first semester</h5>"
       },
       {
         "type": "ullist",
@@ -227,7 +269,7 @@
       },
       {
         "type":"text",
-        "data":"<br><h5>2nd year</h5>"
+        "data":"<h5>2nd year</h5>"
       },
       {
         "type": "ullist",
@@ -251,7 +293,7 @@
       },
       {
         "type":"text",
-        "data":"<br><h5>1st year</h5>"
+        "data":"<h5>1st year</h5>"
       },
       {
         "type": "ullist",
@@ -273,7 +315,7 @@
   },
   "education1":{
     "name":"Exchange program",
-    "description":"<em>Vidzemes Augstskola university of applied sciences (Lettonie)</em>",
+    "description":"<em>Vidzemes Augstskola university of applied sciences (Latvia)</em>",
     "logo": "../../content/images/via_logo.png",
     "datenum": "6 months",
     "datestart": "January 2016",
@@ -297,7 +339,7 @@
       },
       {
         "type":"text",
-        "data":"<br><h5></h5>"
+        "data":"<h5>Courses</h5>"
       },
       {
         "type": "ullist",
@@ -311,6 +353,14 @@
           "<i class=\"fas fa-book\"></i> Project management",
           "<i class=\"fas fa-comments\"></i> English"
         ]
+      },
+      {
+        "type":"text",
+        "data":"<h5>Project</h5>"
+      },
+      {
+        "type": "text",
+        "data": "A small project was done during this exchange semester on LAN, WLAN and MAN networks.<br><br>See “Researches on LAN/VLAN/MAN networks” under the project tab."
       }
     ]
   },
