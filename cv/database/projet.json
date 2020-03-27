@@ -25,6 +25,36 @@
       }
     ]
   },
+  "project12": {
+    "name": "Home server / smart home",
+    "description": "<br><em>personal</em>",
+    "logo": "../../content/images/docker_logo.png",
+    "datenum": "ongoing",
+    "datestart": "February 2019",
+    "dateend": "now",
+    "content": [
+      {
+        "type": "title",
+        "data": "Home server / Smart home"
+      },
+      {
+        "type": "text",
+        "data": "I'm working on a smart home project using different technologies, all systems are running under docker container:"
+      },
+      {
+        "type": "ullist",
+        "data": [
+          "Nginx: allow to connect securely to those systems via https from outside my home",
+          "Nextcloud: an alternative to google drive/dropbox, etc",
+          "Plex: a personal streaming server",
+          "Home assistant: a smart home system that handle automation and regroup multiple smart home devices",
+          "DeConz: Allow to use zigbee devices (ikea tradfri, phillips hue, etc) without a dedicated hub"
+          
+
+        ]
+      }
+    ]
+  },
   "project11": {
     "name": "Sentiment analysis in customer reviews",
     "description": "<em>(MSc dissertation, alone)</em>",

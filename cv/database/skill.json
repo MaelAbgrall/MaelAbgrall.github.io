@@ -1,235 +1,143 @@
 {
-  "LLbar":{
-    "title":"<i class=\"far fa-square\"></i> Compiled languages",
-    "description":"",
+  "languagebar": {
+    "type": "dropdown",
+    "title": "<i class=\"fas fa-language\"></i> Languages",
+    "description": "",
     "content": [
       {
-        "logo": "../../content/images/c_logo.png",
-        "percentage": "40",
-        "skill": "C",
-        "color": "bg-warning"
+        "logo": "../../content/images/franceflag.png",
+        "skill": "French, native",
+        "color": "bg-success"
       },
       {
-        "logo": "../../content/images/cpp_logo.png",
-        "percentage": "90",
-        "skill": "C++",
-        "color": "bg-info"
+        "logo": "../../content/images/ukflag.png",
+        "skill": "English, daily usage",
+        "color": "bg-success"
       },
       {
-        "logo": "../../content/images/vhdl_logo.jpg",
-        "percentage": "20",
-        "skill": "VHDL",
+        "logo": "../../content/images/spanishflag.png",
+        "skill": "Spanish",
         "color": "bg-danger"
-      },
-      {
-        "logo": "../../content/images/qt_logo.png",
-        "percentage": "20",
-        "skill": "Qt C++",
-        "color": "bg-warning"
       }
     ]
   },
-  "HLbar":{
-    "title":"<i class=\"fas fa-cubes\"></i> Interpreted langages",
-    "description":"",
+  "technical": {
+    "type": "title",
+    "text": "Technical skills"
+  },
+  "LLbar": {
+    "type": "dropdown",
+    "title": "<i class=\"fas fa-code\"></i> Programming Languages",
+    "description": "My main language is Python",
     "content": [
       {
         "logo": "../../content/images/python_logo.png",
-        "percentage": "80",
         "skill": "Python",
         "color": "bg-success"
       },
       {
+        "logo": "../../content/images/cpp_logo.png",
+        "skill": "C++",
+        "color": "bg-info"
+      },
+      {
+        "logo": "../../content/images/c_logo.png",
+        "skill": "C",
+        "color": "bg-warning"
+      },
+      {
         "logo": "../../content/images/java_logo.png",
-        "percentage": "65",
         "skill": "Java",
         "color": "bg-info"
       },
       {
-        "logo": "../../content/images/csharp_logo.png",
-        "percentage": "20",
-        "skill": "Csharp",
-        "color": "bg-info"
-      },
-      {
         "logo": "../../content/images/matlab_logo.png",
-        "percentage": "20",
         "skill": "Matlab",
-        "color": "bg-info"
-      },
-      {
-        "logo": "../../content/images/excel_logo.png",
-        "percentage": "10",
-        "skill": "VBA",
-        "color": "bg-danger"
-      }
-    ]
-  },
-  "frontendbar":{
-    "title":"<i class=\"fas fa-folder-open\"></i> Frontend / Descriptive language",
-    "description":"",
-    "content": [
-      {
-        "logo": "../../content/images/html_logo.png",
-        "percentage": "50",
-        "skill": "HTML5",
-        "color": "bg-success"
-      },
-      {
-        "logo": "../../content/images/xml_logo.png",
-        "percentage": "35",
-        "skill": "XML",
-        "color": "bg-info"
-      },
-      {
-        "logo": "../../content/images/msword_logo.png",
-        "percentage": "20",
-        "skill": "OOXML",
         "color": "bg-warning"
       },
       {
-        "logo": "../../content/images/json_logo.png",
-        "percentage": "90",
-        "skill": "JSON",
-        "color": "bg-success"
-      },
-      {
         "logo": "../../content/images/javascript_logo.png",
-        "percentage": "40",
         "skill": "JavaScript",
         "color": "bg-success"
       },
       {
-        "logo": "../../content/images/angular_logo.png",
-        "percentage": "20",
-        "skill": "Angular 1 & 2+",
-        "color": "bg-danger"
-      },
-      {
-        "logo": "../../content/images/react_logo.png",
-        "percentage": "20",
-        "skill": "React",
-        "color": "bg-danger"
-      },
-      {
-        "logo": "../../content/images/logo_uml.png",
-        "percentage": "60",
-        "skill": "UML",
-        "color": "bg-warning"
-      },
-      {
-        "logo": "../../content/images/css_logo.png",
-        "percentage": "25",
-        "skill": "CSS",
-        "color": "bg-success"
-      },
-      {
-        "logo": "../../content/images/bootstrap_logo.png",
-        "percentage": "50",
-        "skill": "Bootstrap",
-        "color": "bg-success"
-      }
-    ]
-  },
-  "backendbar":{
-    "title":"<i class=\"fas fa-database\"></i> Backend",
-    "description":"",
-    "content": [
-      {
         "logo": "../../content/images/nodejs_logo.png",
-        "percentage": "60",
         "skill": "NodeJS",
         "color": "bg-warning"
       },
       {
-        "logo": "../../content/images/asp_logo.png",
-        "percentage": "35",
-        "skill": "ASP.NET",
+        "logo": "../../content/images/javaee_logo.png",
+        "skill": "JEE (Spring)",
         "color": "bg-warning"
       },
       {
-        "logo": "../../content/images/javaee_logo.png",
-        "percentage": "40",
-        "skill": "JEE (Spring)",
-        "color": "bg-info"
+        "logo": "../../content/images/rust_logo.png",
+        "skill": "Rust",
+        "color": "bg-secondary"
+      },
+      {
+        "logo": "../../content/images/cat.png",
+        "skill": "Quantum computing",
+        "color": "bg-secondary"
+      }
+    ]
+  },
+  "HLbar": {
+    "type": "dropdown",
+    "title": "<i class=\"fas fa-project-diagram\"></i> Data/Descriptive language",
+    "description": "",
+    "content": [
+      {
+        "logo": "../../content/images/xml_logo.png",
+        "skill": "XML",
+        "color": "bg-success"
+      },
+      {
+        "logo": "../../content/images/json_logo.png",
+        "skill": "JSON",
+        "color": "bg-success"
+      },
+      {
+        "logo": "../../content/images/logo_uml.png",
+        "skill": "UML",
+        "color": "bg-warning"
       },
       {
         "logo": "https://axisintegrated.ca/images/ico-db.svg",
-        "percentage": "60",
-        "skill": "DB, Queries & architecture (SQL & NoSQL)",
+        "skill": "SQL & NoSQL",
         "color": "bg-info"
       }
     ]
   },
-  "osbar":{
-    "title":"<i class=\"fas fa-terminal\"></i> OS / Shell",
-    "description":"I'm using daily Linux. I use windows only when necessary.",
+  "osbar": {
+    "type": "dropdown",
+    "title": "<i class=\"fas fa-terminal\"></i> Software / OS",
+    "description": "",
     "content": [
-      {
-        "logo": "../../content/images/linux_logo.png",
-        "percentage": "90",
-        "skill": "Linux (fedora)",
-        "color": "bg-success"
-      },
-      {
-        "logo": "../../content/images/windows_logo.png",
-        "percentage": "20",
-        "skill": "Windows",
-        "color": "bg-success"
-      },
       {
         "logo": "https://www.docker.com/sites/default/files/Whale%20Logo332_5.png",
-        "percentage": "30",
         "skill": "Docker",
-        "color": "bg-danger"
+        "color": "bg-success"
       },
       {
-        "logo":"../../content/images/virtualbox_logo.png",
-        "percentage":"50",
-        "skill":"VirtualBox",
-        "color":"bg-info"
+        "logo": "../../content/images/bash_logo.png",
+        "skill": "Bash",
+        "color": "bg-success"
       },
-      {
-        "logo":"../../content/images/bash_logo.png",
-        "percentage":"50",
-        "skill":"Bash",
-        "color":"bg-info"
-      },
-      {
-        "logo":"../../content/images/batch_logo.png",
-        "percentage":"20",
-        "skill":"Batch",
-        "color":"bg-warning"
-      }
-    ]
-  },
-  "softbar":{
-    "title":"<i class=\"fas fa-cog\"></i> Softwares",
-    "description":"",
-    "content": [
       {
         "logo": "../../content/images/git_logo.png",
-        "percentage": "40",
         "skill": "Git",
         "color": "bg-success"
       },
       {
         "logo": "../../content/images/vscode_logo.png",
-        "percentage": "65",
         "skill": "VS Code",
         "color": "bg-success"
       },
       {
-        "logo": "../../content/images/gimp_logo.png",
-        "percentage": "60",
-        "skill": "gimp",
-        "color": "bg-info"
-      },
-      {
-        "logo":"../../content/images/lr_logo.png",
-        "percentage":"70",
-        "skill":"Adobe Lighroom",
-        "color":"bg-success"
+        "logo": "../../content/images/mpp_logo.png",
+        "skill": "Project planner",
+        "color": "bg-warning"
       }
     ]
   }
