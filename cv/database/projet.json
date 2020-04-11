@@ -39,18 +39,21 @@
       },
       {
         "type": "text",
-        "data": "I'm working on a smart home project using different technologies, all systems are running under docker container:"
+        "data": "This personal project (or homelab) allows me to learn & get used to common technologies as well as basic networking, security & server management. It also allows me to have alternatives to some services such as google drive/dropbox"
+      },
+      {
+        "type": "text",
+        "data": "All those apps are are running under docker containers:"
       },
       {
         "type": "ullist",
         "data": [
-          "Nginx: allow to connect securely to those systems via https from outside my home",
-          "Nextcloud: an alternative to google drive/dropbox, etc",
-          "Plex: a personal streaming server",
-          "Home assistant: a smart home system that handle automation and regroup multiple smart home devices",
-          "DeConz: Allow to use zigbee devices (ikea tradfri, phillips hue, etc) without a dedicated hub"
-          
-
+          "<b>Nginx:</b> allows to connect securely to those apps via https from outside my home",
+          "<b>Nextcloud:</b> private cloud storage",
+          "<b>Plex:</b> private streaming server",
+          "<b>Home assistant:</b> a smart home system that handle automation and regroup multiple smart home devices",
+          "<b>Appdaemon:</b> a service to use powerful & complex automation with home assistant using Python",
+          "<b>DeConz:</b> Allow to use zigbee devices (ikea tradfri, phillips hue, etc) without a dedicated hub and connect them to home assistant"
         ]
       }
     ]

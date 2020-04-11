@@ -124,7 +124,15 @@
       },
       {
         "type":"text",
-        "data":"ESME Sudria is a French engineering school that deliver a regulated diploma “Ingénieur diplomé” (recognized by the French organization CTI – commission des titres d’ingénieurs) which is an equivalent of a Master of Science in engineering.<br><br>This school is providing courses across various domain of engineering (Mechanics, Energy, Signal processing, Electronics, Computer science & software engineering). During the 4th year, I specialized in Software Engineering & computer science. An internship is mandatory each year of study.<br><br>The school aim to promote “managerial employees” and provide several non-engineering courses (sociology & psychology, project management, French law, business analysis, startup creation/ entrepreneurship, quality management & sustainable development."
+        "data":"ESME Sudria is a French engineering school that delivers a regulated diploma “Ingénieur diplomé” after 5 years studying. It is an equivalent to a Master of Science in engineering or a MSc."
+      },
+      {
+        "type":"text",
+        "data":"This school is providing courses across various domain of engineering (Mechanics, Energy, Signal processing, Electronics, Computer science & software engineering). During the 4th year, I specialized in Software Engineering & computer science."
+      },
+      {
+        "type":"text",
+        "data":"The school aims to promote “managerial employees” and provide several non-engineering courses (sociology & psychology, project management, French law, business analysis, startup creation/ entrepreneurship, quality management & sustainable development. At last, an internship is mandatory each year of study."
       },
       {
         "type": "title",
@@ -349,7 +357,7 @@
           "<i class=\"fa fa-code\"></i> Front end web development with Bootsrap",
           "<i class=\"fa fa-code\"></i> Initiation to augmented and virtual reality",
           "<i class=\"fa fa-code\"></i> Computer networks and administration (CISCO 1)",
-          "<i class=\"fas fa-comments\"></i> Latvian language and culture",
+          "<i class=\"fas fa-comments\"></i> Latvian culture",
           "<i class=\"fas fa-book\"></i> Project management",
           "<i class=\"fas fa-comments\"></i> English"
         ]

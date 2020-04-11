@@ -47,11 +47,11 @@
       },
       {
         "type": "text",
-        "data": "The main project was to research for new way to defend neural networks against adversarial examples (attacks that can be described as optical illusions for artificial intelligence). I found a way to defend neural networks against those attacks using mathematical morphology, and a publication is currently being written by my supervisor."
+        "data": "The main project was to research for new way to defend neural networks against adversarial examples (attacks that can be described as optical illusions for artificial intelligence). I found a way to defend neural networks against those attacks using mathematical morphology."
       },
       {
         "type": "text",
-        "data": "The second project was to use active learning (a methodology used to train artificial intelligence) on neural networks used in image segmentation. The imediate objective was to successfully separate different layers of skin tissues on microscope images. The goal was to measure how much melanin was present in a specific layer. The long term objective was to create an \"interactive\" AI algorithm that could be used by everyone. I proved that active learning could be used to reduce the use of very large datasets/labelise datasets during training: it only require 5 to 10 percent of a fully labeled dataset to achieve almost the same results."
+        "data": "The second project was to use active learning (a methodology used to train artificial intelligence) on neural networks used in image segmentation. The immediate objective was to successfully separate different layers of skin tissues on microscope images. The goal was to measure how much melanin was present in a specific layer. The long-term objective was to create an \"interactive\" AI algorithm that could be used by everyone. I proved that active learning could be used to reduce the use of very large datasets/label datasets during training: it only requires 5 to 10 percent of a fully labelled dataset to achieve almost the same results."
       },
       {
         "type": "img",
@@ -98,7 +98,7 @@
       },
       {
         "type": "text",
-        "data": "The second mission was to develop an automated website for documentation: Writen in C# (ASP.NET) the website collects Word document, analyses it and store its content in a database and a JSON file, allowing to see this content later in a web page. The website goal was to be easy to use and read (Chapters in the document were replaced by clickable drop-down menus, the interface was developed to be able to get straight to the point)."
+        "data": "The second mission was to develop an automated website for documentation: Written in C# (ASP.NET) the website analyses a Word document and store its content in a database, allowing to see this content later in a web page. The website goal was to be easy to use and quickly read."
       }
     ]
   },
@@ -113,7 +113,7 @@
     "content": [
       {
         "type": "text",
-        "data": "When I joined, the Art society was inactive since many years. I took over the association with a new team of about ten people. One of the first objectives was to set up partnerships with the school and other associations, for example with a photographic support on all events"
+        "data": "When I joined the Paris campus of ESME Sudria, the Art society was inactive since many years. I took over the association with a new team of ten people. One of the first objectives was to set up partnerships with the school and other associations, for example with a photographic support on all events."
       },
       {
         "type": "text",
@@ -125,7 +125,7 @@
       },
       {
         "type": "text",
-        "data": "<br>In middle of the year, the student art society took over the old video game society which was also inactive since several years. The objective was to dynamize the art society with a more various choice of activities"
+        "data": "<br>We later merged with the video game society, also inactive since several years. The objective was to dynamize the art society with a more various choice of activities."
       },
       {
         "type": "img",
@@ -202,11 +202,11 @@
       },
       {
         "type": "text",
-        "data": "When I arrived at ESME Lyon, I had the chance to meet music enthusiast. However, due to the recent opening of the campus, there was not any art association. So I created the Art society with a team of ten people, each of them having an administrative role or art oriented role."
+        "data": "When I arrived at ESME Lyon, I had met music enthusiasts. Due to the recent opening of the campus, there was no art society. I created the Art society with a team of ten people, each of them having an administrative role or activity-oriented role."
       },
       {
         "type": "text",
-        "data": "I did not have much time because I was going to the exchange program at the end of the year, but we managed to create regular activities in music, photography, cinema, and various others. Those activities continued after my departure."
+        "data": "I did not have much time since I was leaving for my exchange program at the end of the first semester, but we managed to create regular activities in music, photography and cinema. Those activities continued after my departure."
       },
       {
         "type": "smallimg",
@@ -256,9 +256,12 @@
         "data": "Some feedback from our camp (intended for the parents)"
       },
       {
+        "type": "text",
+        "data": "(French content)"
+      },
+      {
         "type": "ullist",
         "data": [
-          "Beware, this content is writen in french",
           "<a href=\"http://prog-paradisaea.com/Drone-Connection-Provence-du-24,154.html\">2016 Provence (2 semaines)</a>",
           "<a href=\"http://www.osi-drone-connection.org/Drone-connection-Alpes-Suisses-20.html\">2014 Suisse (2 semaines)</a>",
           "<a href=\"http://www.osi-drone-connection.org/Drone-connection-Pyrenees-06-au-20.html\">2014 Pyrénées (1 semaine)</a>",
