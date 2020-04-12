@@ -1,4 +1,27 @@
 {
+  "exp8": {
+    "name": "Amateur photographer",
+    "type": "volunteer",
+    "description": "<em><br>Mab photography (Meuuul)</em>",
+    "logo": "../../content/images/mabphotography_logo.png",
+    "datenum": "",
+    "datestart": "2010",
+    "dateend": "now",
+    "content": [
+      {
+        "type": "text",
+        "data": "I learned to do photography using DSLR in 2010 and keep doing it as a hobby until now. This experience leads me to create and participate in multiple societies, as well as doing voluntary work (I want to strictly keep it as a hobby)."
+      },
+      {
+        "type": "text",
+        "data": "I’m constantly trying to improve my skills and I regularly try new techniques in photography (new subjects, themes, processing, technologies, etc)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Every photography you can see on this website are mine</b> and you can look at my portfolio by clicking <b>“change website”</b> on the top right."
+      }
+    ]
+  },
   "exp7": {
     "name": "Commitee member [student society]",
     "type": "society",
