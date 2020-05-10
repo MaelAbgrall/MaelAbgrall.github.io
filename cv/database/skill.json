@@ -98,13 +98,18 @@
         "color": "bg-success"
       },
       {
+        "logo": "../../content/images/logo_yaml.png",
+        "skill": "YAML",
+        "color": "bg-success"
+      },
+      {
         "logo": "../../content/images/logo_uml.png",
         "skill": "UML",
         "color": "bg-warning"
       },
       {
         "logo": "https://axisintegrated.ca/images/ico-db.svg",
-        "skill": "SQL & NoSQL",
+        "skill": "SQL, NoSQL & Graph database",
         "color": "bg-info"
       }
     ]
@@ -121,7 +126,7 @@
       },
       {
         "logo": "../../content/images/bash_logo.png",
-        "skill": "Bash",
+        "skill": "Bash / Linux",
         "color": "bg-success"
       },
       {
